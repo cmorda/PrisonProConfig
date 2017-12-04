@@ -1,0 +1,390 @@
+##########################
+# Missions Configuration #
+##########################
+# This configuration allows you to configure the missions
+# The required completed missions in order to reset
+missions-complete-reset: 5
+# Every mission with its items, commands, etc.
+missions:
+  1:
+    on-start:
+      messages:
+        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&fStarting Mission #1&d: &bBeginner'
+        - '&bGeneral Joe&d: &fWelcome to your first mission Private, you are going to help the army by getting us materials for battle. Since it is your first day here look around and find us &d1 &fCoal Block, &d1 &fIron Block, and &d64 &fStone'
+        - '&f===================================================='
+        - '&7Mission Started &8[&bBeginner&8]'
+        - '&fTask&d: &bFind &d1 &fCoal Block, &d1 &fIron Block, and &d64 &fStone'
+      commands:
+    for-completion:
+      items:
+        '173:0':
+          amount: 1
+          name:
+          enchantments:
+          lores:
+        '42:0':
+          amount: 1
+          name:
+          enchantments:
+          lores:
+        '1:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+    on-completion:
+      messages:
+        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&fCompleted Mission #1&d: &bBeginner'
+        - '&bGeneral Joe&d: &fThank you for giving us these materials. In return you will also get something.'
+        - '&f===================================================='
+        - '&7Mission Completed &8[&bBeginner&8]'
+        - '&8[&bBeginner Pickaxe&8] &7Added'
+      commands:
+        - 't give %PLAYER% 10'
+      items:
+        '278:0':
+          amount: 1
+          name: '&bBeginner Pickaxe'
+          enchantments:
+            EFFICIENCY: 50
+            FORTUNE: 5
+            UNBREAKING: 50
+          lores:
+            - '&7Obtained from the Beginner Mission'
+  2:
+    on-start:
+      messages:
+        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&fStarting Mission #2&d: &bPrivate'
+        - '&bGeneral Joe&d: &fWelcome back to your second Mission Private. Since you are getting to know everything around here I am going to make this next one a little more difficult. Our army could use some circuitry to outsmart our enemies. I need to get us: &d128 &fRedstone &d64, &fRedstone Blocks, and &d10 &fTNT'
+        - '&f===================================================='
+        - '&7Mission Started &8[&bPrivate&8]'
+        - '&fTask&d: &bFind &d128 &fRedstone, &d64 &fRedstone Blocks, and &d10 &fTNT'
+      commands:
+    for-completion:
+      items:
+        '331:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '331:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '3:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '4:0':
+          amount: 10
+          name:
+          enchantments:
+          lores:
+    on-completion:
+      messages:
+        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&fCompleted Mission #2&d: &bPrivate'
+        - '&bGeneral Joe&d: &fThank you for giving us these materials. In return you will also get something.'
+        - '&f===================================================='
+        - '&7Mission Completed &8[&bPrivate&8]'
+        - '&8[&bPrivate Pickaxe and God Apple&8] &7Added'
+      commands:
+        - 't give %PLAYER% 12'
+      items:
+        '278:0':
+          amount: 1
+          name: '&bPrivate Pickaxe'
+          enchantments:
+            EFFICIENCY: 75
+            FORTUNE: 7
+            UNBREAKING: 75
+          lores:
+            - '&7Obtained from the Private Mission'
+  3:
+    on-start:
+      messages:
+        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&fStarting Mission #2&d: &bPrivate'
+        - '&bGeneral Joe&d: &fWelcome back to your second Mission Private. Since you are getting to know everything around here I am going to make this next one a little more difficult. Our army could use some circuitry to outsmart our enemies. I need to get us: &d128 &fRedstone &d64, &fRedstone Blocks, and &d10 &fTNT'
+        - '&f===================================================='
+        - '&7Mission Started &8[&bPrivate&8]'
+        - '&fTask&d: &bFind &d128 &fRedstone, &d64 &fRedstone Blocks, and &d10 &fTNT'
+      commands:
+    for-completion:
+      items:
+        '331:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '331:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '3:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '4:0':
+          amount: 10
+          name:
+          enchantments:
+          lores:
+    on-completion:
+      messages:
+        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&fCompleted Mission #2&d: &bPrivate'
+        - '&bGeneral Joe&d: &fThank you for giving us these materials. In return you will also get something.'
+        - '&f===================================================='
+        - '&7Mission Completed &8[&bPrivate&8]'
+        - '&8[&bPrivate Pickaxe and God Apple&8] &7Added'
+      commands:
+        - 't give %PLAYER% 12'
+      items:
+        '278:0':
+          amount: 1
+          name: '&bPrivate Pickaxe'
+          enchantments:
+            EFFICIENCY: 75
+            FORTUNE: 7
+            UNBREAKING: 75
+          lores:
+            - '&7Obtained from the Private Mission'
+  4:
+    on-start:
+      messages:
+        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&fStarting Mission #4&d: &bPreparation'
+        - '&bGeneral Joe&d: &fAlright you are the best we got. We are getting ready for an all out World War against the Russians and we need your help. We need you to get us some resources.'
+        - '&f===================================================='
+        - '&7Mission Started &8[&bPreparation&8]'
+        - '&fTask&d: &bFind &d1 &fDiamond Sword, &d1 &fBow, &d128 &fArrows, 64 Redstone Blocks, 128 Redstone, 1 Water Bucket, 64 Obsidian, 1 Lucky Sword, and 1 Lucky Pickaxe'
+      commands:
+    for-completion:
+      items:
+        '276:0':
+          amount: 1
+          name:
+          enchantments:
+          lores:
+        '261:0':
+          amount: 1
+          name:
+          enchantments:
+          lores:
+        '262:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '262:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '331:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '331:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '152:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '326:0':
+          amount: 1
+          name:
+          enchantments:
+          lores:
+        '49:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '276:0':
+          amount: 1
+          name: '&eLucky Sword'
+          enchantments:
+            SHARPNESS: 5
+            UNBREAKING: 20
+            FIRE_ASPECT: 2
+          lores:
+            - '&7A very lucky sword'
+        '278:0':
+          amount: 1
+          name: '&eLucky Pickaxe'
+          enchantments:
+            EFFICIENCY: 500
+            FORTUNE: 20
+            UNBREAKING: 1000
+          lores:
+            - '&7A very lucky pickaxe'
+    on-completion:
+      messages:
+        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&fCompleted Mission #4&d: &bPreparation'
+        - '&bGeneral Joe&d: &fThank you for giving us these materials. In return you will also get something. We have a world war in front of us'
+        - '&f===================================================='
+        - '&7Mission Completed &8[&bPreparation&8]'
+        - '&8[&bPreparation Pickaxe, Preparation Sword, and x64 God Apple&8] &7Added'
+      commands:
+        - 't give %PLAYER% 50'
+      items:
+        '278:0':
+          amount: 1
+          name: '&bPreparation &aPickaxe'
+          enchantments:
+            EFFICIENCY: 1000
+            FORTUNE: 25
+            UNBREAKING: 1000
+          lores:
+            - '&7Obtained from the Preparation Mission'
+        '278:0':
+          amount: 1
+          name: '&bPreparation &aSword'
+          enchantments:
+            SHARPNESS: 5
+            FIRE_ASPECT: 2
+            LOOT_BONUS_MOBS: 3
+            UNBREAKING: 10
+          lores:
+            - '&7Obtained from the Preparation Mission'
+        '322:1':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+  5:
+    on-start:
+      messages:
+        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&fStarting Mission #5&d: &bThe War'
+        - '&bGeneral Joe&d: &fThe war has started and we need resources to win these guys.'
+        - '&f===================================================='
+        - '&7Mission Started &8[&bThe War&8]'
+        - '&fTask&d: &bFind &d1 &fDiamond Sword, &d1 &fBow, &d128 &fArrows, &d64 &fRedstone Blocks, &d128 &fRedstone, &d1 &fWater Bucket, &d64 &fObsidian, &d1 &fLucky Sword, &d1 &fLucky Pickaxe, and &d1 &fNuclear Bomb'
+      commands:
+    for-completion:
+      items:
+        '276:0':
+          amount: 1
+          name:
+          enchantments:
+          lores:
+        '261:0':
+          amount: 1
+          name:
+          enchantments:
+          lores:
+        '262:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '262:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '331:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '331:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '152:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '326:0':
+          amount: 1
+          name:
+          enchantments:
+          lores:
+        '49:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '276:0':
+          amount: 1
+          name: '&eLucky Sword'
+          enchantments:
+            SHARPNESS: 5
+            UNBREAKING: 20
+            FIRE_ASPECT: 2
+          lores:
+            - '&7A very lucky sword'
+        '278:0':
+          amount: 1
+          name: '&eLucky Pickaxe'
+          enchantments:
+            EFFICIENCY: 500
+            FORTUNE: 20
+            UNBREAKING: 1000
+          lores:
+            - '&7A very lucky pickaxe'
+        '46:0':
+          amount: 1
+          name: '&6Nuclear Bomb'
+          enchantments:
+            ARROW_INFINITE: 10
+            UNBREAKING: 10
+    on-completion:
+      messages:
+        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&fCompleted Mission #5&d: &bThe War'
+        - '&bGeneral Joe&d: &fWe have won the war thnks to you. That nuclear bomb really helped us out. Its time for us to help you out now, Commander.'
+        - '&f===================================================='
+        - '&7Mission Completed &8[&bThe War&8]'
+        - '&8[&bThe War Pickaxe, The War Sword, and x128 God Apple&8] &7Added'
+      commands:
+        - 't give %PLAYER% 500'
+      items:
+        '278:0':
+          amount: 1
+          name: '&bThe War &aPickaxe'
+          enchantments:
+            EFFICIENCY: 5000
+            FORTUNE: 50
+            UNBREAKING: 5000
+          lores:
+            - '&7Obtained from the The War Mission'
+        '278:0':
+          amount: 1
+          name: '&bThe War &aSword'
+          enchantments:
+            SHARPNESS: 10
+            FIRE_ASPECT: 3
+            LOOT_BONUS_MOBS: 5
+            UNBREAKING: 100
+          lores:
+            - '&7Obtained from the The War Mission'
+        '322:1':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '322:1':
+          amount: 64
+          name:
+          enchantments:
+          lores:

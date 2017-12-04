@@ -1,0 +1,54 @@
+##############
+# Drop Party #
+##############
+# This configuration lets you customize how the drop parties will work
+# The amount of time the drop parties will last in seconds
+drop-party-time: 60
+# The items and chances for the drop party
+drop-party-items:
+  '278:0':
+    chance: 750
+    amount: 1
+    name: '&bDrop&f-&bParty Pickaxe'
+    enchantments:
+      EFFICIENCY: 300
+      UNBREAKING: 300
+      FORTUNE: 50
+    lores:
+      - '&7Obtained from the drop party'
+  '276:0':
+    chance: 1000
+    amount: 1
+    name: '&bDrop&f-&bParty Sword'
+    enchantments:
+      UNBREAKING: 100
+      SHARPNESS: 10
+      FIRE_ASPECT: 2
+    lores:
+      - '&7Obtained from the drop party'
+  '57:0':
+    chance: 5
+    amount: 16
+    name:
+    enchantments:
+    lores:
+  '133:0':
+    chance: 5
+    amount: 16
+    name:
+    enchantments:
+    lores:
+# The commands and chances for the drop party
+drop-party-commands:
+  20:
+    - 'token give %PLAYER% 5'
+  25:
+    - 'crates give %PLAYER% common'
+  50:
+    - 'crates give %PLAYER% uncommon'
+  500:
+    - 'crates give %PLAYER% rare'
+  2500:
+    - 'crates give %PLAYER% ultrarare'
+  10000:
+    - 'crates give %PLAYER% legendary'

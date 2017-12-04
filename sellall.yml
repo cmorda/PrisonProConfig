@@ -1,0 +1,369 @@
+#########################
+# Sellall Configuration #
+#########################
+# This configuration lets you control the prices of items sold
+# Follow the format and note the permissions are always lowercase
+sellall:
+  A:
+    '1:0':
+      money: 1000
+      tokens: 0
+    '4:0':
+      money: 200
+      tokens: 0
+    '263:0':
+      money: 2000
+      tokens: 0
+    '265:0':
+      money: 2500
+      tokens: 0
+  B:
+    '1:0':
+      money: 1500
+      tokens: 0
+    '4:0':
+      money: 400
+      tokens: 0
+    '263:0':
+      money: 3000
+      tokens: 0
+    '265:0':
+      money: 5000
+      tokens: 0
+  C:
+    '1:0':
+      money: 2000
+      tokens: 0
+    '4:0':
+      money: 750
+      tokens: 0
+    '263:0':
+      money: 5000
+      tokens: 0
+    '265:0':
+      money: 7500
+      tokens: 0
+    '173:0':
+      money: 15000
+      tokens: 0
+  D:
+    '1:0':
+      money: 5000
+      tokens: 0
+    '4:0':
+      money: 2000
+      tokens: 0
+    '263:0':
+      money: 10000
+      tokens: 0
+    '265:0':
+      money: 20000
+      tokens: 0
+    '173:0':
+      money: 35000
+      tokens: 0
+  E:
+    '1:0':
+      money: 8000
+      tokens: 0
+    '4:0':
+      money: 4000
+      tokens: 0
+    '263:0':
+      money: 12500
+      tokens: 0
+    '265:0':
+      money: 25000
+      tokens: 0
+    '173:0':
+      money: 40000
+      tokens: 0
+    '142:0':
+      money: 50000
+      tokens: 0
+  F:
+    '1:0':
+      money: 10000
+      tokens: 0
+    '4:0':
+      money: 75000
+      tokens: 0
+    '263:0':
+      money: 20000
+      tokens: 0
+    '265:0':
+      money: 35000
+      tokens: 0
+    '173:0':
+      money: 60000
+      tokens: 0
+    '42:0':
+      money: 75000
+      tokens: 0
+  G:
+    '263:0':
+      money: 30000
+      tokens: 0
+    '265:0':
+      money: 50000
+      tokens: 0
+    '173:0':
+      money: 85000
+      tokens: 0
+    '42:0':
+      money: 105000
+      tokens: 0
+    '331:0':
+      money: 50000
+      tokens: 0
+    '351:4':
+      money: 60000
+      tokens: 0
+  H:
+    '263:0':
+      money: 50000
+      tokens: 0
+    '265:0':
+      money: 75000
+      tokens: 0
+    '152:0':
+      money: 150000
+      tokens: 0
+    '42:0':
+      money: 125000
+      tokens: 0
+    '331:0':
+      money: 100000
+      tokens: 0
+    '351:4':
+      money: 110000
+      tokens: 0
+  I:
+    '263:0':
+      money: 75000
+      tokens: 0
+    '265:0':
+      money: 100000
+      tokens: 0
+    '152:0':
+      money: 200000
+      tokens: 0
+    '42:0':
+      money: 175000
+      tokens: 0
+    '331:0':
+      money: 125000
+      tokens: 0
+    '351:4':
+      money: 130000
+      tokens: 0
+  J:
+    '263:0':
+      money: 125000
+      tokens: 0
+    '265:0':
+      money: 150000
+      tokens: 0
+    '152:0':
+      money: 250000
+      tokens: 0
+    '22:0':
+      money: 275000
+      tokens: 0
+    '331:0':
+      money: 175000
+      tokens: 0
+    '351:4':
+      money: 200000
+      tokens: 0
+  K:
+    '263:0':
+      money: 225000
+      tokens: 0
+    '57:0':
+      money: 250000
+      tokens: 0
+    '152:0':
+      money: 350000
+      tokens: 0
+    '22:0':
+      money: 375000
+      tokens: 0
+    '331:0':
+      money: 275000
+      tokens: 0
+    '351:4':
+      money: 300000
+      tokens: 0
+  L:
+    '263:0':
+      money: 425000
+      tokens: 0
+    '57:0':
+      money: 450000
+      tokens: 0
+    '152:0':
+      money: 550000
+      tokens: 0
+    '22:0':
+      money: 575000
+      tokens: 0
+    '264:0':
+      money: 475000
+      tokens: 0
+    '351:4':
+      money: 500000
+      tokens: 0
+  M:
+    '264:0':
+      money: 700000
+      tokens: 0
+    '57:0':
+      money: 1000000
+      tokens: 0
+    '388:0':
+      money: 900000
+      tokens: 0
+  N:
+    '264:0':
+      money: 1000000
+      tokens: 0
+    '57:0':
+      money: 1500000
+      tokens: 0
+    '388:0':
+      money: 1250000
+      tokens: 0
+  O:
+    '264:0':
+      money: 2000000
+      tokens: 0
+    '57:0':
+      money: 2500000
+      tokens: 0
+    '388:0':
+      money: 2250000
+      tokens: 0
+    '133:0':
+      money: 3000000
+      tokens: 0
+  P:
+    '57:0':
+      money: 5000000
+      tokens: 0
+    '388:0':
+      money: 7500000
+      tokens: 0
+    '133:0':
+      money: 10000000
+      tokens: 0
+  Q:
+    '57:0':
+      money: 6000000
+      tokens: 0
+    '388:0':
+      money: 8500000
+      tokens: 0
+    '133:0':
+      tokens: 0
+      money: 20000000
+  R:
+    '57:0':
+      money: 7000000
+      tokens: 0
+    '388:0':
+      money: 9500000
+      tokens: 0
+    '133:0':
+      money: 30000000
+      tokens: 0
+  S:
+    '57:0':
+      money: 8000000
+      tokens: 0
+    '388:0':
+      money: 10500000
+      tokens: 0
+    '133:0':
+      money: 50000000
+      tokens: 0
+  T:
+    '57:0':
+      money: 8000000
+      tokens: 0
+    '388:0':
+      money: 10500000
+      tokens: 0
+    '133:0':
+      money: 50000000
+      tokens: 0
+  U:
+    '57:0':
+      money: 10000000
+      tokens: 0
+    '388:0':
+      money: 12500000
+      tokens: 0
+    '133:0':
+      money: 55000000
+      tokens: 0
+  V:
+    '57:0':
+      money: 20000000
+      tokens: 0
+    '388:0':
+      money: 22500000
+      tokens: 0
+    '133:0':
+      money: 75000000
+      tokens: 0
+  W:
+    '57:0':
+      money: 40000000
+      tokens: 0
+    '388:0':
+      money: 42500000
+      tokens: 0
+    '133:0':
+      money: 95000000
+      tokens: 0
+  X:
+    '57:0':
+      money: 60000000
+      tokens: 0
+    '388:0':
+      money: 62500000
+      tokens: 0
+    '133:0':
+      money: 110500000
+      tokens: 0
+  Y:
+    '57:0':
+      money: 100000000
+      tokens: 0
+    '388:0':
+      money: 100000000
+      tokens: 0
+    '133:0':
+      money: 100000000
+      tokens: 0
+  Z:
+    '57:0':
+      money: 500000000
+      tokens: 0
+    '388:0':
+      money: 500000000
+      tokens: 0
+    '133:0':
+      money: 500000000
+      tokens: 0
+  Free:
+    '57:0':
+      money: 1000000000
+      tokens: 0
+    '388:0':
+      money: 1000000000
+      tokens: 0
+    '133:0':
+      money: 1000000000
+      tokens: 0

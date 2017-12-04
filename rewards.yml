@@ -1,0 +1,54 @@
+####################
+# PlayTime Rewards #
+####################
+# This configuration lets you edit the rewards for play time
+# The message displayed on viewing rewards
+playtime-rewards-messages:
+  - '&f=================&d>&bPrisonProfessional&d<&f================='
+  - '&f1 hour&d: &625 Tokens'
+  - '&f12 hours&d: &650 Tokens and a fortune 20 pickaxe'
+  - '&f1 day&d: &6100 Tokens and a fortune 30 pickaxe'
+  - '&f===================================================='
+playtime-rewards:
+  3600:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 1 hour and received&d: &625 Tokens'
+      - '&d---------------------------------------------'
+    commands:
+      - 'token give %PLAYER% 25'
+    items:
+  43200:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+    items:
+      '278:0':
+        amount: 1
+        name: '&b6 Hour Pickaxe'
+        enchantments:
+          FORTUNE: 20
+          UNBREAKING: 100
+          EFFICIENCY: 100
+        lores:
+          - '&7Achieved from playing on the server for 6 hours'
+  86400:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 1 day and received&d: &6100 Tokens and a fortune 30 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 100'
+    items:
+      '278:0':
+        amount: 1
+        name: '&b1 Day Pickaxe'
+        enchantments:
+          FORTUNE: 30
+          UNBREAKING: 100
+          EFFICIENCY: 100
+        lores:
+          - '&7Achieved from playing on the server for 1 day'

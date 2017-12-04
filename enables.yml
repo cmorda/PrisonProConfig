@@ -1,0 +1,150 @@
+###############################
+# Enabling/Disabling Features #
+###############################
+###########
+# Aspects #
+###########
+# Bold messages
+bold-messages: false
+# Success sound
+success-sound: true
+# Error sound
+error-sound: true
+# Mining sound
+mining-sound: true
+# PrisonProfessional will take over when a player joins
+pp-join-take-over: true
+# PrisonProfessional will present a MOTD upon a player joining
+pp-join-motd: true
+# PrisonProfessional will change the join message
+pp-join-message: true
+# PrisonProfessional will change the leave message
+pp-leave-message: true
+# There will be a sound upon joining
+pp-join-sound: true
+# There will be rewards for PlayTime
+playtime-rewards: true
+# There will be things that happen when a new player joins
+new-player-joining: true
+############
+# Commands #
+############
+# Alert command
+alert-command: true
+# Apply command
+apply-command: true
+# CE Command
+ce-command: true
+# Cheese command
+cheese-command: true
+# Clearchat command
+clearchat-command: true
+# Crate command
+crate-command: true
+# Damage command
+damage-command: true
+# Fake command
+fake-command: true
+# Gift command
+gift-command: true
+# Hand command
+hand-command: true
+# Info command
+info-command: true
+# Make command
+make-command: true
+# Milk command
+milk-command: true
+# MineBuddy command
+minebuddy-command: true
+# Missions command
+missions-command: true
+# MOTD command
+motd-command: true
+# PayDay command
+payday-command: true
+# PClearchat command
+pclearchat-command: true
+# Proadcast command
+proadcast-command: true
+# Rankup command
+rankup-command: true
+# Prestige command
+prestige-command: true
+# Raw command
+raw-command: true
+# Report command
+report-command: true
+# Reset command
+reset-command: true
+# Sellall command
+sellall-command: true
+# Send command
+send-command: true
+# Sethealth command
+sethealth-command: true
+# Spring command
+spring-command: true
+# Staff command
+staff-command: true
+# Throw command
+throw-command: true
+# Time command
+time-command: true
+# Warn command
+warn-command: true
+######################
+# Command and Aspect #
+######################
+# There will be a token economy (Token command and token economy)
+token-economy: true
+# There will be bindings (bind command and bindings)
+bindings: true
+# There will be chat prefixes (chat command and chat prefixes)
+chat-prefix: true
+# There will be lockchat (locking of the chat and lockchat command)
+locking-chat: true
+# There will be a shop (the shop and the shop command)
+shop: true
+# There will be statistics (blocksMined, kills, deaths, cratesFound, and cratesOpened saving. Also the statistics command)
+statistics: true
+# There will be anti advertising
+anti-advertising: true
+# There will be anti swearing
+anti-swearing: true
+# There will be anti spamming
+anti-spamming: true
+# There will be blocked phrases
+blocked-phrases: true
+# There will be drop parties
+drop-parties: true
+# There will be player souls
+player-souls: true
+# There will be the finding of tokens in blocks
+token-block-findings: true
+# There will be the finding of crates
+crate-findings: true
+# There will be the opening of crates
+crate-openings: true
+# There will be smart mining
+smart-mine: true
+# There will be AutoInventory and FortuneBlocks
+autoinventory-fortuneblocks: true
+# There will be AutoInventory
+autoinventory: true
+# There will be FortuneBlocks
+fortuneblocks: true
+# There will be AutoSmelt
+auto-smelt: true
+# There will be SmartDrop
+smart-drop: true
+# There will be bounties
+bounties: true
+# There will be an admin menu
+admin-menu: true
+# There will be a premium menu
+premium-menu: true
+# There will be a member menu
+member-menu: true
+# There will be achievements
+achievements: true

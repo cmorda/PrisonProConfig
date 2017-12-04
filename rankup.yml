@@ -1,0 +1,116 @@
+###################################
+# Rankup + Prestige Configuration #
+###################################
+# Configure the rankup and prestige system in this file
+##########
+# Rankup #
+##########
+# The sound played upon ranking up
+rankup-sound: ANVIL_LAND
+# The cooldown for using the rankup command in seconds
+rankup-cooldown: 2
+# The messages displayed upon showing all ranks
+rank-messages:
+  - '&f=================&d>&bPrisonProfessional&d<&f================='
+  - ' &d> &bA&d: &a$0'
+  - ' &d> &bB&d: &a$100'
+  - ' &d> &bC&d: &a$500'
+  - ' &d> &bD&d: &a$1 &fThousand'
+  - ' &d> &bE&d: &a$2.5 &fThousand'
+  - ' &d> &bF&d: &a$7.5 &fThousand'
+  - ' &d> &bG&d: &a$15 &fThousand'
+  - ' &d> &bH&d: &a$45 &fThousand'
+  - ' &d> &bI&d: &a$65 &fThousand'
+  - ' &d> &bJ&d: &a$95 &fThousand'
+  - ' &d> &bK&d: &a$135 &fThousand'
+  - ' &d> &bL&d: &a$235 &fThousand'
+  - ' &d> &bM&d: &a$280 &fThousand'
+  - ' &d> &bN&d: &a$350 &fThousand'
+  - ' &d> &bO&d: &a$425 &fThousand'
+  - ' &d> &bP&d: &a$560 &fThousand'
+  - ' &d> &bQ&d: &a$700 &fThousand'
+  - ' &d> &bR&d: &a$1 &fMillion'
+  - ' &d> &bS&d: &a$2.5 &fMillion'
+  - ' &d> &bT&d: &a$4 &fMillion'
+  - ' &d> &bU&d: &a$5 &fMillion'
+  - ' &d> &bV&d: &a$8 &fMillion'
+  - ' &d> &bW&d: &a$15 &fMillion'
+  - ' &d> &bX&d: &a$50 &fMillion'
+  - ' &d> &bY&d: &a$100 &fMillion'
+  - ' &d> &bZ&d: &a$1 &fBillion'
+  - ' &d> &bFree&d: &a$10 &fBillion'
+  - '&f===================================================='
+# The messages sent when a player does not have the required balance to rankup
+rankup-no-money-message:
+  - '&4You need &a$%MONEY% &4to rank up from &6%RANK% &4to &6%NEXT-RANK%'
+# The broadcasts that are sent when a player ranks up
+rankup-broadcast:
+  - '&d%PLAYER% &fhas ranked up from &d%OLD-RANK% &fto &d%NEW-RANK%'
+# The messages sent to the player when they rank up
+rankup-messages:
+  - '&fYou have ranked up from &d%OLD-RANK% &fto &d%NEW-RANK%'
+# The commands dispatched when a player ranks up
+rankup-commands:
+  - 'pex user %PLAYER% group remove %OLD-RANK%'
+  - 'pex user %PLAYER% group add %NEW-RANK%'
+# The ranks along with their prices
+ranks:
+  A: 0
+  B: 100
+  C: 500
+  D: 1000
+  E: 2500
+  F: 7500
+  G: 15000
+  H: 45000
+  I: 65000
+  J: 95000
+  K: 135000
+  L: 235000
+  M: 280000
+  N: 350000
+  O: 425000
+  P: 560000
+  Q: 700000
+  R: 1000000
+  S: 2500000
+  T: 4000000
+  U: 5000000
+  V: 8000000
+  W: 15000000
+  X: 50000000
+  Y: 100000000
+  Z: 1000000000
+  Free: 10000000000
+############
+# Prestige #
+############
+# The sound played upon prestiging
+prestige-sound: LEVEL_UP
+# The messages sent when a player does not have the required balance to prestige
+prestige-no-money-message:
+  - '&4You need &a$%MONEY% &4to prestige from &6%PRESTIGE% &4to &6%NEXT-PRESTIGE%'
+# The broadcasts that are sent when a player prestiges
+prestige-broadcast:
+  - '&d%PLAYER% &fhas prestiged from &d%OLD-PRESTIGE% &fto &d%NEW-PRESTIGE%'
+# The messages sent to the player when they prestige
+prestige-messages:
+  - '&fYou have prestiged from &d%OLD-PRESTIGE% &fto &d%NEW-PRESTIGE%'
+# The commands dispatched when a player prestiges
+prestige-commands:
+  - 'pex user %PLAYER% group remove %OLD-PRESTIGE%'
+  - 'pex user %PLAYER% group add %NEW-PRESTIGE%'
+  - 'pex user %PLAYER% group remove Free'
+  - 'pex user %PLAYER% group add A'
+# The prestiges with their prices
+prestiges:
+  Prestige-I: 100000000000
+  Prestige-II: 1000000000000
+  Prestige-III: 10000000000000
+  Prestige-IV: 100000000000000
+  Prestige-V: 1000000000000000
+  Prestige-VI: 10000000000000000
+  Prestige-VII: 100000000000000000
+  Prestige-VIII: 100000000000000000
+  Prestige-IX: 1000000000000000000
+  Prestige-X: 100000000000000000000

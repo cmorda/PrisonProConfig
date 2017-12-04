@@ -1,0 +1,320 @@
+##############################
+# Achievements Configuration #
+##############################
+# This file lets you configure the achievements system
+# All achievements with how to complete them and rewards
+achievements:
+  FIRST_BLOCK:
+    name: '&bFirst Block'
+    completion-requirements:
+      blocks: 1
+    completion-messages:
+      - '&7Achievement Completed &8[&bFirst Block&8]'
+    completion-commands:
+      - 't give %PLAYER% 10'
+    completion-items:
+      '278:0':
+        amount: 1
+        name: '&bFirst Block Pickaxe'
+        enchantments:
+          EFFICIENCY: 100
+          UNBREAKING: 100
+          FORTUNE: 5
+        lores:
+          - '&7Obtained from the first block achievement'
+  THOUSAND_BLOCK:
+    name: '&bThousand Block'
+    completion-requirements:
+      blocks: 1000
+    completion-messages:
+      - '&7Achievement Completed &8[&bThousand Block&8]'
+    completion-commands:
+      - 't give %PLAYER% 15'
+    completion-items:
+      '278:0':
+        amount: 1
+        name: '&bThousand Block Pickaxe'
+        enchantments:
+          EFFICIENCY: 250
+          UNBREAKING: 250
+          FORTUNE: 13
+        lores:
+          - '&7Obtained from the thousand block achievement'
+  MILLION_BLOCK:
+    name: '&bMillion Block'
+    completion-requirements:
+      blocks: 1000000
+    completion-messages:
+      - '&7Achievement Completed &8[&bMillion Block&8]'
+    completion-commands:
+      - 't give %PLAYER% 1000'
+    completion-items:
+      '278:0':
+        amount: 1
+        name: '&bMillion Block Pickaxe'
+        enchantments:
+          EFFICIENCY: 500
+          UNBREAKING: 500
+          FORTUNE: 50
+        lores:
+          - '&7Obtained from the million block achievement'
+  FIRST_KILL:
+    name: '&bFirst Kill'
+    completion-requirements:
+      kills: 1
+    completion-messages:
+      - '&7Achievement Completed &8[&bFirst Kill&8]'
+    completion-commands:
+      - 't give %PLAYER% 10'
+    completion-items:
+      '276:0':
+        amount: 1
+        name: '&bFirst Kill Sword'
+        enchantments:
+          SHARPNESS: 3
+          UNBREAKING: 5
+        lores:
+          - '&7Obtained from the first kill achievement'
+      '322:1':
+        amount: 1
+        name: ''
+        enchantments:
+        lores:
+  HUNDRED_KILL:
+    name: '&bHundred Kill'
+    completion-requirements:
+      kills: 100
+    completion-messages:
+      - '&7Achievement Completed &8[&bHundred Kill&8]'
+    completion-commands:
+      - 't give %PLAYER% 100'
+    completion-items:
+      '276:0':
+        amount: 1
+        name: '&bHundred Kill Sword'
+        enchantments:
+          SHARPNESS: 7
+          UNBREAKING: 15
+          FIRE_ASPECT: 2
+        lores:
+          - '&7Obtained from the hundred kill achievement'
+      '322:1':
+        amount: 10
+        name: ''
+        enchantments:
+        lores:
+  FIRST_MISSION:
+    name: '&bFirst Mission'
+    completion-requirements:
+      missions: 1
+    completion-messages:
+      - '&7Achievement Completed &8[&bFirst Mission&8]'
+    completion-commands:
+      - 't give %PLAYER% 10'
+    completion-items:
+      '278:0':
+        amount: 1
+        name: '&bFirst Mission Pickaxe'
+        enchantments:
+          EFFICIENCY: 125
+          UNBREAKING: 125
+          FORTUNE: 6
+        lores:
+          - '&7Obtained from the first kill achievement'
+  LAST_MISSION:
+    name: '&bLast Mission'
+    completion-requirements:
+      missions: 5
+    completion-messages:
+      - '&7Achievement Completed &8[&bLast Mission&8]'
+    completion-commands:
+      - 't give %PLAYER% 50'
+    completion-items:
+      '278:0':
+        amount: 1
+        name: '&bLast Mission Pickaxe'
+        enchantments:
+          EFFICIENCY: 300
+          UNBREAKING: 300
+          FORTUNE: 18
+        lores:
+          - '&7Obtained from the last mission achievement'
+  FIRST_CRATE_FOUND:
+    name: '&bFirst Crate Found'
+    completion-requirements:
+      crates-found: 1
+    completion-messages:
+      - '&7Achievement Completed &8[&bFirst Crate Found&8]'
+    completion-commands:
+      - 't give %PLAYER% 10'
+    completion-items:
+      '278:0':
+        amount: 1
+        name: '&bFirst Crate Found Pickaxe'
+        enchantments:
+          EFFICIENCY: 50
+          UNBREAKING: 50
+          FORTUNE: 4
+        lores:
+          - '&7Obtained from the first crate found achievement'
+  HUNDRED_CRATE_FOUND:
+    name: '&bHundred Crate Found'
+    completion-requirements:
+      crates-found: 100
+    completion-messages:
+      - '&7Achievement Completed &8[&bHundred Crate Found&8]'
+    completion-commands:
+      - 't give %PLAYER% 50'
+    completion-items:
+      '278:0':
+        amount: 1
+        name: '&bHundred Crate Found Pickaxe'
+        enchantments:
+          EFFICIENCY: 250
+          UNBREAKING: 250
+          FORTUNE: 20
+        lores:
+          - '&7Obtained from the hundred crate found achievement'
+  THOUSAND_CRATE_FOUND:
+    name: '&bThousand Crate Found'
+    completion-requirements:
+      crates-found: 1000
+    completion-messages:
+      - '&7Achievement Completed &8[&bThousand Crate Found&8]'
+    completion-commands:
+      - 't give %PLAYER% 1000'
+    completion-items:
+      '278:0':
+        amount: 1
+        name: '&bThousand Crate Found Pickaxe'
+        enchantments:
+          EFFICIENCY: 750
+          UNBREAKING: 750
+          FORTUNE: 32
+        lores:
+          - '&7Obtained from the thousand crate found achievement'
+  FIRST_CRATE_OPENED:
+    name: '&bFirst Crate Opened'
+    completion-requirements:
+      crates-opened: 1
+    completion-messages:
+      - '&7Achievement Completed &8[&bFirst Crate Opened&8]'
+    completion-commands:
+      - 't give %PLAYER% 10'
+    completion-items:
+      '278:0':
+        amount: 1
+        name: '&bFirst Crate Opened Pickaxe'
+        enchantments:
+          EFFICIENCY: 75
+          UNBREAKING: 75
+          FORTUNE: 5
+        lores:
+          - '&7Obtained from the first crate opened achievement'
+  HUNDRED_CRATE_OPENED:
+    name: '&bHundred Crate Opened'
+    completion-requirements:
+      crates-opened: 100
+    completion-messages:
+      - '&7Achievement Completed &8[&bHundred Crate Opened&8]'
+    completion-commands:
+      - 't give %PLAYER% 50'
+    completion-items:
+      '278:0':
+        amount: 1
+        name: '&bHundred Crate Opened Pickaxe'
+        enchantments:
+          EFFICIENCY: 300
+          UNBREAKING: 300
+          FORTUNE: 19
+        lores:
+          - '&7Obtained from the hundred crate opened achievement'
+  FIRST_TOKEN:
+    name: '&bFirst Token'
+    completion-requirements:
+      tokens-found: 1
+    completion-messages:
+      - '&7Achievement Completed &8[&bFirst Token&8]'
+    completion-commands:
+      - 't give %PLAYER% 10'
+    completion-items:
+      '278:0':
+        amount: 1
+        name: '&bFirst Token Pickaxe'
+        enchantments:
+          EFFICIENCY: 100
+          UNBREAKING: 100
+          FORTUNE: 10
+        lores:
+          - '&7Obtained from the first token achievement'
+  HUNDRED_TOKEN:
+    name: '&bHundred Token'
+    completion-requirements:
+      tokens-found: 100
+    completion-messages:
+      - '&7Achievement Completed &8[&bHundred Token&8]'
+    completion-commands:
+      - 't give %PLAYER% 100'
+    completion-items:
+      '278:0':
+        amount: 1
+        name: '&bHundred Token Pickaxe'
+        enchantments:
+          EFFICIENCY: 400
+          UNBREAKING: 400
+          FORTUNE: 24
+        lores:
+          - '&7Obtained from the hundred token achievement'
+  FIRST_DEATH:
+    name: '&bFirst Death'
+    completion-requirements:
+      deaths: 1
+    completion-messages:
+      - '&7Achievement Completed &8[&bFirst Death&8]'
+    completion-commands:
+      - 't give %PLAYER% 10'
+    completion-items:
+      '276:0':
+        amount: 1
+        name: '&bFirst Death Sword'
+        enchantments:
+          SHARPNESS: 4
+          UNBREAKING: 6
+        lores:
+          - '&7Obtained from the first death achievement'
+  HUNDRED_DEATH:
+    name: '&bHundred Death'
+    completion-requirements:
+      deaths: 100
+    completion-messages:
+      - '&7Achievement Completed &8[&bHundred Death&8]'
+    completion-commands:
+      - 't give %PLAYER% 250'
+    completion-items:
+      '276:0':
+        amount: 1
+        name: '&bHundred Death Sword'
+        enchantments:
+          SHARPNESS: 9
+          UNBREAKING: 17
+          FIRE_ASPECT: 4
+        lores:
+          - '&7Obtained from the hundred death achievement'
+  ALL_ACHIEVEMENTS:
+    name: '&bAll Achievements'
+    completion-requirements:
+      achievements: 16
+    completion-messages:
+      - '&7Achievement Completed &8[&bAll Achievements&8]'
+    completion-commands:
+      - 't give %PLAYER% 1000'
+    completion-items:
+      '278:0':
+        amount: 1
+        name: '&bAll Achievements Pickaxe'
+        enchantments:
+          EFFICIENCY: 1000
+          UNBREAKING: 1000
+          FORTUNE: 50
+        lores:
+          - '&7Obtained from the all achievements achievement'

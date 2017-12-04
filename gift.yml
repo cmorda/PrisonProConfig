@@ -1,0 +1,120 @@
+######################
+# Gift Configuration #
+######################
+# This configuration file will let you configure the gifts
+# There will be the daily gift
+daily-gift: true
+# There will be the weekly gift
+weekly-gift: true
+# There will be the monthly gift
+monthly-gift: true
+# The content of the daily gift, with chances for them
+daily-gift-content:
+  items:
+    '278:0':
+      chance: 5
+      amount: 1
+      name: '&aDaily Gift Pickaxe'
+      enchantments:
+        EFFICIENCY: 100
+        UNBREAKING: 100
+        FORTUNE: 10
+      lores:
+        - '&7Obtained from the daily gift'
+    '276:0':
+      chance: 5
+      amount: 1
+      name: '&aDaily Gift Sword'
+      enchantments:
+        SHARPNESS: 3
+        UNBREAKING: 5
+        FIRE_ASPECT: 1
+      lores:
+        - '&7Obtained from the daily gift'
+    '322:1':
+      chance: 2
+      amount: 1
+      name: ''
+      enchantments:
+      lores:
+  commands:
+    2:
+      - 't give %PLAYER% 5'
+    5:
+      - 't give %PLAYER% 10'
+    10:
+      - 't give %PLAYER% 25'
+# The content of the weekly gift, with chances for them
+weekly-gift-content:
+  items:
+    '278:0':
+      chance: 5
+      amount: 1
+      name: '&bWeekly Gift Pickaxe'
+      enchantments:
+        EFFICIENCY: 250
+        UNBREAKING: 250
+        FORTUNE: 17
+      lores:
+        - '&7Obtained from the weekly gift'
+    '276:0':
+      chance: 5
+      amount: 1
+      name: '&bWeekly Gift Sword'
+      enchantments:
+        SHARPNESS: 5
+        UNBREAKING: 10
+        FIRE_ASPECT: 2
+        LOOT_BONUS_MOBS: 3
+      lores:
+        - '&7Obtained from the weekly gift'
+    '322:1':
+      chance: 2
+      amount: 3
+      name: ''
+      enchantments:
+      lores:
+  commands:
+    2:
+      - 't give %PLAYER% 10'
+    5:
+      - 't give %PLAYER% 20'
+    10:
+      - 't give %PLAYER% 30'
+# The content of the weekly gift, with chances for them
+monthly-gift-content:
+  items:
+    '278:0':
+      chance: 5
+      amount: 1
+      name: '&cMonthly Gift Pickaxe'
+      enchantments:
+        EFFICIENCY: 500
+        UNBREAKING: 500
+        FORTUNE: 25
+      lores:
+        - '&7Obtained from the monthly gift'
+    '276:0':
+      chance: 5
+      amount: 1
+      name: '&cMonthly Gift Sword'
+      enchantments:
+        SHARPNESS: 6
+        UNBREAKING: 15
+        FIRE_ASPECT: 3
+        LOOT_BONUS_MOBS: 5
+      lores:
+        - '&7Obtained from the monthly gift'
+    '322:1':
+      chance: 2
+      amount: 10
+      name: ''
+      enchantments:
+      lores:
+  commands:
+    2:
+      - 't give %PLAYER% 20'
+    5:
+      - 't give %PLAYER% 30'
+    10:
+      - 't give %PLAYER% 50'

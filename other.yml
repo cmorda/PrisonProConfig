@@ -1,0 +1,409 @@
+#############################################################################
+#############################################################################
+# Configuration File Video >>> https://youtu.be/VvQKwyr8bOE <<< RECOMMENDED #
+#############################################################################
+#############################################################################
+####################################
+# PrisonProfessional Configuration #
+####################################
+########
+# Main #
+########
+# This is the version of your configuration files, do not change this
+version: '2.3.3'
+# The language of the plugin. The current supported languages are: english, french, and chinese. If you want more then don't hesitate to ask me.
+# Put 0 for english, 1 for french, 2 for chinese, and 3 for german, 4 for vietnamese, and 5 for spanish
+language: 0
+# The prefix of the plugin
+prefix: '&8[&bPP&8]'
+# The worlds to where this plugin will only work in, leave blank to have it work globally
+# NOTE: If you do not leave this blank this plugin will only work in the selected world names
+# NOTE: The format is also a string list, not a single string, make sure to follow format
+activation-worlds:
+# The alert prefix
+alert-prefix: '&8[&4Alert&8]&c'
+# The amount of time in seconds a saving of data will occur
+data-saving-recurrence-delay: 1800
+# Staff names
+staff:
+  TD6: 'Developer'
+############
+# Messages #
+############
+# The no permission message
+no-permission-message: '&4Invalid access'
+# The no syntax message
+no-syntax-message: '&4Invalid syntax, try: </%SYNTAX%>'
+# The console command message
+console-command-message: '&4Only in-game players can use this command'
+# The header of informational texts
+informational-header: '&f=================&d>&bPrisonProfessional&d<&f================='
+# The footer of informational texts
+informational-footer: '&f===================================================='
+# The apply requirements
+apply-messages:
+  - '&f=================&d>&bPrisonProfessional&d<&f================='
+  - '&bRequirements for applying:'
+  - '&b1.) &fTell us your age *Must be 13 or older, Do not lie*'
+  - '&b2.) &fTell us your Skype name *REQUIRED*'
+  - '&b3.) &fTell us what rank you are applying for'
+  - '&b4.) &fTell us why you want to be this rank'
+  - '&b5.) &fTell us how long you have been staff before on other servers'
+  - '&b6.) &fTell us what you have accomplished on those servers'
+  - '&b7.) &fTell us what you can do'
+  - '&b8.) &fTell us why we should choose YOU'
+  - '&b9.) &fTell us how long you have been playing on this server.'
+  - '&b10.) &fTell us your strengths and weaknesses'
+  - '&fYou can apply at our website at &dwww.example.domain'
+  - '&f===================================================='
+##########
+# Sounds #
+##########
+# The success sound
+success-sound: ENTITY_PLAYER_LEVELUP
+# The error sound
+error-sound: ENTITY_CAT_HISS
+# The mining sound
+mining-sound: ENTITY_CHICKEN_EGG
+# The joining sound
+join-sound: ENTITY_PLAYER_LEVELUP
+# The sound broadcasted when a new player joins
+new-player-sound: ENTITY_PLAYER_LEVELUP
+###################
+# Joining/Leaving #
+###################
+# The MOTD
+join-motd:
+  - '&f=================&d>&bPrisonProfessional&d<&f================='
+  - ' '
+  - '&fWelcome &d%PLAYER% &fto the server, hope you have a good time'
+  - '&fThere are currently &d%PLAYERSONLINE% &ftotal online players'
+  - '&fThere are in total &d%TOTALPLAYERS% &fdifferent players that have joined'
+  - '&fThere are currently &d%STAFFONLINE% &fstaff members online'
+  - ' '
+  - '&f===================================================='
+# The join message
+join-message: '&8[&a+&8] &d%PLAYER% &ajoined'
+# The leave message
+leave-message: '&8[&c-&8] &d%PLAYER% &cleft'
+# The message broadcasted when a new player joins
+new-player-message: '&6Welcome &d%PLAYER% &6to the server'
+##########
+# Limits #
+##########
+# The max spring power
+max-spring-power: 4
+# The max number of things that can be thrown at once
+throw-limit: 2
+# The amount of warnings a player can have before punishment
+player-max-warnings: 3
+# The maximum amount of commands that can be binded to an item
+bindings-max-commands: 3
+#############
+# Cooldowns #
+#############
+# The cooldown, in seconds, for the cheese command
+cheese-cooldown: 60
+# The cooldown, in seconds, for the milk command
+milk-cooldown: 60
+# The throw cooldown in seconds.
+throw-cooldown: 10
+# The cooldown for reporting in seconds.
+report-cooldown: 720
+############
+# Commands #
+############
+# The commands dispatched upon a player having a punishment
+player-warning-commands:
+  - 'kick %PLAYER% &cYou have been temporarily banned for &4%REASON%&f. &cYou will be unbanned in 24 hours.'
+  - 'tempban %PLAYER% 86400'
+# The join commands dispatched when a player joins the server (by console).
+join-commands:
+  - 'fly %PLAYER%'
+# The commands dispatched when a new player joins
+new-player-join-commands:
+  - 'pex user %PLAYER% group add A'
+  - 'token set %PLAYER% 0'
+  - 'eco set %PLAYER% 0'
+# What should be the commands dispatched when resetting
+reset-commands:
+  - 'token reset %PLAYER%'
+  - 'eco reset %PLAYER%'
+  - 'clear %PLAYER%'
+  - 'pex user %PLAYER% group add A'
+#########
+# Other #
+#########
+# The starting balance for tokens
+tokens-starting-balance: 0
+########
+# Hand #
+########
+# This controls the prices for adding or removing aspects with the hand command
+# There will be hand aspects
+hand-aspects: true
+# The prices for the aspects
+hand:
+  add:
+    lore:
+      tokens: 20
+      money: 500000
+    enchantment:
+      tokens: 50
+      money: 1000000
+  remove:
+    lore:
+      tokens: 10
+      money: 250000
+    enchantment:
+      tokens: 20
+      money: 300000
+  setName:
+    tokens: 50
+    money: 1000000
+####################
+# Anti Advertising #
+####################
+# The phrases that shall be considered advertising
+advertising-phrases:
+  - 'http://'
+  - 'https://'
+  - 'www.'
+  - '.org'
+  - '.com'
+  - 'play.'
+  - '.net'
+  - '.se'
+  - '.io'
+  - '.edu'
+  - '.cat'
+  - '.onion'
+  - '.us'
+  - 'me.'
+# The messages dispatched upon advertising
+advertising-messages:
+  - '&4Advertising is not allowed on this server'
+# The commands dispatched upon advertising
+advertising-commands:
+  - 'warn %PLAYER% advertising'
+##############
+# Anti Swear #
+##############
+# The phrases that shall be considered swearing
+swear-phrases:
+  - 'fuck'
+  - 'bitch'
+  - 'dick'
+  - 'asshole'
+  - 'faggot'
+  - 'ass'
+  - 'douchebag'
+  - 'prick'
+  - 'motherfucker'
+  - 'son of a bitch'
+# The messages dispatched upon advertising
+swear-messages:
+  - '&4Swearing is not allowed on this server'
+# The commands dispatched upon advertising
+swear-commands:
+#############
+# Anti Spam #
+#############
+# The amount of chat messages before sending anti spam messages
+anti-spam-message-requirement: 3
+# The amount of chat messages before dispatching anti spam commands
+anti-spam-commands-requirement: 5
+# The anti spam messages
+anti-spam-messages:
+  - ' '
+  - '&c>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
+  - '&c<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'
+  - ' '
+  - '&4Please stop spamming'
+  - ' '
+  - '&c>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
+  - '&c<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'
+  - ' '
+# The anti spam commands
+anti-spam-commands:
+  - 'warn %PLAYER% spamming'
+###################
+# Blocked Phrases #
+###################
+# The phrases that shall be considered blocked
+blocked-phrases:
+  - 'lag'
+# The messages dispatched upon phrases being blocked
+blocked-phrases-messages:
+# The commands dispatched upon phrases being blocked
+blocked-phrases-commands:
+################
+# Player Souls #
+################
+# There will be custom death messages
+custom-death-messages: true
+# The custom death messages
+death-messages:
+  - '&d%KILLER% &fhas brutally murdered &d%DEFENDER%'
+  - '&d%KILLER% &fhas heavily assaulted &d%DEFENDER%'
+  - '&d%KILLER% &fhas slain &d%DEFENDER%'
+  - '&d%KILLER% &fhas humiliated &d%DEFENDER%'
+# The chance a soul will drop from a player dying
+soul-drop-chance: 10
+# The soul itemstack
+soul-item-stack:
+  material: '399:0'
+  amount: 1
+  name: '&d%DEFENDER% &fsoul'
+  enchantments:
+    ARROW_INFINITE: 5
+  lores:
+    - '&7Killed by %KILLER%'
+########################
+# Token Block Findings #
+########################
+# The chance of a stash of tokens being found in a block
+token-find-chance: 200
+# The max amount of tokens that can be found in a stash
+token-stash-max: 10
+# The commands dispatched when finding tokens, is optional
+token-find-commands:
+###################################
+# Auto Inventory + Fortune Blocks #
+###################################
+# There will be AutoInventory in creative mode
+creative-autoinventory: false
+# Durability on an item will reduce when mining
+reduce-durability: false
+# The sound dispatched when a player has a full inventory when mining
+full-inventory-sound: ENTITY_PLAYER_BURP
+# The message dispatched when a player has a full inventory when mining
+full-inventory-message: '&cYour inventory is full'
+# The multiplier for FortuneBlocks
+fortuneblocks-multiplier: 0.34
+# The worlds where FortuneBlocks will not work
+fortuneblocks-world-blacklist:
+  - 'PlotWorld'
+# The blacklist for AutoInventory
+autoinventory-blacklist:
+  - '138:0'
+# The blacklist for FortuneBlocks
+fortuneblocks-blacklist:
+  - '138:0'
+##############
+# Smart Drop #
+##############
+# The item drops that will trigger smartdrop
+smart-drop-items:
+  - '278'
+  - '276'
+  - '322'
+##############
+# Admin Menu #
+##############
+# There will be the warn players menu
+admin-menu-warn-players: true
+# There will be the kill players menu
+admin-menu-kill-players: true
+# There will be the ban players menu
+admin-menu-ban-players: true
+# There will be the commands menu
+admin-menu-commands: true
+# There will be the reported players menu
+admin-menu-reported-players: true
+# There will be the view warned players menu
+admin-menu-warned-players: true
+# There will be the view banned players menu
+admin-menu-banned-players: true
+# There will be the view operators menu
+admin-menu-operators: true
+################
+# Premium Menu #
+################
+# There will be the online players menu
+premium-menu-online-players: true
+# There will be the token balances menu
+premium-menu-token-balances: true
+# There will be the bounties menu
+premium-menu-bounties: true
+# There will be the chat menu
+premium-menu-chat: true
+# There will be the throwing menu
+premium-menu-throwing: true
+# There will be the commands menu
+premium-menu-commands: true
+# There will be the rewards menu
+premium-menu-rewards: true
+###############
+# Member Menu #
+###############
+# There will be the statistics menu
+member-menu-statistics: true
+# There will be the achievements menu
+member-menu-achievements: true
+# There will be the missions menu
+member-menu-missions: true
+# There will be the information menu
+member-menu-information: true
+# There will be the spring menu
+member-menu-spring: true
+# There will be the staff menu
+member-menu-staff: true
+# There will be the commands menu
+member-menu-commands: true
+###########
+# Rewards #
+###########
+# The cooldown before using another reward in seconds
+rewards-cooldown: 3600
+# The reward chances for a random reward
+rewards-random:
+  2:
+    - 'crate give %PLAYER% common'
+  5:
+    - 'crate give %PLAYER% uncommon'
+  10:
+    - 'crate give %PLAYER% rare'
+# The reward chances for an economy reward
+rewards-economy:
+  2:
+    money: 0
+    tokens: 5
+  5:
+    money: 0
+    tokens: 10
+  10:
+    money: 0
+    tokens: 25
+# The reward chances for an item reward
+rewards-item:
+  2:
+    material: '278:0'
+    amount: 1
+    name: '&bCommon Reward Pickaxe'
+    enchantments:
+      EFFICIENCY: 100
+      UNBREAKING: 100
+      FORTUNE: 10
+    lores:
+      - '&7Obtained from the items reward'
+  5:
+    material: '278:0'
+    amount: 1
+    name: '&cRare Reward Pickaxe'
+    enchantments:
+      EFFICIENCY: 250
+      UNBREAKING: 250
+      FORTUNE: 20
+    lores:
+      - '&7Obtained from the items reward'
+  10:
+    material: '278:0'
+    amount: 1
+    name: '&6Legendary Reward Pickaxe'
+    enchantments:
+      EFFICIENCY: 500
+      UNBREAKING: 500
+      FORTUNE: 30
+    lores:
+      - '&7Obtained from the items reward'

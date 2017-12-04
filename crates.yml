@@ -1,0 +1,566 @@
+########################
+# Crates Configuration #
+########################
+# This configuration lets you edit crates
+# Players will be able to buy crates
+player-buy-crates: true
+# All the crates with their drop chances, items contained, names, and more
+crate-aspects:
+  TOKEN:
+    money-price: 0
+    token-price: 100
+    material: '54:0'
+    chance: 15000
+    name: '&6Token&d-&fCrate'
+    description: '&aA crate that can give you a random amount of tokens!'
+    enchantments:
+      ARROW_INFINITE: 1
+    lores:
+      - '&7Contains some tokens'
+    broadcast-on-find:
+    command-chances-on-find:
+    command-chances-on-open:
+      1:
+        - 'token give %PLAYER% 1'
+      5:
+        - 'token give %PLAYER% 5'
+      10:
+        - 'token give %PLAYER% 10'
+      25:
+        - 'token give %PLAYER% 25'
+    item-chances-on-open:
+  COMMON:
+    money-price: 0
+    token-price: 5
+    chance: 1000
+    material: '54:0'
+    name: '&bCommon&d-&fCrate'
+    description: '&aA crate that can give you common rewards!'
+    enchantments:
+      ARROW_INFINITE: 1
+    lores:
+      - '&7Contains starter Common items'
+    broadcast-on-find:
+    command-chances-on-find:
+    command-chances-on-open:
+      5:
+        - 'token give %PLAYER% 1'
+      10:
+        - 'token give %PLAYER% 5'
+    item-chances-on-open:
+      '278:0':
+        chance: 2
+        amount: 1
+        name: '&bCommon&d-&fPickaxe'
+        enchantments:
+          EFFICIENCY: 100
+          FORTUNE: 10
+          UNBREAKING: 100
+        lores:
+          - '&7Obtained from the &bCommon &fcrate'
+      '276:0':
+        chance: 10
+        amount: 1
+        name: '&bCommon&d-&fSword'
+        enchantments:
+          SHARPNESS: 3
+          FIRE_ASPECT: 1
+          LOOTING: 1
+          UNBREAKING: 10
+        lores:
+          - '&7Obtained from the &bCommon &fcrate'
+      '310:0':
+        chance: 5
+        amount: 1
+        name: '&bCommon&d-&fHelmet'
+        enchantments:
+          PROTECTION: 5
+          UNBREAKING: 10
+        lores:
+          - '&7Obtained from the &bCommon &fcrate'
+      '311:0':
+        chance: 5
+        amount: 1
+        name: '&bCommon&d-&fChestplate'
+        enchantments:
+          PROTECTION: 5
+          UNBREAKING: 10
+        lores:
+          - '&7Obtained from the &bCommon &fcrate'
+      '312:0':
+        chance: 5
+        amount: 1
+        name: '&bCommon&d-&fLeggings'
+        enchantments:
+          PROTECTION: 5
+          UNBREAKING: 10
+        lores:
+          - '&7Obtained from the &bCommon &fcrate'
+      '313:0':
+        chance: 5
+        amount: 1
+        name: '&bCommon&d-&fBoots'
+        enchantments:
+          PROTECTION: 5
+          UNBREAKING: 10
+        lores:
+          - '&7Obtained from the &bCommon &fcrate'
+  UNCOMMON:
+    money-price: 0
+    token-price: 25
+    chance: 5000
+    material: '54:0'
+    name: '&dUn&bCommon&d-&fCrate'
+    description: '&aA crate that can give you uncommon rewards!'
+    enchantments:
+      ARROW_INFINITE: 1
+    lores:
+      - '&7Contains UnCommon items'
+    broadcast-on-find:
+    command-chances-on-find:
+    command-chances-on-open:
+      5:
+        - 'token give %PLAYER% 2'
+      10:
+        - 'token give %PLAYER% 7'
+    item-chances-on-open:
+      '278:0':
+        chance: 2
+        amount: 1
+        name: '&dUn&bCommon&d-&fPickaxe'
+        enchantments:
+          EFFICIENCY: 150
+          FORTUNE: 15
+          UNBREAKING: 150
+        lores:
+          - '&7Obtained from the &dUn&bCommon &fcrate'
+      '276:0':
+        chance: 10
+        amount: 1
+        name: '&dUn&bCommon&d-&fSword'
+        enchantments:
+          SHARPNESS: 5
+          FIRE_ASPECT: 2
+          LOOTING: 2
+          UNBREAKING: 15
+        lores:
+          - '&7Obtained from the &dUn&bCommon &fcrate'
+      '310:0':
+        chance: 5
+        amount: 1
+        name: ' &dUn&bCommon&d-&fHelmet'
+        enchantments:
+          PROTECTION: 7
+          UNBREAKING: 15
+        lores:
+          - '&7Obtained from the &dUn&bCommon &fcrate'
+      '311:0':
+        chance: 5
+        amount: 1
+        name: '&dUn&bCommon&d-&fChestplate'
+        enchantments:
+          PROTECTION: 7
+          UNBREAKING: 15
+        lores:
+          - '&7Obtained from the &dUn&bCommon &fcrate'
+      '312:0':
+        chance: 5
+        amount: 1
+        name: '&dUn&bCommon&d-&fLeggings'
+        enchantments:
+          PROTECTION: 7
+          UNBREAKING: 15
+        lores:
+          - '&7Obtained from the &dUn&bCommon &fcrate'
+      '313:0':
+        chance: 5
+        amount: 1
+        name: '&dUn&bCommon&d-&fBoots'
+        enchantments:
+          PROTECTION: 7
+          UNBREAKING: 15
+        lores:
+          - '&7Obtained from the &dUn&bCommon &fcrate'
+  RARE:
+    money-price: 0
+    token-price: 50
+    chance: 15000
+    material: '54:0'
+    name: '&cRare&d-&fCrate'
+    description: '&aA crate that can give you rare rewards!'
+    enchantments:
+      ARROW_INFINITE: 1
+    lores:
+      - '&7Contains Rare items'
+    broadcast-on-find:
+    command-chances-on-find:
+    command-chances-on-open:
+      5:
+        - 'token give %PLAYER% 5'
+      10:
+        - 'token give %PLAYER% 10'
+    item-chances-on-open:
+      '278:0':
+        chance: 2
+        amount: 1
+        name: '&cRare&d-&fPickaxe'
+        enchantments:
+          EFFICIENCY: 225
+          FORTUNE: 23
+          UNBREAKING: 225
+        lores:
+          - '&7Obtained from the &cRare &fcrate'
+      '276:0':
+        chance: 10
+        amount: 1
+        name: '&cRare&d-&fSword'
+        enchantments:
+          SHARPNESS: 8
+          FIRE_ASPECT: 3
+          LOOTING: 3
+          UNBREAKING: 23
+        lores:
+          - '&7Obtained from the &cRare &fcrate'
+      '310:0':
+        chance: 5
+        amount: 1
+        name: '&cRare&d-&fHelmet'
+        enchantments:
+          PROTECTION: 11
+          UNBREAKING: 25
+        lores:
+          - '&7Obtained from the &cRare &fcrate'
+      '311:0':
+        chance: 5
+        amount: 1
+        name: '&cRare&d-&fChestplate'
+        enchantments:
+          PROTECTION: 11
+          UNBREAKING: 25
+        lores:
+          - '&7Obtained from the &cRare &fcrate'
+      '312:0':
+        chance: 5
+        amount: 1
+        name: '&cRare&d-&fLeggings'
+        enchantments:
+          PROTECTION: 11
+          UNBREAKING: 25
+        lores:
+          - '&7Obtained from the &cRare &fcrate'
+      '313:0':
+        chance: 5
+        amount: 1
+        name: '&cRare&d-&fBoots'
+        enchantments:
+          PROTECTION: 11
+          UNBREAKING: 25
+        lores:
+          - '&7Obtained from the &crare &fcrate'
+  ULTRARARE:
+    money-price: 0
+    token-price: 125
+    chance: 30000
+    material: '54:0'
+    name: '&dUltra&cRare&d-&fCrate'
+    description: '&aA crate that can give you ultrarare rewards!'
+    enchantments:
+      ARROW_INFINITE: 1
+    lores:
+      - '&7Contains Ultra-Rare items'
+    broadcast-on-find:
+    command-chances-on-find:
+    command-chances-on-open:
+      5:
+        - 'token give %PLAYER% 10'
+      10:
+        - 'token give %PLAYER% 15'
+    item-chances-on-open:
+      '278:0':
+        chance: 2
+        amount: 1
+        name: '&dUltra&cRare&d-&fPickaxe'
+        enchantments:
+          EFFICIENCY: 300
+          FORTUNE: 35
+          UNBREAKING: 300
+        lores:
+          - '&7Obtained from the &dUltra&cRare &fcrate'
+      '276:0':
+        chance: 10
+        amount: 1
+        name: '&dUltra&cRare&d-&fSword'
+        enchantments:
+          SHARPNESS: 12
+          FIRE_ASPECT: 3
+          LOOTING: 4
+          UNBREAKING: 30
+        lores:
+          - '&7Obtained from the &dUltra&cRare &fcrate'
+      '310:0':
+        chance: 5
+        amount: 1
+        name: '&dUltra&cRare&d-&fHelmet'
+        enchantments:
+          PROTECTION: 15
+          UNBREAKING: 30
+        lores:
+          - '&7Obtained from the &dUltra&cRare &fcrate'
+      '311:0':
+        chance: 5
+        amount: 1
+        name: '&dUltra&cRare&d-&fChestplate'
+        enchantments:
+          PROTECTION: 15
+          UNBREAKING: 30
+        lores:
+          - '&7Obtained from the &dUltra&cRare &fcrate'
+      '312:0':
+        chance: 5
+        amount: 1
+        name: '&dUltra&cRare&d-&fLeggings'
+        enchantments:
+          PROTECTION: 15
+          UNBREAKING: 30
+        lores:
+          - '&7Obtained from the &dUltra&cRare &fcrate'
+      '313:0':
+        chance: 5
+        amount: 1
+        name: '&dUltra&cRare&d-&fBoots'
+        enchantments:
+          PROTECTION: 15
+          UNBREAKING: 30
+        lores:
+          - '&7Obtained from the &dUltra&cRare &fcrate'
+  LEGENDARY:
+    money-price: 0
+    token-price: 500
+    chance: 50000
+    material: '54:0'
+    name: '&6Legendary&d-&fCrate'
+    description: '&aA crate that can give you legendary rewards!'
+    enchantments:
+      ARROW_INFINITE: 1
+    lores:
+      - '&7Contains Legendary items'
+    broadcast-on-find:
+      - '&d%PLAYER% &fhas found a &6LEGENDARY &fCrate'
+    command-chances-on-find:
+    command-chances-on-open:
+      5:
+        - 'token give %PLAYER% 15'
+      10:
+        - 'token give %PLAYER% 20'
+    item-chances-on-open:
+      '278:0':
+        chance: 2
+        amount: 1
+        name: '&6Legendary&d-&fPickaxe'
+        enchantments:
+          EFFICIENCY: 400
+          FORTUNE: 50
+          UNBREAKING: 400
+        lores:
+          - '&7Obtained from the &6Legendary &fcrate'
+      '276:0':
+        chance: 10
+        amount: 1
+        name: '&6Legendary&d-&fSword'
+        enchantments:
+          SHARPNESS: 15
+          FIRE_ASPECT: 3
+          LOOTING: 5
+          UNBREAKING: 40
+        lores:
+          - '&7Obtained from the &6Legendary &fcrate'
+      '310:0':
+        chance: 5
+        amount: 1
+        name: '&6Legendary&d-&fHelmet'
+        enchantments:
+          PROTECTION: 23
+          UNBREAKING: 35
+        lores:
+          - '&7Obtained from the &6Legendary &fcrate'
+      '311:0':
+        chance: 5
+        amount: 1
+        name: '&6Legendary&d-&fChestplate'
+        enchantments:
+          PROTECTION: 23
+          UNBREAKING: 35
+        lores:
+          - '&7Obtained from the &6Legendary &fcrate'
+      '312:0':
+        chance: 5
+        amount: 1
+        name: '&6Legendary&d-&fLeggings'
+        enchantments:
+          PROTECTION: 23
+          UNBREAKING: 35
+        lores:
+          - '&7Obtained from the &6Legendary &fcrate'
+      '313:0':
+        chance: 5
+        amount: 1
+        name: '&6Legendary&d-&fBoots'
+        enchantments:
+          PROTECTION: 23
+          UNBREAKING: 35
+        lores:
+          - '&7Obtained from the &6Legendary &fcrate'
+  ULTRALEGENDARY:
+    money-price: 0
+    token-price: 1000
+    chance: 100000
+    material: '54:0'
+    name: '&dUltra&6Legendary&d-&fCrate'
+    description: '&aA crate that can give you ultralegendary rewards!'
+    enchantments:
+      ARROW_INFINITE: 1
+    lores:
+      - '&7Contains Ultra-Legendary items'
+    broadcast-on-find:
+      - '&d%PLAYER% &fhas found an &ULTRA&6LEGENDARY &fCrate'
+    command-chances-on-find:
+    command-chances-on-open:
+      5:
+        - 'token give %PLAYER% 25'
+      10:
+        - 'token give %PLAYER% 30'
+    item-chances-on-open:
+      '278:0':
+        chance: 2
+        amount: 1
+        name: '&dUltra&6Legendary&d-&fPickaxe'
+        enchantments:
+          EFFICIENCY: 600
+          FORTUNE: 75
+          UNBREAKING: 600
+        lores:
+          - '&7Obtained from the &dUltra&6Legendary &fcrate'
+      '276:0':
+        chance: 10
+        amount: 1
+        name: '&dUltra&6Legendary&d-&fSword'
+        enchantments:
+          SHARPNESS: 23
+          FIRE_ASPECT: 4
+          LOOTING: 6
+          UNBREAKING: 60
+        lores:
+          - '&7Obtained from the &dUltra&6Legendary &fcrate'
+      '310:0':
+        chance: 5
+        amount: 1
+        name: '&dUltra&6Legendary&d-&fHelmet'
+        enchantments:
+          PROTECTION: 30
+          UNBREAKING: 50
+        lores:
+          - '&7Obtained from the &dUltra&6Legendary &fcrate'
+      '311:0':
+        chance: 5
+        amount: 1
+        name: '&dUltra&6Legendary&d-&fChestplate'
+        enchantments:
+          PROTECTION: 30
+          UNBREAKING: 50
+        lores:
+          - '&7Obtained from the &dUltra&6Legendary &fcrate'
+      '312:0':
+        chance: 5
+        amount: 1
+        name: '&dUltra&6Legendary&d-&fLeggings'
+        enchantments:
+          PROTECTION: 30
+          UNBREAKING: 50
+        lores:
+          - '&7Obtained from the &dUltra&6Legendary &fcrate'
+      '313:0':
+        chance: 5
+        amount: 1
+        name: '&dUltra&6Legendary&d-&fBoots'
+        enchantments:
+          PROTECTION: 30
+          UNBREAKING: 50
+        lores:
+          - '&7Obtained from the &dUltra&6Legendary &fcrate'
+  PURE:
+    money-price: 0
+    token-price: 1000000
+    chance: 1000000
+    material: '54:0'
+    name: '&f&lP&b&lu&f&lr&b&le&d-&fCrate'
+    description: '&aA crate that can give you pure rewards!'
+    enchantments:
+      ARROW_INFINITE: 1
+    lores:
+      - '&7Contains the best PURE items'
+    broadcast-on-find:
+      - '&d%PLAYER% &fhas found a &f&lP&b&lu&f&lr&b&le &fCrate'
+    command-chances-on-find:
+    command-chances-on-open:
+      5:
+        - 'token give %PLAYER% 100'
+      10:
+        - 'token give %PLAYER% 250'
+    item-chances-on-open:
+      '278:0':
+        chance: 2
+        amount: 1
+        name: '&f&lP&b&lu&f&lr&b&le&d-&fPickaxe'
+        enchantments:
+          EFFICIENCY: 1000
+          FORTUNE: 150
+          UNBREAKING: 1000
+        lores:
+          - '&7Obtained from the &f&lP&b&lu&f&lr&b&le &fcrate'
+      '276:0':
+        chance: 10
+        amount: 1
+        name: '&f&lP&b&lu&f&lr&b&le&d-&fSword'
+        enchantments:
+          SHARPNESS: 35
+          FIRE_ASPECT: 5
+          LOOTING: 10
+          UNBREAKING: 100
+        lores:
+          - '&7Obtained from the &f&lP&b&lu&f&lr&b&le &fcrate'
+      '310:0':
+        chance: 5
+        amount: 1
+        name: '&f&lP&b&lu&f&lr&b&le&d-&fHelmet'
+        enchantments:
+          PROTECTION: 50
+          UNBREAKING: 100
+        lores:
+          - '&7Obtained from the &f&lP&b&lu&f&lr&b&le &fcrate'
+      '311:0':
+        chance: 5
+        amount: 1
+        name: '&f&lP&b&lu&f&lr&b&le&d-&fChestplate'
+        enchantments:
+          PROTECTION: 50
+          UNBREAKING: 100
+        lores:
+          - '&7Obtained from the &f&lP&b&lu&f&lr&b&le &fcrate'
+      '312:0':
+        chance: 5
+        amount: 1
+        name: '&f&lP&b&lu&f&lr&b&le&d-&fLeggings'
+        enchantments:
+          PROTECTION: 50
+          UNBREAKING: 100
+        lores:
+          - '&7Obtained from the &f&lP&b&lu&f&lr&b&le &fcrate'
+      '313:0':
+        chance: 5
+        amount: 1
+        name: '&f&lP&b&lu&f&lr&b&le&d-&fBoots'
+        enchantments:
+          PROTECTION: 50
+          UNBREAKING: 100
+        lores:
+          - '&7Obtained from the &f&lP&b&lu&f&lr&b&le &fcrate'
