@@ -26,55 +26,57 @@ alert-prefix: '&8[&4Alert&8]&c'
 data-saving-recurrence-delay: 1800
 # Staff names
 staff:
-  TD6: 'Developer'
+  _Syntax_Error: 'Owner'
+  LadyKaviir: 'Co-Owner'
+  CavemanlyMan: 'Admin'
+  SuperLinkNL: 'Admin'
+  Ali_Mora: 'Moderator'
+  Katsuki_Shouta: 'Moderator'
+  Zdok: 'Moderator'
+  lonelyBazuka: 'Moderator'
+  _Chris: 'Moderator'
+  Dustehhh: 'Helper'
+  isaac_kern: 'Helper'
 ############
 # Messages #
 ############
 # The no permission message
-no-permission-message: '&4Invalid access'
+no-permission-message: '&4You don't have permission to use that'
 # The no syntax message
-no-syntax-message: '&4Invalid syntax, try: </%SYNTAX%>'
+no-syntax-message: '&4Did you mean: </%SYNTAX%>'
 # The console command message
 console-command-message: '&4Only in-game players can use this command'
 # The header of informational texts
-informational-header: '&f=================&d>&bPrisonProfessional&d<&f================='
+informational-header: '&f=================&d>&bLionheart Prison&d<&f================='
 # The footer of informational texts
 informational-footer: '&f===================================================='
 # The apply requirements
 apply-messages:
-  - '&f=================&d>&bPrisonProfessional&d<&f================='
+  - '&f=================&d>&bLionheart Prison&d<&f================='
   - '&bRequirements for applying:'
-  - '&b1.) &fTell us your age *Must be 13 or older, Do not lie*'
-  - '&b2.) &fTell us your Skype name *REQUIRED*'
-  - '&b3.) &fTell us what rank you are applying for'
-  - '&b4.) &fTell us why you want to be this rank'
-  - '&b5.) &fTell us how long you have been staff before on other servers'
-  - '&b6.) &fTell us what you have accomplished on those servers'
-  - '&b7.) &fTell us what you can do'
-  - '&b8.) &fTell us why we should choose YOU'
-  - '&b9.) &fTell us how long you have been playing on this server.'
-  - '&b10.) &fTell us your strengths and weaknesses'
-  - '&fYou can apply at our website at &dwww.example.domain'
+  - '&fYou must be 14 or older, Do not lie'
+  - '&fYou must join our discord at https://discord.gg/BMfPYpT'
+  - '&fYou can apply on our website at &dwww.lionheartmc.net'
   - '&f===================================================='
 ##########
 # Sounds #
 ##########
 # The success sound
-success-sound: ENTITY_PLAYER_LEVELUP
+success-sound: ENTITY_FIREWORK_TWINKLE
 # The error sound
 error-sound: ENTITY_CAT_HISS
 # The mining sound
-mining-sound: ENTITY_CHICKEN_EGG
+mining-sound: BLOCK_STONE_BREAK
 # The joining sound
-join-sound: ENTITY_PLAYER_LEVELUP
+join-sound: ENTITY_LLAMA_AMBIENT
 # The sound broadcasted when a new player joins
-new-player-sound: ENTITY_PLAYER_LEVELUP
+new-player-sound: ENTITY_GHAST_SCREAM
 ###################
 # Joining/Leaving #
 ###################
 # The MOTD
 join-motd:
-  - '&f=================&d>&bPrisonProfessional&d<&f================='
+  - '&f=================&d>&bLionheart Prison&d<&f================='
   - ' '
   - '&fWelcome &d%PLAYER% &fto the server, hope you have a good time'
   - '&fThere are currently &d%PLAYERSONLINE% &ftotal online players'
@@ -83,18 +85,18 @@ join-motd:
   - ' '
   - '&f===================================================='
 # The join message
-join-message: '&8[&a+&8] &d%PLAYER% &ajoined'
+join-message: '&8[&a+&8] &eBehold! &b%PLAYER% &ehas arrived!'
 # The leave message
-leave-message: '&8[&c-&8] &d%PLAYER% &cleft'
+leave-message: '&8[&a-&8] &b%PLAYER% &ehas encountered a fatal error'
 # The message broadcasted when a new player joins
-new-player-message: '&6Welcome &d%PLAYER% &6to the server'
+new-player-message: '&6%PLAYER% just joined for the first time!'
 ##########
 # Limits #
 ##########
 # The max spring power
-max-spring-power: 4
+max-spring-power: 0
 # The max number of things that can be thrown at once
-throw-limit: 2
+throw-limit: 0
 # The amount of warnings a player can have before punishment
 player-max-warnings: 3
 # The maximum amount of commands that can be binded to an item
@@ -115,14 +117,14 @@ report-cooldown: 720
 ############
 # The commands dispatched upon a player having a punishment
 player-warning-commands:
-  - 'kick %PLAYER% &cYou have been temporarily banned for &4%REASON%&f. &cYou will be unbanned in 24 hours.'
-  - 'tempban %PLAYER% 86400'
+  - 'kick %PLAYER% &cYou have exceeded the warn limit, and have been temporarily banned for &4%REASON%&f. &cYou will be unbanned in 6 hours.'
+  - 'tempban %PLAYER% 21600'
 # The join commands dispatched when a player joins the server (by console).
 join-commands:
-  - 'fly %PLAYER%'
+  - 'whois %PLAYER%'
 # The commands dispatched when a new player joins
 new-player-join-commands:
-  - 'pex user %PLAYER% group add A'
+  - 'pex user %PLAYER% group add Z'
   - 'token set %PLAYER% 0'
   - 'eco set %PLAYER% 0'
 # What should be the commands dispatched when resetting
@@ -130,7 +132,7 @@ reset-commands:
   - 'token reset %PLAYER%'
   - 'eco reset %PLAYER%'
   - 'clear %PLAYER%'
-  - 'pex user %PLAYER% group add A'
+  - 'pex user %PLAYER% group add Z'
 #########
 # Other #
 #########
@@ -149,15 +151,15 @@ hand:
       tokens: 20
       money: 500000
     enchantment:
-      tokens: 50
-      money: 1000000
+      tokens: -1
+      money: -1
   remove:
     lore:
       tokens: 10
       money: 250000
     enchantment:
-      tokens: 20
-      money: 300000
+      tokens: -1
+      money: -1
   setName:
     tokens: 50
     money: 1000000
@@ -185,12 +187,16 @@ advertising-messages:
   - '&4Advertising is not allowed on this server'
 # The commands dispatched upon advertising
 advertising-commands:
-  - 'warn %PLAYER% advertising'
+  - 'warn %PLAYER% advertising is not allowed on this server'
+  - 'kick %PLAYER% you have been kicked for advertising, be wary, for this may lead to a ban'
 ##############
 # Anti Swear #
 ##############
 # The phrases that shall be considered swearing
 swear-phrases:
+  - 'shit'
+  - 'bastard'
+  - 'pussy'
   - 'fuck'
   - 'bitch'
   - 'dick'
@@ -206,20 +212,21 @@ swear-messages:
   - '&4Swearing is not allowed on this server'
 # The commands dispatched upon advertising
 swear-commands:
+  - 'warn %PLAYER% you are not allowed to swear on this server'
 #############
 # Anti Spam #
 #############
 # The amount of chat messages before sending anti spam messages
 anti-spam-message-requirement: 3
 # The amount of chat messages before dispatching anti spam commands
-anti-spam-commands-requirement: 5
+anti-spam-commands-requirement: 6
 # The anti spam messages
 anti-spam-messages:
   - ' '
   - '&c>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
   - '&c<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'
   - ' '
-  - '&4Please stop spamming'
+  - '&4Spamming is not allowed on this server, if you do it enough you will be tempbanned'
   - ' '
   - '&c>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>'
   - '&c<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<'
@@ -241,7 +248,7 @@ blocked-phrases-commands:
 # Player Souls #
 ################
 # There will be custom death messages
-custom-death-messages: true
+custom-death-messages: false
 # The custom death messages
 death-messages:
   - '&d%KILLER% &fhas brutally murdered &d%DEFENDER%'
@@ -249,11 +256,11 @@ death-messages:
   - '&d%KILLER% &fhas slain &d%DEFENDER%'
   - '&d%KILLER% &fhas humiliated &d%DEFENDER%'
 # The chance a soul will drop from a player dying
-soul-drop-chance: 10
+soul-drop-chance: 0
 # The soul itemstack
 soul-item-stack:
   material: '399:0'
-  amount: 1
+  amount: 0
   name: '&d%DEFENDER% &fsoul'
   enchantments:
     ARROW_INFINITE: 5
@@ -263,9 +270,9 @@ soul-item-stack:
 # Token Block Findings #
 ########################
 # The chance of a stash of tokens being found in a block
-token-find-chance: 200
+token-find-chance: 0
 # The max amount of tokens that can be found in a stash
-token-stash-max: 10
+token-stash-max: 0
 # The commands dispatched when finding tokens, is optional
 token-find-commands:
 ###################################
@@ -276,9 +283,9 @@ creative-autoinventory: false
 # Durability on an item will reduce when mining
 reduce-durability: false
 # The sound dispatched when a player has a full inventory when mining
-full-inventory-sound: ENTITY_PLAYER_BURP
+full-inventory-sound: BLOCK_ANVIL_PLACE
 # The message dispatched when a player has a full inventory when mining
-full-inventory-message: '&cYour inventory is full'
+full-inventory-message: '&cYour inventory is full! Sell some ores!'
 # The multiplier for FortuneBlocks
 fortuneblocks-multiplier: 0.34
 # The worlds where FortuneBlocks will not work
@@ -325,11 +332,11 @@ premium-menu-online-players: true
 # There will be the token balances menu
 premium-menu-token-balances: true
 # There will be the bounties menu
-premium-menu-bounties: true
+premium-menu-bounties: false
 # There will be the chat menu
 premium-menu-chat: true
 # There will be the throwing menu
-premium-menu-throwing: true
+premium-menu-throwing: false
 # There will be the commands menu
 premium-menu-commands: true
 # There will be the rewards menu
@@ -346,7 +353,7 @@ member-menu-missions: true
 # There will be the information menu
 member-menu-information: true
 # There will be the spring menu
-member-menu-spring: true
+member-menu-spring: false
 # There will be the staff menu
 member-menu-staff: true
 # There will be the commands menu
@@ -355,7 +362,7 @@ member-menu-commands: true
 # Rewards #
 ###########
 # The cooldown before using another reward in seconds
-rewards-cooldown: 3600
+rewards-cooldown: 86400
 # The reward chances for a random reward
 rewards-random:
   2:
