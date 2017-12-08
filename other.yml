@@ -41,7 +41,7 @@ staff:
 # Messages #
 ############
 # The no permission message
-no-permission-message: '&4You don't have permission to use that'
+no-permission-message: "&4You don't have permission to use that"
 # The no syntax message
 no-syntax-message: '&4Did you mean: </%SYNTAX%>'
 # The console command message
@@ -124,7 +124,7 @@ join-commands:
   - 'whois %PLAYER%'
 # The commands dispatched when a new player joins
 new-player-join-commands:
-  - 'pex user %PLAYER% group add Z'
+  - 'pex user %PLAYER% group add A'
   - 'token set %PLAYER% 0'
   - 'eco set %PLAYER% 0'
 # What should be the commands dispatched when resetting
@@ -132,7 +132,7 @@ reset-commands:
   - 'token reset %PLAYER%'
   - 'eco reset %PLAYER%'
   - 'clear %PLAYER%'
-  - 'pex user %PLAYER% group add Z'
+  - 'pex user %PLAYER% group add A'
 #########
 # Other #
 #########
