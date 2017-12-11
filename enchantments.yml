@@ -102,7 +102,7 @@ infinity-name: '&7Infinity'
 # InvHack #
 ###########
 # There will be an InvHack enchantment
-invhack-enchantment: true
+invhack-enchantment: false
 # The name of the lore enchantment, do not put the level here or a space, just the base name
 inv-hack-name: '&7InvHack'
 # The chance invhack will trigger, and the slots it will for each level
