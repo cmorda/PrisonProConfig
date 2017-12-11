@@ -84,11 +84,11 @@ send-command: true
 # Sethealth command
 sethealth-command: true
 # Spring command
-spring-command: true
+spring-command: false
 # Staff command
 staff-command: true
 # Throw command
-throw-command: true
+throw-command: false
 # Time command
 time-command: true
 # Warn command
@@ -99,7 +99,7 @@ warn-command: true
 # There will be a token economy (Token command and token economy)
 token-economy: true
 # There will be bindings (bind command and bindings)
-bindings: true
+bindings: false
 # There will be chat prefixes (chat command and chat prefixes)
 chat-prefix: true
 # There will be lockchat (locking of the chat and lockchat command)
@@ -119,7 +119,7 @@ blocked-phrases: true
 # There will be drop parties
 drop-parties: true
 # There will be player souls
-player-souls: true
+player-souls: false
 # There will be the finding of tokens in blocks
 token-block-findings: true
 # There will be the finding of crates
@@ -139,7 +139,7 @@ auto-smelt: true
 # There will be SmartDrop
 smart-drop: true
 # There will be bounties
-bounties: true
+bounties: false
 # There will be an admin menu
 admin-menu: true
 # There will be a premium menu
