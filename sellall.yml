@@ -357,7 +357,7 @@ sellall:
     '133:0':
       money: 500000000
       tokens: 0
-  Free:
+  Prestige:
     '57:0':
       money: 1000000000
       tokens: 0
