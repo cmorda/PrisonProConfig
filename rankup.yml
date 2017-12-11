@@ -38,21 +38,20 @@ rank-messages:
   - ' &d> &bX&d: &a$50 &fMillion'
   - ' &d> &bY&d: &a$100 &fMillion'
   - ' &d> &bZ&d: &a$1 &fBillion'
-  - ' &d> &bFree&d: &a$10 &fBillion'
+  - ' &d> &bPrestige&d: &a$10 &fBillion'
   - '&f===================================================='
 # The messages sent when a player does not have the required balance to rankup
 rankup-no-money-message:
   - '&4You need &a$%MONEY% &4to rank up from &6%RANK% &4to &6%NEXT-RANK%'
 # The broadcasts that are sent when a player ranks up
 rankup-broadcast:
-  - '&d%PLAYER% &fhas ranked up from &d%OLD-RANK% &fto &d%NEW-RANK%'
+  - '&d%PLAYER% &fhas ranked up to &d%NEW-RANK%'
 # The messages sent to the player when they rank up
 rankup-messages:
-  - '&fYou have ranked up from &d%OLD-RANK% &fto &d%NEW-RANK%'
+  - '&fYou have ranked up to &d%NEW-RANK%'
 # The commands dispatched when a player ranks up
 rankup-commands:
-  - 'pex user %PLAYER% group remove %OLD-RANK%'
-  - 'pex user %PLAYER% group add %NEW-RANK%'
+  - 'pex user %PLAYER% promote prison'
 # The ranks along with their prices
 ranks:
   A: 0
@@ -62,26 +61,26 @@ ranks:
   E: 2500
   F: 7500
   G: 15000
-  H: 45000
-  I: 65000
-  J: 95000
-  K: 135000
-  L: 235000
-  M: 280000
-  N: 350000
-  O: 425000
+  H: 28000
+  I: 40000
+  J: 50000
+  K: 80000
+  L: 150000
+  M: 200000
+  N: 280000
+  O: 400000
   P: 560000
-  Q: 700000
-  R: 1000000
-  S: 2500000
-  T: 4000000
-  U: 5000000
-  V: 8000000
-  W: 15000000
-  X: 50000000
-  Y: 100000000
-  Z: 1000000000
-  Free: 10000000000
+  Q: 800000
+  R: 1500000
+  S: 5000000
+  T: 8000000
+  U: 10000000
+  V: 20000000
+  W: 60000000
+  X: 100000000
+  Y: 200000000
+  Z: 700000000
+  Prestige: 2000000000
 ############
 # Prestige #
 ############
@@ -104,13 +103,13 @@ prestige-commands:
   - 'pex user %PLAYER% group add A'
 # The prestiges with their prices
 prestiges:
-  Prestige-I: 100000000000
-  Prestige-II: 1000000000000
-  Prestige-III: 10000000000000
-  Prestige-IV: 100000000000000
-  Prestige-V: 1000000000000000
-  Prestige-VI: 10000000000000000
-  Prestige-VII: 100000000000000000
-  Prestige-VIII: 100000000000000000
-  Prestige-IX: 1000000000000000000
-  Prestige-X: 100000000000000000000
+  Prestige-I: 0
+  Prestige-II: 0
+  Prestige-III: 0
+  Prestige-IV: 0
+  Prestige-V: 0
+  Prestige-VI: 0
+  Prestige-VII: 0
+  Prestige-VIII: 0
+  Prestige-IX: 0
+  Prestige-X: 0
