@@ -7,8 +7,8 @@ player-buy-crates: true
 # All the crates with their drop chances, items contained, names, and more
 crate-aspects:
   TOKEN:
-    money-price: 0
-    token-price: 100
+    money-price: 100000000
+    token-price: 0
     material: '54:0'
     chance: 15000
     name: '&6Token&d-&fCrate'
