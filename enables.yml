@@ -137,7 +137,7 @@ fortuneblocks: true
 # There will be AutoSmelt
 auto-smelt: true
 # There will be SmartDrop
-smart-drop: true
+smart-drop: false
 # There will be bounties
 bounties: false
 # There will be an admin menu
