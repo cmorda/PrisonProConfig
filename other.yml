@@ -151,15 +151,15 @@ hand:
       tokens: 20
       money: 500000
     enchantment:
-      tokens: -1
-      money: -1
+      tokens: 100
+      money: 1000000
   remove:
     lore:
       tokens: 10
       money: 250000
     enchantment:
-      tokens: -1
-      money: -1
+      tokens: 100
+      money: 1000000
   setName:
     tokens: 50
     money: 1000000
