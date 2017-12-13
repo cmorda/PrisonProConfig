@@ -11,7 +11,7 @@ success-sound: true
 # Error sound
 error-sound: true
 # Mining sound
-mining-sound: true
+mining-sound: false
 # PrisonProfessional will take over when a player joins
 pp-join-take-over: true
 # PrisonProfessional will present a MOTD upon a player joining
@@ -135,7 +135,7 @@ autoinventory: true
 # There will be FortuneBlocks
 fortuneblocks: true
 # There will be AutoSmelt
-auto-smelt: true
+auto-smelt: false
 # There will be SmartDrop
 smart-drop: false
 # There will be bounties
