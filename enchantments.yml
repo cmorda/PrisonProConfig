@@ -77,7 +77,7 @@ auto-smelt-name: '&7AutoSmelt'
 # AutoInventory #
 #################
 # There will be an AutoInventory enchantment
-autoinventory-enchantment: true
+autoinventory-enchantment: false
 # The name of the lore enchantment, do not put the level here or a space, just the base name
 auto-inventory-name: '&7AutoInventory'
 #################
