@@ -127,9 +127,9 @@ luck-enchantment: true
 luck-name: '&7Luck'
 # The chance multiplier for each level of Luck
 luck-chance-level:
-  1: 0.5
-  2: 1.0
-  3: 2.5
+  1: 1.0
+  2: 1.6
+  3: 2.8
 ############################
 # Custom Enchantments Menu #
 ############################
@@ -150,7 +150,7 @@ custom-enchantment-menu-costs:
   FortuneBlocks:
     level-1: 100
   Infinity:
-    level-1: 250
+    level-1: 0
   InvHack:
     level-1: 100
     level-2: 200
