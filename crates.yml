@@ -32,7 +32,7 @@ crate-aspects:
   COMMON:
     money-price: 0
     token-price: 5
-    chance: 1000
+    chance: 2000
     material: '54:0'
     name: '&bCommon&d-&fCrate'
     description: '&aA crate that can give you common rewards!'
@@ -108,7 +108,7 @@ crate-aspects:
   UNCOMMON:
     money-price: 0
     token-price: 25
-    chance: 5000
+    chance: 4000
     material: '54:0'
     name: '&dUn&bCommon&d-&fCrate'
     description: '&aA crate that can give you uncommon rewards!'
@@ -184,7 +184,7 @@ crate-aspects:
   RARE:
     money-price: 0
     token-price: 50
-    chance: 15000
+    chance: 8000
     material: '54:0'
     name: '&cRare&d-&fCrate'
     description: '&aA crate that can give you rare rewards!'
@@ -260,7 +260,7 @@ crate-aspects:
   ULTRARARE:
     money-price: 0
     token-price: 125
-    chance: 30000
+    chance: 20000
     material: '54:0'
     name: '&dUltra&cRare&d-&fCrate'
     description: '&aA crate that can give you ultrarare rewards!'
