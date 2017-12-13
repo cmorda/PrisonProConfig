@@ -91,7 +91,7 @@ fortune-blocks-name: '&7FortuneBlocks'
 # Infinity #
 ############
 # There will be an Infinity enchantment
-infinity-enchantment: true
+infinity-enchantment: false
 # The name of the lore enchantment, do not put the level here or a space, just the base name
 infinity-name: '&7Infinity'
 ###########
@@ -146,17 +146,17 @@ custom-enchantment-menu-costs:
   AutoSmelt:
     level-1: 250
   AutoInventory:
-    level-1: 100
+    level-1: 10000000
   FortuneBlocks:
     level-1: 100
   Infinity:
-    level-1: 0
+    level-1: 10000000
   InvHack:
-    level-1: 100
-    level-2: 200
-    level-3: 300
-    level-4: 400
-    level-5: 500
+    level-1: 10000000
+    level-2: 10000000
+    level-3: 10000000
+    level-4: 10000000
+    level-5: 10000000
   Luck:
     level-1: 250
     level-2: 500
