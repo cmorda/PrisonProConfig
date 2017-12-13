@@ -281,7 +281,7 @@ token-find-commands:
 # Auto Inventory + Fortune Blocks #
 ###################################
 # There will be AutoInventory in creative mode
-creative-autoinventory: false
+creative-autoinventory: true
 # Durability on an item will reduce when mining
 reduce-durability: false
 # The sound dispatched when a player has a full inventory when mining
