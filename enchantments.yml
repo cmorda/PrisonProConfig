@@ -12,7 +12,7 @@ block-experience-enchantment: true
 # There will be BlockExperience without the need of the enchantment
 block-experience-whole: true
 # The name of the lore enchantment, do not put the level here or a space, just the base name
-block-experience-name: '&7BlockExperience'
+block-experience-name: '&7ExperienceMultiplier'
 # The EXP multiplier for each level of BlockExperience
 block-experience-multipliers:
   level-1: 1.5
@@ -53,7 +53,7 @@ block-experience-blacklist:
 # There will be a Tier enchantment
 tier-enchantment: true
 # The name of the lore enchantment, do not put the level here or a space, just the base name
-tier-name: '&7Tier'
+tier-name: '&7MaterialUpgrade'
 # The materials that will be upgraded to materials when mined
 tier-materials-upgrade:
   '1:0': '263:0'
@@ -86,7 +86,7 @@ auto-inventory-name: '&7AutoInventory'
 # There will be a FortuneBlocks enchantment
 fortuneblocks-enchantment: false
 # The name of the lore enchantment, do not put the level here or a space, just the base name
-fortune-blocks-name: '&7FortuneBlocks'
+fortune-blocks-name: '&7MegaFortune'
 ############
 # Infinity #
 ############
@@ -124,7 +124,7 @@ invhack-chance-slots:
 # There will be a Luck enchantment
 luck-enchantment: true
 # The name of the lore enchantment, do not put the level here or a space, just the base name
-luck-name: '&7Luck'
+luck-name: '&7Chests'
 # The chance multiplier for each level of Luck
 luck-chance-level:
   1: 1.0
