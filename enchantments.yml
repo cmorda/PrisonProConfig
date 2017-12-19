@@ -84,7 +84,7 @@ auto-inventory-name: '&7AutoInventory'
 # FortuneBlocks #
 #################
 # There will be a FortuneBlocks enchantment
-fortuneblocks-enchantment: false
+fortuneblocks-enchantment: true
 # The name of the lore enchantment, do not put the level here or a space, just the base name
 fortune-blocks-name: '&7MegaFortune'
 ############
