@@ -105,19 +105,19 @@ inv-hack-name: '&7InvHack'
 invhack-chance-slots:
   level-1:
     chance: 5000
-    slots: 5
+    slots: 0
   level-2:
     chance: 2500
-    slots: 11
+    slots: 0
   level-3:
     chance: 1000
-    slots: 17
+    slots: 0
   level-4:
     chance: 600
-    slots: 28
+    slots: 0
   level-5:
     chance: 300
-    slots: 36
+    slots: 0
 ########
 # Luck #
 ########
