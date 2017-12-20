@@ -5,9 +5,9 @@
 # The message displayed on viewing rewards
 playtime-rewards-messages:
   - '&f=================&d>&bPrisonProfessional&d<&f================='
-  - '&f1 hour&d: &625 Tokens'
-  - '&f12 hours&d: &650 Tokens and a fortune 20 pickaxe'
-  - '&f1 day&d: &6100 Tokens and a fortune 30 pickaxe'
+  - '&f1 hour&d: &610 Tokens'
+  - '&f4 hours&d: &610 Tokens'
+  - '&fEvery 4 hours afterwards&d: &620 Tokens x 1/4 x number of hours played'
   - '&f===================================================='
 playtime-rewards:
   3600:
