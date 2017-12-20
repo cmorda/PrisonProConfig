@@ -131,11 +131,11 @@ smart-mine: true
 # There will be AutoInventory and FortuneBlocks
 autoinventory-fortuneblocks: true
 # There will be AutoInventory
-autoinventory: true
+autoinventory: false
 # There will be FortuneBlocks
 fortuneblocks: true
 # There will be AutoSmelt
-auto-smelt: false
+auto-smelt: true
 # There will be SmartDrop
 smart-drop: false
 # There will be bounties
