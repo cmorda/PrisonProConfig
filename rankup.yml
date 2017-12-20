@@ -6,9 +6,9 @@
 # Rankup #
 ##########
 # The sound played upon ranking up
-rankup-sound: ANVIL_LAND
+rankup-sound: ENTITY_GENERIC_EXPLODE
 # The cooldown for using the rankup command in seconds
-rankup-cooldown: 2
+rankup-cooldown: 1
 # The messages displayed upon showing all ranks
 rank-messages:
   - '&f=================&d>&bPrisonProfessional&d<&f================='
@@ -42,7 +42,7 @@ rank-messages:
   - '&f===================================================='
 # The messages sent when a player does not have the required balance to rankup
 rankup-no-money-message:
-  - '&4You need &a$%MONEY% &4to rank up from &6%RANK% &4to &6%NEXT-RANK%'
+  - '&4You need &a$%MONEY% &4to rank up to &6%NEXT-RANK%'
 # The broadcasts that are sent when a player ranks up
 rankup-broadcast:
   - '&d%PLAYER% &fhas ranked up to &d%NEW-RANK%'
