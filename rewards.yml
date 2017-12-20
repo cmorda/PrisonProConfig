@@ -7,7 +7,8 @@ playtime-rewards-messages:
   - '&f=================&d>&bPrisonProfessional&d<&f================='
   - '&f1 hour&d: &610 Tokens'
   - '&f4 hours&d: &610 Tokens'
-  - '&fEvery 4 hours afterwards&d: &620 Tokens x 1/4 x number of hours played'
+  - '&fEvery 4 hours afterwards up to 100 hours&d: &620 Tokens x 1/4 x number of hours played'
+  - '&fEvery 50 hours after 100 hours&d: &61000 Tokens'
   - '&f===================================================='
 playtime-rewards:
   3600:
@@ -18,6 +19,20 @@ playtime-rewards:
     commands:
       - 'token give %PLAYER% 25'
     items:
+  14400:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  28800:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 1 day and received&d: &6100 Tokens and a fortune 30 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 100'
   43200:
     messages:
       - '&f=================&d>&bPrisonProfessional&d<&f================='
@@ -25,30 +40,171 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 50'
-    items:
-      '278:0':
-        amount: 1
-        name: '&b6 Hour Pickaxe'
-        enchantments:
-          FORTUNE: 20
-          UNBREAKING: 100
-          EFFICIENCY: 100
-        lores:
-          - '&7Achieved from playing on the server for 6 hours'
+  57600:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  72000:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
   86400:
     messages:
       - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 1 day and received&d: &6100 Tokens and a fortune 30 pickaxe'
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 100'
-    items:
-      '278:0':
-        amount: 1
-        name: '&b1 Day Pickaxe'
-        enchantments:
-          FORTUNE: 30
-          UNBREAKING: 100
-          EFFICIENCY: 100
-        lores:
-          - '&7Achieved from playing on the server for 1 day'
+      - 'token give %PLAYER% 50'
+  100800:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  115200:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  129600:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  144000:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  158400:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  172800:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  187200:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  201600:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  216000:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  230400:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  244800:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  259200:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  273600:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  288000:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  302400:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  316800:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  331200:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  345600:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  360000:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  540000:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
+  720000:
+    messages:
+      - '&f=================&d>&bPrisonProfessional&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 50'
