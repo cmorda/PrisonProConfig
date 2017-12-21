@@ -4,207 +4,368 @@
 # This configuration lets you edit the rewards for play time
 # The message displayed on viewing rewards
 playtime-rewards-messages:
-  - '&f=================&d>&bPrisonProfessional&d<&f================='
-  - '&f1 hour&d: &610 Tokens'
-  - '&f4 hours&d: &610 Tokens'
-  - '&fEvery 4 hours afterwards up to 100 hours&d: &620 Tokens x 1/4 x number of hours played'
-  - '&fEvery 50 hours after 100 hours&d: &61000 Tokens'
+  - '&f=================&d>&bLionheart Prison&d<&f================='
+  - '&f1 hour&d: &65 Tokens'
+  - '&f4 hours&d: &620 Tokens'
+  - '&fEvery 4 hours up to 5 days&d: &620 Tokens + (5 x number of hours played) Tokens'
+  - '&fEvery 24 hours after 5 days&d: &6750 Tokens'
   - '&f===================================================='
 playtime-rewards:
   3600:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 1 hour and received&d: &625 Tokens'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 1 hour and received&d: &65 Tokens'
       - '&d---------------------------------------------'
     commands:
-      - 'token give %PLAYER% 25'
+      - 'token give %PLAYER% 5'
     items:
   14400:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 4 hours and received&d: &620 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 20'
   28800:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 1 day and received&d: &6100 Tokens and a fortune 30 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 8 hours and received&d: &640 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 40'
+  43200:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 12 hours and received&d: &660 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 60'
+  57600:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 16 hours and received&d: &680 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 80'
+  72000:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 20 hours and received&d: &6100 Tokens'
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 100'
-  43200:
-    messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
-      - '&f===================================================='
-    commands:
-      - 'token give %PLAYER% 50'
-  57600:
-    messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
-      - '&f===================================================='
-    commands:
-      - 'token give %PLAYER% 50'
-  72000:
-    messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
-      - '&f===================================================='
-    commands:
-      - 'token give %PLAYER% 50'
   86400:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 1 day and received&d: &6120 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 120'
   100800:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 28 hours and received&d: &6140 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 140'
   115200:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 32 hours and received&d: &6160 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 160'
   129600:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 36 hours and received&d: &6180 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 180'
   144000:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 40 hours and received&d: &6200 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 200'
   158400:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 44 hours and received&d: &6220 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 220'
   172800:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 2 days and received&d: &6240 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 240'
   187200:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 52 hours and received&d: &6260 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 260'
   201600:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 56 hours and received&d: &6280 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 280'
   216000:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 60 hours and received&d: &6300 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 300'
   230400:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 64 hours and received&d: &6320 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 320'
   244800:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 68 hours and received&d: &6340 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 340'
   259200:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 3 days and received&d: &6360 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 360'
   273600:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 76 hours and received&d: &6380 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 380'
   288000:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 80 hours and received&d: &6400 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 400'
   302400:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 84 hours and received&d: &6420 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 420'
   316800:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 88 hours and received&d: &6440 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 440'
   331200:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 92 hours and received&d: &6460 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 460'
   345600:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 4 days and received&d: &6480 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 480'
   360000:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 100 hours and received&d: &6500 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
-  540000:
+      - 'token give %PLAYER% 500'
+  374400:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 104 hours and received&d: &6520 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
-  720000:
+      - 'token give %PLAYER% 520'
+  388800:
     messages:
-      - '&f=================&d>&bPrisonProfessional&d<&f================='
-      - '&fYou have played on this server for 12 hours and received&d: &650 Tokens and a fortune 20 pickaxe'
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 108 hours and received&d: &6540 Tokens'
       - '&f===================================================='
     commands:
-      - 'token give %PLAYER% 50'
+      - 'token give %PLAYER% 540'
+  403200:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 112 hours and received&d: &6560 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 560'
+  417600:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 116 hours and received&d: &6580 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 580'
+  432000:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 5 days and received&d: &6600 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 600'
+  518400:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 6 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  604800:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 7 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  691200:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 8 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  777600:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 9 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  864000:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 10 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  950400:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 11 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  1036800:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 12 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  1123200:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 13 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  1209600:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 14 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  1296000:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 15 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  1382400:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 16 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  1468800:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 17 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  1555200:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 18 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  1641600:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 19 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  1728000:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 20 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  1814400:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 21 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  1900800:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 22 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  1987200:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 23 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  2073600:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 24 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
+  2160000:
+    messages:
+      - '&f=================&d>&bLionheart Prison&d<&f================='
+      - '&fYou have played on this server for 25 days and received&d: &6750 Tokens'
+      - '&f===================================================='
+    commands:
+      - 'token give %PLAYER% 750'
