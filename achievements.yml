@@ -90,15 +90,16 @@ achievements:
     completion-commands:
       - 't give %PLAYER% 10'
     completion-items:
-      '278:0':
+      '310:0'
         amount: 1
-        name: '&bFirst Mission Pickaxe'
-        enchantments:
-          EFFICIENCY: 125
-          UNBREAKING: 125
-          FORTUNE: 6
+        name: '&bFirst Mission Helm'
         lores:
-          - '&7Obtained from the first kill achievement'
+          - '&7Obtained from the First Mission achievement'
+      '313:0'
+        amount: 1
+        name: '&bFirst Mission Boots'
+        lores:
+          - '&7Obtained from the First Mission achievement'
   LAST_MISSION:
     name: '&bLast Mission'
     completion-requirements:
