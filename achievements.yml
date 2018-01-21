@@ -60,7 +60,7 @@ achievements:
       '351:4':
         amount: 576
   HUNDRED_THOUSAND_BLOCK:
-    name '&bHundred Thousand Block'
+    name: '&bHundred Thousand Block'
     completion-requirements:
       blocks: 100000
     completion-messages:
