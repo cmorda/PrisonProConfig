@@ -31,7 +31,7 @@ staff:
   CavemanlyMan: 'Admin'
   SuperLinkNL: 'Admin'
   Ali_Mora: 'Moderator'
-  Katsuki_Shouta: 'Moderator'
+  Katsuki_Black: 'Moderator'
   Zdok: 'Moderator'
   Dustehhh: 'Moderator'
   lonelyBazuka: 'Moderator'
@@ -123,7 +123,7 @@ player-warning-commands:
   - 'tempban %PLAYER% 21600'
 # The join commands dispatched when a player joins the server (by console).
 join-commands:
-  - 'whois %PLAYER%'
+  - ''
 # The commands dispatched when a new player joins
 new-player-join-commands:
   - 'pex user %PLAYER% group add A'
