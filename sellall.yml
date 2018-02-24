@@ -6,16 +6,37 @@
 sellall:
   A:
     '1:0':
-      money: 1000
+      money: 3
       tokens: 0
     '4:0':
-      money: 200
+      money: 2
       tokens: 0
     '263:0':
-      money: 2000
+      money: 12.5
       tokens: 0
-    '265:0':
-      money: 2500
+    '17:0':
+      money: 2
+      tokens: 0
+    '17:2':
+      money: 3
+      tokens: 0
+    '344:0':
+      money: .0625
+      tokens: 0
+    '365:0':
+      money: 3.125
+      tokens: 0
+    '366:0':
+      money: 6.25
+      tokens: 0
+    '319':
+      money: 3.125
+      tokens: 0
+    '320:0':
+      money: 6.25
+      tokens: 0
+    '288:0':
+      money: 3
       tokens: 0
   B:
     '1:0':
