@@ -91,9 +91,9 @@ fortune-blocks-name: '&7MegaFortune'
 # Infinity #
 ############
 # There will be an Infinity enchantment
-infinity-enchantment: false
+infinity-enchantment: true
 # The name of the lore enchantment, do not put the level here or a space, just the base name
-infinity-name: '&7Infinity'
+infinity-name: '&7InfiniteDurability'
 ###########
 # InvHack #
 ###########
@@ -150,7 +150,7 @@ custom-enchantment-menu-costs:
   FortuneBlocks:
     level-1: 100
   Infinity:
-    level-1: 10000000000
+    level-1: 1
   InvHack:
     level-1: 10000000000
     level-2: 10000000000
