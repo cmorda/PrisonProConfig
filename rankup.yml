@@ -12,33 +12,33 @@ rankup-cooldown: 1
 # The messages displayed upon showing all ranks
 rank-messages:
   - '&f=================&d>&bPrisonProfessional&d<&f================='
-  - ' &d> &bA&d: &a$0'
-  - ' &d> &bB&d: &a$100'
-  - ' &d> &bC&d: &a$500'
-  - ' &d> &bD&d: &a$1 &fThousand'
-  - ' &d> &bE&d: &a$2.5 &fThousand'
-  - ' &d> &bF&d: &a$7.5 &fThousand'
-  - ' &d> &bG&d: &a$15 &fThousand'
-  - ' &d> &bH&d: &a$45 &fThousand'
-  - ' &d> &bI&d: &a$65 &fThousand'
-  - ' &d> &bJ&d: &a$95 &fThousand'
-  - ' &d> &bK&d: &a$135 &fThousand'
-  - ' &d> &bL&d: &a$235 &fThousand'
-  - ' &d> &bM&d: &a$280 &fThousand'
-  - ' &d> &bN&d: &a$350 &fThousand'
-  - ' &d> &bO&d: &a$425 &fThousand'
-  - ' &d> &bP&d: &a$560 &fThousand'
-  - ' &d> &bQ&d: &a$700 &fThousand'
-  - ' &d> &bR&d: &a$1 &fMillion'
-  - ' &d> &bS&d: &a$2.5 &fMillion'
-  - ' &d> &bT&d: &a$4 &fMillion'
-  - ' &d> &bU&d: &a$5 &fMillion'
-  - ' &d> &bV&d: &a$8 &fMillion'
-  - ' &d> &bW&d: &a$15 &fMillion'
-  - ' &d> &bX&d: &a$50 &fMillion'
-  - ' &d> &bY&d: &a$100 &fMillion'
-  - ' &d> &bZ&d: &a$1 &fBillion'
-  - ' &d> &bPrestige&d: &a$10 &fBillion'
+  - ' &d> &bA&d: &aStarting Rank'
+  - ' &d> &bB&d: &a$150'
+  - ' &d> &bC&d: &a$300'
+  - ' &d> &bD&d: &a$700'
+  - ' &d> &bE&d: &a$1,530'
+  - ' &d> &bF&d: &a$3,150'
+  - ' &d> &bG&d: &a$4,500'
+  - ' &d> &bH&d: &a$9,750'
+  - ' &d> &bI&d: &a$20,500'
+  - ' &d> &bJ&d: &a$36,000'
+  - ' &d> &bK&d: &a$52,000'
+  - ' &d> &bL&d: &a$90,000'
+  - ' &d> &bM&d: &a$120,000'
+  - ' &d> &bN&d: &a$150,000'
+  - ' &d> &bO&d: &a$225,000'
+  - ' &d> &bP&d: &a$607,500'
+  - ' &d> &bQ&d: &a$742,500'
+  - ' &d> &bR&d: &a$1,575,000'
+  - ' &d> &bS&d: &a$4,175,000'
+  - ' &d> &bT&d: &a$8,325,000'
+  - ' &d> &bU&d: &a$24,750,000'
+  - ' &d> &bV&d: &a$45,000,000'
+  - ' &d> &bW&d: &a$67,750,000'
+  - ' &d> &bX&d: &a$202,750,000'
+  - ' &d> &bY&d: &a$264,000,000'
+  - ' &d> &bZ&d: &a$722,000,000'
+  - ' &d> &bPrestige&d: &a$2,000,000,000'
   - '&f===================================================='
 # The messages sent when a player does not have the required balance to rankup
 rankup-no-money-message:
@@ -55,31 +55,31 @@ rankup-commands:
 # The ranks along with their prices
 ranks:
   A: 0
-  B: 100
-  C: 500
-  D: 1000
-  E: 2500
-  F: 7500
-  G: 15000
-  H: 28000
-  I: 40000
-  J: 50000
-  K: 80000
-  L: 150000
-  M: 200000
-  N: 280000
-  O: 400000
-  P: 560000
-  Q: 800000
-  R: 1500000
-  S: 5000000
-  T: 8000000
-  U: 10000000
-  V: 20000000
-  W: 60000000
-  X: 100000000
-  Y: 200000000
-  Z: 700000000
+  B: 150
+  C: 300
+  D: 700
+  E: 1530
+  F: 3150
+  G: 4500
+  H: 9750
+  I: 20500
+  J: 36000
+  K: 52000
+  L: 90000
+  M: 120000
+  N: 150000
+  O: 225000
+  P: 607500
+  Q: 742500
+  R: 1575000
+  S: 4175000
+  T: 8325000
+  U: 24750000
+  V: 45000000
+  W: 67750000
+  X: 202750000
+  Y: 264000000
+  Z: 722000000
   Prestige: 2000000000
 ############
 # Prestige #
@@ -99,8 +99,11 @@ prestige-messages:
 prestige-commands:
   - 'pex user %PLAYER% group remove %OLD-PRESTIGE%'
   - 'pex user %PLAYER% group add %NEW-PRESTIGE%'
-  - 'pex user %PLAYER% group remove Free'
+  - 'pex user %PLAYER% group remove prestige'
   - 'pex user %PLAYER% group add A'
+  - 'clearinventory %PLAYER%'
+  - 'eco reset %PLAYER%'
+  - 'sudo %PLAYER% warp AlphaWard'
 # The prestiges with their prices
 prestiges:
   Prestige-I: 0
