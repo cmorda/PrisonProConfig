@@ -18,7 +18,7 @@ sellall:
       money: 2
       tokens: 0
     '17:2':
-      money: 3
+      money: 12.5
       tokens: 0
     '344:0':
       money: .0625
@@ -26,100 +26,178 @@ sellall:
     '365:0':
       money: 3.125
       tokens: 0
-    '366:0':
-      money: 6.25
-      tokens: 0
     '319':
       money: 3.125
-      tokens: 0
-    '320:0':
-      money: 6.25
       tokens: 0
     '288:0':
       money: 3
       tokens: 0
   B:
     '1:0':
-      money: 1500
+      money: 4
       tokens: 0
     '4:0':
-      money: 400
+      money: 3
       tokens: 0
     '263:0':
-      money: 3000
+      money: 13
       tokens: 0
-    '265:0':
-      money: 5000
+    '17:0':
+      money: 3
+      tokens: 0
+    '17:2':
+      money: 13
+      tokens: 0
+    '344:0':
+      money: .0625
+      tokens: 0
+    '365:0':
+      money: 3.125
+      tokens: 0
+    '319':
+      money: 3.125
+      tokens: 0
+    '288:0':
+      money: 3
       tokens: 0
   C:
     '1:0':
-      money: 2000
+      money: 7
       tokens: 0
     '4:0':
-      money: 750
+      money: 6
       tokens: 0
     '263:0':
-      money: 5000
+      money: 14
       tokens: 0
-    '265:0':
-      money: 7500
+    '14:0':
+      money: 16
       tokens: 0
-    '173:0':
-      money: 15000
+    '266:0':
+      money: 20
+      tokens: 0
+    '17:0':
+      money: 6
+      tokens: 0
+    '17:2':
+      money: 14
+      tokens: 0
+    '17:1':
+      money: 16
+      tokens: 0
+    '344:0':
+      money: .0625
+      tokens: 0
+    '365:0':
+      money: 3.125
+      tokens: 0
+    '319':
+      money: 3.125
+      tokens: 0
+    '288:0':
+      money: 3
       tokens: 0
   D:
     '1:0':
-      money: 5000
+      money: 13
       tokens: 0
     '4:0':
-      money: 2000
+      money: 11
       tokens: 0
     '263:0':
-      money: 10000
+      money: 16
       tokens: 0
-    '265:0':
-      money: 20000
+    '14:0':
+      money: 21
       tokens: 0
-    '173:0':
-      money: 35000
+    '266:0':
+      money: 25
+      tokens: 0
+    '17:0':
+      money: 11
+      tokens: 0
+    '17:2':
+      money: 16
+      tokens: 0
+    '17:1':
+      money: 21
+      tokens: 0
+    '344:0':
+      money: .0625
+      tokens: 0
+    '365:0':
+      money: 3.125
+      tokens: 0
+    '319':
+      money: 3.125
+      tokens: 0
+    '288:0':
+      money: 3
       tokens: 0
   E:
     '1:0':
-      money: 8000
+      money: 21
       tokens: 0
     '4:0':
-      money: 4000
+      money: 18
       tokens: 0
     '263:0':
-      money: 12500
+      money: 24
       tokens: 0
-    '265:0':
-      money: 25000
+    '14:0':
+      money: 27
       tokens: 0
-    '173:0':
-      money: 40000
+    '266:0':
+      money: 32
       tokens: 0
-    '142:0':
-      money: 50000
+    '17:0':
+      money: 18
+      tokens: 0
+    '17:2':
+      money: 24
+      tokens: 0
+    '17:1':
+      money: 27
+      tokens: 0
+    '344:0':
+      money: .0625
+      tokens: 0
+    '365:0':
+      money: 3.125
+      tokens: 0
+    '319':
+      money: 3.125
+      tokens: 0
+    '288:0':
+      money: 3
       tokens: 0
   F:
-    '1:0':
-      money: 10000
-      tokens: 0
-    '4:0':
-      money: 75000
-      tokens: 0
     '263:0':
-      money: 20000
+      money: 30
       tokens: 0
-    '265:0':
-      money: 35000
+    '14:0':
+      money: 34
       tokens: 0
-    '173:0':
-      money: 60000
+    '266:0':
+      money: 40
       tokens: 0
-    '42:0':
-      money: 75000
+    '17:2':
+      money: 30
+      tokens: 0
+    '17:1':
+      money: 34
+      tokens: 0
+    '344:0':
+      money: .0625
+      tokens: 0
+    '365:0':
+      money: 3.125
+      tokens: 0
+    '319':
+      money: 3.125
+      tokens: 0
+    '288:0':
+      money: 3
       tokens: 0
   G:
     '263:0':
