@@ -228,13 +228,13 @@ sellall:
       money: 100
       tokens: 0
     '415:0':
-      money: 75
+      money: 50
       tokens: 0
     '423:0':
-      money: 100
+      money: 70
       tokens: 0
     '411:0':
-      money: 100
+      money: 70
       tokens: 0
   H:
     '263:0':
@@ -265,13 +265,13 @@ sellall:
       money: 100
       tokens: 0
     '415:0':
-      money: 75
+      money: 50
       tokens: 0
     '423:0':
-      money: 100
+      money: 70
       tokens: 0
     '411:0':
-      money: 100
+      money: 70
       tokens: 0
   I:
     '263:0':
@@ -302,13 +302,13 @@ sellall:
       money: 100
       tokens: 0
     '415:0':
-      money: 75
+      money: 50
       tokens: 0
     '423:0':
-      money: 100
+      money: 70
       tokens: 0
     '411:0':
-      money: 100
+      money: 70
       tokens: 0
   J:
     '263:0':
@@ -336,13 +336,13 @@ sellall:
       money: 100
       tokens: 0
     '415:0':
-      money: 75
+      money: 50
       tokens: 0
     '423:0':
-      money: 100
+      money: 70
       tokens: 0
     '411:0':
-      money: 100
+      money: 70
       tokens: 0
   K:
     '263:0':
@@ -379,13 +379,13 @@ sellall:
       money: 100
       tokens: 0
     '415:0':
-      money: 75
+      money: 50
       tokens: 0
     '423:0':
-      money: 100
+      money: 70
       tokens: 0
     '411:0':
-      money: 100
+      money: 70
       tokens: 0
   L:
     '263:0':
@@ -422,23 +422,47 @@ sellall:
       money: 100
       tokens: 0
     '415:0':
-      money: 75
+      money: 50
       tokens: 0
     '423:0':
-      money: 100
+      money: 70
       tokens: 0
     '411:0':
-      money: 100
+      money: 70
       tokens: 0
   M:
-    '264:0':
-      money: 700000
+    '263:0':
+      money: 50
       tokens: 0
-    '57:0':
-      money: 1000000
+    '14:0':
+      money: 180
       tokens: 0
-    '388:0':
-      money: 900000
+    '266:0':
+      money: 188
+      tokens: 0
+    '351:4':
+      money: 200
+      toekns: 0
+    '15:0':
+      money: 235
+      tokens: 0
+    '265:0':
+      money: 255
+      tokens: 0
+    '17:1':
+      money: 180
+      tokens: 0
+    '162:0':
+      money: 200
+      tokens: 0
+    '17:3':
+      money: 235
+      tokens: 0
+    '363:0':
+      money: 500
+      tokens: 0
+    '334:0':
+      money: 300
       tokens: 0
   N:
     '264:0':
