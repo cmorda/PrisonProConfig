@@ -143,11 +143,11 @@ custom-enchantment-menu-costs:
   AutoSmelt:
     level-1: 250
   AutoInventory:
-    level-1: 10000000000
+    level-1: -1
   FortuneBlocks:
     level-1: 100
   Infinity:
-    level-1: 1
+    level-1: 0
   InvHack:
     level-1: 10000000000
     level-2: 10000000000
