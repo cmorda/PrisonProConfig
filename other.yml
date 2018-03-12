@@ -136,6 +136,7 @@ reset-commands:
   - 'eco reset %PLAYER%'
   - 'clear %PLAYER%'
   - 'pex user %PLAYER% group add A'
+  - 'pex user %PLAYER% group remove Prestige'
 #########
 # Other #
 #########
