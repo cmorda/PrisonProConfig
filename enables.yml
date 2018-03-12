@@ -121,7 +121,7 @@ drop-parties: true
 # There will be player souls
 player-souls: false
 # There will be the finding of tokens in blocks
-token-block-findings: true
+token-block-findings: false
 # There will be the finding of crates
 crate-findings: true
 # There will be the opening of crates
@@ -131,13 +131,13 @@ smart-mine: true
 # There will be AutoInventory and FortuneBlocks
 autoinventory-fortuneblocks: true
 # There will be AutoInventory
-autoinventory: false
+autoinventory: true
 # There will be FortuneBlocks
 fortuneblocks: true
 # There will be AutoSmelt
 auto-smelt: true
 # There will be SmartDrop
-smart-drop: false
+smart-drop: true
 # There will be bounties
 bounties: false
 # There will be an admin menu
