@@ -15,7 +15,7 @@ version: '2.3.3'
 # Put 0 for english, 1 for french, 2 for chinese, and 3 for german, 4 for vietnamese, and 5 for spanish
 language: 0
 # The prefix of the plugin
-prefix: '&8[&bPP&8]'
+prefix: '&8[&bPrison&8]'
 # The worlds to where this plugin will only work in, leave blank to have it work globally
 # NOTE: If you do not leave this blank this plugin will only work in the selected world names
 # NOTE: The format is also a string list, not a single string, make sure to follow format
