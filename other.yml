@@ -132,7 +132,6 @@ new-player-join-commands:
   - 'eco set %PLAYER% 0'
 # What should be the commands dispatched when resetting
 reset-commands:
-  - 'token reset %PLAYER%'
   - 'eco reset %PLAYER%'
   - 'clear %PLAYER%'
   - 'pex user %PLAYER% group add A'
