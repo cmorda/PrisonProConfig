@@ -12,24 +12,28 @@ rankup-cooldown: 1
 # The messages displayed upon showing all ranks
 rank-messages:
   - '&f=================&d>&bPrisonProfessional&d<&f================='
+  - ' &d> &cWing A
   - ' &d> &bA&d: &aStarting Rank'
   - ' &d> &bB&d: &a$150'
   - ' &d> &bC&d: &a$300'
   - ' &d> &bD&d: &a$700'
   - ' &d> &bE&d: &a$1,530'
   - ' &d> &bF&d: &a$3,150'
+  - ' &d> &cWing B
   - ' &d> &bG&d: &a$4,500'
   - ' &d> &bH&d: &a$9,750'
   - ' &d> &bI&d: &a$20,500'
   - ' &d> &bJ&d: &a$36,000'
   - ' &d> &bK&d: &a$52,000'
   - ' &d> &bL&d: &a$90,000'
+  - ' &d> &cWing C
   - ' &d> &bM&d: &a$120,000'
   - ' &d> &bN&d: &a$150,000'
   - ' &d> &bO&d: &a$225,000'
   - ' &d> &bP&d: &a$607,500'
   - ' &d> &bQ&d: &a$742,500'
   - ' &d> &bR&d: &a$1,575,000'
+  - ' &d> &cWing D
   - ' &d> &bS&d: &a$4,175,000'
   - ' &d> &bT&d: &a$8,325,000'
   - ' &d> &bU&d: &a$24,750,000'
