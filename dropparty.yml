@@ -6,42 +6,82 @@
 drop-party-time: 60
 # The items and chances for the drop party
 drop-party-items:
-  '278:0':
-    chance: 750
-    amount: 1
-    name: '&bDrop&f-&bParty Pickaxe'
-    enchantments:
-      EFFICIENCY: 300
-      UNBREAKING: 300
-      FORTUNE: 50
-    lores:
-      - '&7Obtained from the drop party'
-  '276:0':
+  '310:0':
     chance: 1000
     amount: 1
-    name: '&bDrop&f-&bParty Sword'
+    name: '&bDrop&f-&bParty Helmet'
     enchantments:
       UNBREAKING: 100
-      SHARPNESS: 10
-      FIRE_ASPECT: 2
+      RESPIRATION: 100
     lores:
-      - '&7Obtained from the drop party'
-  '57:0':
+      - '&7Obtained from a drop party'
+  '313:0':
+    chance: 1000
+    amount: 1
+    name: '&bDrop&f-&bParty Boots'
+    enchantments:
+      UNBREAKING: 100
+      FROST_WALKER: 2
+      DEPTH_STRIDER: 3
+    lores:
+      - '&7Obtained from a drop party'
+  '346:0':
+    chance: 500
+    amount: 1
+    name: '&bDrop&f-&bParty Fishing Rod'
+    enchantments:
+      UNBREAKING: 100
+      LURE: 3
+    lores:
+      - '&7Obtained from a drop party'
+  '46:0':
+    chance: 5
+    amount: 10
+    name:
+    enchantments:
+    lores:
+  '1:0':
     chance: 5
     amount: 16
     name:
     enchantments:
     lores:
-  '133:0':
+  '173:0':
     chance: 5
-    amount: 16
+    amount: 10
+    name:
+    enchantments:
+    lores:
+  '41:0':
+    chance: 8
+    amount: 5
+    name:
+    enchantments:
+    lores:
+  '22:0':
+    chance: 10
+    amount: 4
+    name:
+    enchantments:
+    lores:
+  '152:0'
+    chance: 13
+    amount: 3
+    name:
+    enchantments:
+    lores:
+  '133:0':
+    chance: 20
+    amount: 2
     name:
     enchantments:
     lores:
 # The commands and chances for the drop party
 drop-party-commands:
-  20:
+  15:
     - 'token give %PLAYER% 5'
+  20:
+    - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:12601568,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
   25:
     - 'crates give %PLAYER% common'
   50:
