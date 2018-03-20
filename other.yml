@@ -97,13 +97,13 @@ new-player-message: '&6%PLAYER% just joined for the first time!'
 # Limits #
 ##########
 # The max spring power
-max-spring-power: 0
+max-spring-power: 10
 # The max number of things that can be thrown at once
 throw-limit: 0
 # The amount of warnings a player can have before punishment
 player-max-warnings: 3
 # The maximum amount of commands that can be binded to an item
-bindings-max-commands: 3
+bindings-max-commands: 0
 #############
 # Cooldowns #
 #############
@@ -155,15 +155,15 @@ hand:
       tokens: 20
       money: 500000
     enchantment:
-      tokens: 1000000000000
-      money: 1000000000000
+      tokens: 10000000000000
+      money: 10000000000000
   remove:
     lore:
       tokens: 10
       money: 250000
     enchantment:
-      tokens: 10000000000000
-      money: 10000000000000
+      tokens: 100000000000000
+      money: 100000000000000
   setName:
     tokens: 50
     money: 1000000
@@ -283,7 +283,7 @@ token-find-commands:
 # Auto Inventory + Fortune Blocks #
 ###################################
 # There will be AutoInventory in creative mode
-creative-autoinventory: true
+creative-autoinventory: false
 # Durability on an item will reduce when mining
 reduce-durability: false
 # The sound dispatched when a player has a full inventory when mining
@@ -306,7 +306,7 @@ fortuneblocks-blacklist:
 ##############
 # The item drops that will trigger smartdrop
 smart-drop-items:
-  - '278'
+  - '373:0'
 ##############
 # Admin Menu #
 ##############
@@ -376,13 +376,13 @@ rewards-random:
 # The reward chances for an economy reward
 rewards-economy:
   2:
-    money: 0
+    money: 100
     tokens: 5
   5:
-    money: 0
+    money: 1000
     tokens: 10
   10:
-    money: 0
+    money: 1000
     tokens: 25
 # The reward chances for an item reward
 rewards-item:
