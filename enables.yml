@@ -84,11 +84,11 @@ send-command: true
 # Sethealth command
 sethealth-command: true
 # Spring command
-spring-command: false
+spring-command: true
 # Staff command
 staff-command: true
 # Throw command
-throw-command: false
+throw-command: true
 # Time command
 time-command: true
 # Warn command
