@@ -7,7 +7,7 @@ playtime-rewards-messages:
   - '&f=================&d>&bLionheart Prison&d<&f================='
   - '&f1 hour&d: &65 Tokens'
   - '&f4 hours&d: &620 Tokens'
-  - '&fEvery 4 hours up to 5 days&d: &620 Tokens + (5 x number of hours played) Tokens'
+  - '&fEvery 4 hours up to 5 days&d: &6(5 x number of hours played) Tokens'
   - '&fEvery 24 hours after 5 days&d: &6750 Tokens'
   - '&f===================================================='
 playtime-rewards:
