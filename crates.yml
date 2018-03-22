@@ -7,7 +7,7 @@ player-buy-crates: true
 # All the crates with their drop chances, items contained, names, and more
 crate-aspects:
   TOKEN:
-    money-price: 100000000
+    money-price: 0
     token-price: 0
     material: '54:0'
     chance: 15000
@@ -31,7 +31,7 @@ crate-aspects:
     item-chances-on-open:
   COMMON:
     money-price: 0
-    token-price: 5
+    token-price: 125
     chance: 2000
     material: '54:0'
     name: '&bCommon&d-&fCrate'
@@ -39,79 +39,107 @@ crate-aspects:
     enchantments:
       ARROW_INFINITE: 1
     lores:
-      - '&7Contains starter Common items'
+      - '&7Contains some Common stuff'
     broadcast-on-find:
     command-chances-on-find:
     command-chances-on-open:
-      5:
-        - 'token give %PLAYER% 1'
-      10:
-        - 'token give %PLAYER% 5'
+      50:
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
     item-chances-on-open:
-      '278:0':
+      '263:0':
+        chance: 1
+        amount: 64
+        name:
+        enchantments:
+        lores:
+      '46:0':
         chance: 2
-        amount: 1
-        name: '&bCommon&d-&fPickaxe'
+        amount: 10
+        name:
         enchantments:
-          EFFICIENCY: 100
-          FORTUNE: 10
-          UNBREAKING: 100
         lores:
-          - '&7Obtained from the &bCommon &fcrate'
-      '276:0':
-        chance: 10
+          - 'Can be placed inside mines'
+          - 'Becomes more effective as you level up mining'
+          - 'Obtain flint and steel in ward A'
+      '2257:0':
+        chance: 50
         amount: 1
-        name: '&bCommon&d-&fSword'
+        name:
         enchantments:
-          SHARPNESS: 3
-          FIRE_ASPECT: 1
-          LOOTING: 1
-          UNBREAKING: 10
         lores:
-          - '&7Obtained from the &bCommon &fcrate'
-      '310:0':
-        chance: 5
+      '2264:0':
+        chance: 50
         amount: 1
-        name: '&bCommon&d-&fHelmet'
+        name:
         enchantments:
-          PROTECTION: 5
-          UNBREAKING: 10
         lores:
-          - '&7Obtained from the &bCommon &fcrate'
-      '311:0':
-        chance: 5
+      '2263:0':
+        chance: 50
         amount: 1
-        name: '&bCommon&d-&fChestplate'
+        name:
         enchantments:
-          PROTECTION: 5
-          UNBREAKING: 10
         lores:
-          - '&7Obtained from the &bCommon &fcrate'
-      '312:0':
-        chance: 5
+      '2262:0':
+        chance: 50
         amount: 1
-        name: '&bCommon&d-&fLeggings'
+        name:
         enchantments:
-          PROTECTION: 5
-          UNBREAKING: 10
         lores:
-          - '&7Obtained from the &bCommon &fcrate'
-      '313:0':
-        chance: 5
+      '2261:0':
+        chance: 50
         amount: 1
-        name: '&bCommon&d-&fBoots'
+        name:
         enchantments:
-          PROTECTION: 5
-          UNBREAKING: 10
         lores:
-          - '&7Obtained from the &bCommon &fcrate'
+      '2260:0':
+        chance: 50
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2259:0':
+        chance: 50
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2258:0':
+        chance: 50
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2257:0':
+        chance: 50
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2256:0':
+        chance: 50
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2265:0':
+        chance: 50
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2266:0':
+        chance: 50
+        amount: 1
+        name:
+        enchantments:
+        lores:
   UNCOMMON:
     money-price: 0
-    token-price: 25
+    token-price: 250
     chance: 4000
     material: '54:0'
     name: '&dUn&bCommon&d-&fCrate'
-    description: '&aA crate that can give you uncommon rewards!'
+    description: '&aA crate that can give you some ok stuff!'
     enchantments:
       ARROW_INFINITE: 1
     lores:
@@ -119,75 +147,103 @@ crate-aspects:
     broadcast-on-find:
     command-chances-on-find:
     command-chances-on-open:
-      5:
-        - 'token give %PLAYER% 2'
-      10:
-        - 'token give %PLAYER% 7'
+      40:
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
     item-chances-on-open:
-      '278:0':
+      '263:0':
+        chance: 1
+        amount: 128
+        name:
+        enchantments:
+        lores:
+      '46:0':
         chance: 2
-        amount: 1
-        name: '&dUn&bCommon&d-&fPickaxe'
+        amount: 20
+        name:
         enchantments:
-          EFFICIENCY: 150
-          FORTUNE: 15
-          UNBREAKING: 150
         lores:
-          - '&7Obtained from the &dUn&bCommon &fcrate'
-      '276:0':
-        chance: 10
+          - 'Can be placed inside mines'
+          - 'Becomes more effective as you level up mining'
+          - 'Obtain flint and steel in ward A'
+      '2257:0':
+        chance: 40
         amount: 1
-        name: '&dUn&bCommon&d-&fSword'
+        name:
         enchantments:
-          SHARPNESS: 5
-          FIRE_ASPECT: 2
-          LOOTING: 2
-          UNBREAKING: 15
         lores:
-          - '&7Obtained from the &dUn&bCommon &fcrate'
-      '310:0':
-        chance: 5
+      '2264:0':
+        chance: 40
         amount: 1
-        name: ' &dUn&bCommon&d-&fHelmet'
+        name:
         enchantments:
-          PROTECTION: 7
-          UNBREAKING: 15
         lores:
-          - '&7Obtained from the &dUn&bCommon &fcrate'
-      '311:0':
-        chance: 5
+      '2263:0':
+        chance: 40
         amount: 1
-        name: '&dUn&bCommon&d-&fChestplate'
+        name:
         enchantments:
-          PROTECTION: 7
-          UNBREAKING: 15
         lores:
-          - '&7Obtained from the &dUn&bCommon &fcrate'
-      '312:0':
-        chance: 5
+      '2262:0':
+        chance: 40
         amount: 1
-        name: '&dUn&bCommon&d-&fLeggings'
+        name:
         enchantments:
-          PROTECTION: 7
-          UNBREAKING: 15
         lores:
-          - '&7Obtained from the &dUn&bCommon &fcrate'
-      '313:0':
-        chance: 5
+      '2261:0':
+        chance: 40
         amount: 1
-        name: '&dUn&bCommon&d-&fBoots'
+        name:
         enchantments:
-          PROTECTION: 7
-          UNBREAKING: 15
         lores:
-          - '&7Obtained from the &dUn&bCommon &fcrate'
+      '2260:0':
+        chance: 40
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2259:0':
+        chance: 40
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2258:0':
+        chance: 40
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2257:0':
+        chance: 40
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2256:0':
+        chance: 40
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2265:0':
+        chance: 40
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2266:0':
+        chance: 40
+        amount: 1
+        name:
+        enchantments:
+        lores:
   RARE:
     money-price: 0
-    token-price: 50
+    token-price: 500
     chance: 8000
     material: '54:0'
     name: '&cRare&d-&fCrate'
-    description: '&aA crate that can give you rare rewards!'
+    description: '&aA crate that can give you pretty decent stuff!'
     enchantments:
       ARROW_INFINITE: 1
     lores:
@@ -195,75 +251,112 @@ crate-aspects:
     broadcast-on-find:
     command-chances-on-find:
     command-chances-on-open:
-      5:
-        - 'token give %PLAYER% 5'
-      10:
-        - 'token give %PLAYER% 10'
+      30:
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+      30:
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
     item-chances-on-open:
-      '278:0':
-        chance: 2
-        amount: 1
-        name: '&cRare&d-&fPickaxe'
+      '263:0':
+        chance: 1
+        amount: 192
+        name:
         enchantments:
-          EFFICIENCY: 225
-          FORTUNE: 23
-          UNBREAKING: 225
         lores:
-          - '&7Obtained from the &cRare &fcrate'
-      '276:0':
+      '46:0':
+        chance: 2
+        amount: 30
+        name:
+        enchantments:
+        lores:
+          - 'Can be placed inside mines'
+          - 'Becomes more effective as you level up mining'
+          - 'Obtain flint and steel in ward A'
+      '397:2':
         chance: 10
         amount: 1
-        name: '&cRare&d-&fSword'
+        name:
         enchantments:
-          SHARPNESS: 8
-          FIRE_ASPECT: 3
-          LOOTING: 3
-          UNBREAKING: 23
         lores:
-          - '&7Obtained from the &cRare &fcrate'
-      '310:0':
-        chance: 5
+          - 'A severed zambie head'
+      '2257:0':
+        chance: 30
         amount: 1
-        name: '&cRare&d-&fHelmet'
+        name:
         enchantments:
-          PROTECTION: 11
-          UNBREAKING: 25
         lores:
-          - '&7Obtained from the &cRare &fcrate'
-      '311:0':
-        chance: 5
+      '2264:0':
+        chance: 30
         amount: 1
-        name: '&cRare&d-&fChestplate'
+        name:
         enchantments:
-          PROTECTION: 11
-          UNBREAKING: 25
         lores:
-          - '&7Obtained from the &cRare &fcrate'
-      '312:0':
-        chance: 5
+      '2263:0':
+        chance: 30
         amount: 1
-        name: '&cRare&d-&fLeggings'
+        name:
         enchantments:
-          PROTECTION: 11
-          UNBREAKING: 25
         lores:
-          - '&7Obtained from the &cRare &fcrate'
-      '313:0':
-        chance: 5
+      '2262:0':
+        chance: 30
         amount: 1
-        name: '&cRare&d-&fBoots'
+        name:
         enchantments:
-          PROTECTION: 11
-          UNBREAKING: 25
         lores:
-          - '&7Obtained from the &crare &fcrate'
+      '2261:0':
+        chance: 30
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2260:0':
+        chance: 30
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2259:0':
+        chance: 30
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2258:0':
+        chance: 30
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2257:0':
+        chance: 30
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2256:0':
+        chance: 30
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2265:0':
+        chance: 30
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2266:0':
+        chance: 30
+        amount: 1
+        name:
+        enchantments:
+        lores:
   ULTRARARE:
     money-price: 0
-    token-price: 125
+    token-price: 750
     chance: 20000
     material: '54:0'
     name: '&dUltra&cRare&d-&fCrate'
-    description: '&aA crate that can give you ultrarare rewards!'
+    description: '&aA crate that can give you pretty good stuffs!'
     enchantments:
       ARROW_INFINITE: 1
     lores:
@@ -271,75 +364,110 @@ crate-aspects:
     broadcast-on-find:
     command-chances-on-find:
     command-chances-on-open:
-      5:
-        - 'token give %PLAYER% 10'
-      10:
-        - 'token give %PLAYER% 15'
+      20:
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
     item-chances-on-open:
-      '278:0':
-        chance: 2
-        amount: 1
-        name: '&dUltra&cRare&d-&fPickaxe'
+      '263:0':
+        chance: 1
+        amount: 256
+        name:
         enchantments:
-          EFFICIENCY: 300
-          FORTUNE: 35
-          UNBREAKING: 300
         lores:
-          - '&7Obtained from the &dUltra&cRare &fcrate'
-      '276:0':
+      '46:0':
+        chance: 2
+        amount: 40
+        name:
+        enchantments:
+        lores:
+          - 'Can be placed inside mines'
+          - 'Becomes more effective as you level up mining'
+          - 'Obtain flint and steel in ward A'
+      '397:0':
         chance: 10
         amount: 1
-        name: '&dUltra&cRare&d-&fSword'
+        name:
         enchantments:
-          SHARPNESS: 12
-          FIRE_ASPECT: 3
-          LOOTING: 4
-          UNBREAKING: 30
         lores:
-          - '&7Obtained from the &dUltra&cRare &fcrate'
-      '310:0':
-        chance: 5
+          - 'An old skull'
+      '2257:0':
+        chance: 20
         amount: 1
-        name: '&dUltra&cRare&d-&fHelmet'
+        name:
         enchantments:
-          PROTECTION: 15
-          UNBREAKING: 30
         lores:
-          - '&7Obtained from the &dUltra&cRare &fcrate'
-      '311:0':
-        chance: 5
+      '2264:0':
+        chance: 20
         amount: 1
-        name: '&dUltra&cRare&d-&fChestplate'
+        name:
         enchantments:
-          PROTECTION: 15
-          UNBREAKING: 30
         lores:
-          - '&7Obtained from the &dUltra&cRare &fcrate'
-      '312:0':
-        chance: 5
+      '2263:0':
+        chance: 20
         amount: 1
-        name: '&dUltra&cRare&d-&fLeggings'
+        name:
         enchantments:
-          PROTECTION: 15
-          UNBREAKING: 30
         lores:
-          - '&7Obtained from the &dUltra&cRare &fcrate'
-      '313:0':
-        chance: 5
+      '2262:0':
+        chance: 20
         amount: 1
-        name: '&dUltra&cRare&d-&fBoots'
+        name:
         enchantments:
-          PROTECTION: 15
-          UNBREAKING: 30
         lores:
-          - '&7Obtained from the &dUltra&cRare &fcrate'
+      '2261:0':
+        chance: 20
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2260:0':
+        chance: 20
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2259:0':
+        chance: 20
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2258:0':
+        chance: 20
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2257:0':
+        chance: 20
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2256:0':
+        chance: 20
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2265:0':
+        chance: 20
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2266:0':
+        chance: 20
+        amount: 1
+        name:
+        enchantments:
+        lores:
   LEGENDARY:
     money-price: 0
-    token-price: 500
+    token-price: 1000
     chance: 50000
     material: '54:0'
     name: '&6Legendary&d-&fCrate'
-    description: '&aA crate that can give you legendary rewards!'
+    description: '&aA crate that can give you a lot of good stuff!'
     enchantments:
       ARROW_INFINITE: 1
     lores:
@@ -348,75 +476,112 @@ crate-aspects:
       - '&d%PLAYER% &fhas found a &6LEGENDARY &fCrate'
     command-chances-on-find:
     command-chances-on-open:
-      5:
-        - 'token give %PLAYER% 15'
       10:
-        - 'token give %PLAYER% 20'
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+      10:
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
     item-chances-on-open:
-      '278:0':
-        chance: 2
-        amount: 1
-        name: '&6Legendary&d-&fPickaxe'
+      '263:0':
+        chance: 1
+        amount: 512
+        name:
         enchantments:
-          EFFICIENCY: 400
-          FORTUNE: 50
-          UNBREAKING: 400
         lores:
-          - '&7Obtained from the &6Legendary &fcrate'
-      '276:0':
+      '46:0':
+        chance: 2
+        amount: 50
+        name:
+        enchantments:
+        lores:
+          - 'Can be placed inside mines'
+          - 'Becomes more effective as you level up mining'
+          - 'Obtain flint and steel in ward A'
+      '397:4':
         chance: 10
         amount: 1
-        name: '&6Legendary&d-&fSword'
+        name:
         enchantments:
-          SHARPNESS: 15
-          FIRE_ASPECT: 3
-          LOOTING: 5
-          UNBREAKING: 40
         lores:
-          - '&7Obtained from the &6Legendary &fcrate'
-      '310:0':
-        chance: 5
+          - 'Kablooey'
+      '2257:0':
+        chance: 10
         amount: 1
-        name: '&6Legendary&d-&fHelmet'
+        name:
         enchantments:
-          PROTECTION: 23
-          UNBREAKING: 35
         lores:
-          - '&7Obtained from the &6Legendary &fcrate'
-      '311:0':
-        chance: 5
+      '2264:0':
+        chance: 10
         amount: 1
-        name: '&6Legendary&d-&fChestplate'
+        name:
         enchantments:
-          PROTECTION: 23
-          UNBREAKING: 35
         lores:
-          - '&7Obtained from the &6Legendary &fcrate'
-      '312:0':
-        chance: 5
+      '2263:0':
+        chance: 10
         amount: 1
-        name: '&6Legendary&d-&fLeggings'
+        name:
         enchantments:
-          PROTECTION: 23
-          UNBREAKING: 35
         lores:
-          - '&7Obtained from the &6Legendary &fcrate'
-      '313:0':
-        chance: 5
+      '2262:0':
+        chance: 10
         amount: 1
-        name: '&6Legendary&d-&fBoots'
+        name:
         enchantments:
-          PROTECTION: 23
-          UNBREAKING: 35
         lores:
-          - '&7Obtained from the &6Legendary &fcrate'
+      '2261:0':
+        chance: 10
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2260:0':
+        chance: 10
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2259:0':
+        chance: 10
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2258:0':
+        chance: 10
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2257:0':
+        chance: 10
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2256:0':
+        chance: 10
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2265:0':
+        chance: 10
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2266:0':
+        chance: 10
+        amount: 1
+        name:
+        enchantments:
+        lores:
   ULTRALEGENDARY:
     money-price: 0
-    token-price: 1000
+    token-price: 2500
     chance: 100000
     material: '54:0'
     name: '&dUltra&6Legendary&d-&fCrate'
-    description: '&aA crate that can give you ultralegendary rewards!'
+    description: '&aA crate that can give you a crazy amount of the stuffs!'
     enchantments:
       ARROW_INFINITE: 1
     lores:
@@ -426,71 +591,108 @@ crate-aspects:
     command-chances-on-find:
     command-chances-on-open:
       5:
-        - 'token give %PLAYER% 25'
-      10:
-        - 'token give %PLAYER% 30'
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+      5:
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
     item-chances-on-open:
-      '278:0':
-        chance: 2
-        amount: 1
-        name: '&dUltra&6Legendary&d-&fPickaxe'
+      '263:0':
+        chance: 1
+        amount: 1024
+        name:
         enchantments:
-          EFFICIENCY: 600
-          FORTUNE: 75
-          UNBREAKING: 600
         lores:
-          - '&7Obtained from the &dUltra&6Legendary &fcrate'
-      '276:0':
+      '46:0':
+        chance: 2
+        amount: 64
+        name:
+        enchantments:
+        lores:
+          - 'Can be placed inside mines'
+          - 'Becomes more effective as you level up mining'
+          - 'Obtain flint and steel in ward A'
+      '397:1':
         chance: 10
         amount: 1
-        name: '&dUltra&6Legendary&d-&fSword'
+        name:
         enchantments:
-          SHARPNESS: 23
-          FIRE_ASPECT: 4
-          LOOTING: 6
-          UNBREAKING: 60
         lores:
-          - '&7Obtained from the &dUltra&6Legendary &fcrate'
-      '310:0':
+          - 'A very highly valued skull'
+      '2257:0':
         chance: 5
         amount: 1
-        name: '&dUltra&6Legendary&d-&fHelmet'
+        name:
         enchantments:
-          PROTECTION: 30
-          UNBREAKING: 50
         lores:
-          - '&7Obtained from the &dUltra&6Legendary &fcrate'
-      '311:0':
+      '2264:0':
         chance: 5
         amount: 1
-        name: '&dUltra&6Legendary&d-&fChestplate'
+        name:
         enchantments:
-          PROTECTION: 30
-          UNBREAKING: 50
         lores:
-          - '&7Obtained from the &dUltra&6Legendary &fcrate'
-      '312:0':
+      '2263:0':
         chance: 5
         amount: 1
-        name: '&dUltra&6Legendary&d-&fLeggings'
+        name:
         enchantments:
-          PROTECTION: 30
-          UNBREAKING: 50
         lores:
-          - '&7Obtained from the &dUltra&6Legendary &fcrate'
-      '313:0':
+      '2262:0':
         chance: 5
         amount: 1
-        name: '&dUltra&6Legendary&d-&fBoots'
+        name:
         enchantments:
-          PROTECTION: 30
-          UNBREAKING: 50
         lores:
-          - '&7Obtained from the &dUltra&6Legendary &fcrate'
+      '2261:0':
+        chance: 5
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2260:0':
+        chance: 5
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2259:0':
+        chance: 5
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2258:0':
+        chance: 5
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2257:0':
+        chance: 5
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2256:0':
+        chance: 5
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2265:0':
+        chance: 5
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2266:0':
+        chance: 5
+        amount: 1
+        name:
+        enchantments:
+        lores:
   PURE:
     money-price: 0
-    token-price: 1000000
-    chance: 1000000
+    token-price: 5000
+    chance: 500000
     material: '54:0'
     name: '&f&lP&b&lu&f&lr&b&le&d-&fCrate'
     description: '&aA crate that can give you pure rewards!'
@@ -502,65 +704,104 @@ crate-aspects:
       - '&d%PLAYER% &fhas found a &f&lP&b&lu&f&lr&b&le &fCrate'
     command-chances-on-find:
     command-chances-on-open:
-      5:
-        - 'token give %PLAYER% 100'
-      10:
-        - 'token give %PLAYER% 250'
+      1:
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+      1:
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+      1:
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
     item-chances-on-open:
-      '278:0':
-        chance: 2
-        amount: 1
-        name: '&f&lP&b&lu&f&lr&b&le&d-&fPickaxe'
+      '263:0':
+        chance: 1
+        amount: 2048
+        name:
         enchantments:
-          EFFICIENCY: 1000
-          FORTUNE: 150
-          UNBREAKING: 1000
         lores:
-          - '&7Obtained from the &f&lP&b&lu&f&lr&b&le &fcrate'
-      '276:0':
+      '46:0':
+        chance: 1
+        amount: 256
+        name:
+        enchantments:
+        lores:
+          - 'Can be placed inside mines'
+          - 'Becomes more effective as you level up mining'
+          - 'Obtain flint and steel in ward A'
+      '397:5':
         chance: 10
         amount: 1
-        name: '&f&lP&b&lu&f&lr&b&le&d-&fSword'
+        name:
         enchantments:
-          SHARPNESS: 35
-          FIRE_ASPECT: 5
-          LOOTING: 10
-          UNBREAKING: 100
         lores:
-          - '&7Obtained from the &f&lP&b&lu&f&lr&b&le &fcrate'
-      '310:0':
-        chance: 5
+          - 'The rarest item you can find'
+      '2257:0':
+        chance: 2
         amount: 1
-        name: '&f&lP&b&lu&f&lr&b&le&d-&fHelmet'
+        name:
         enchantments:
-          PROTECTION: 50
-          UNBREAKING: 100
         lores:
-          - '&7Obtained from the &f&lP&b&lu&f&lr&b&le &fcrate'
-      '311:0':
-        chance: 5
+      '2264:0':
+        chance: 2
         amount: 1
-        name: '&f&lP&b&lu&f&lr&b&le&d-&fChestplate'
+        name:
         enchantments:
-          PROTECTION: 50
-          UNBREAKING: 100
         lores:
-          - '&7Obtained from the &f&lP&b&lu&f&lr&b&le &fcrate'
-      '312:0':
-        chance: 5
+      '2263:0':
+        chance: 2
         amount: 1
-        name: '&f&lP&b&lu&f&lr&b&le&d-&fLeggings'
+        name:
         enchantments:
-          PROTECTION: 50
-          UNBREAKING: 100
         lores:
-          - '&7Obtained from the &f&lP&b&lu&f&lr&b&le &fcrate'
-      '313:0':
-        chance: 5
+      '2262:0':
+        chance: 2
         amount: 1
-        name: '&f&lP&b&lu&f&lr&b&le&d-&fBoots'
+        name:
         enchantments:
-          PROTECTION: 50
-          UNBREAKING: 100
         lores:
-          - '&7Obtained from the &f&lP&b&lu&f&lr&b&le &fcrate'
+      '2261:0':
+        chance: 2
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2260:0':
+        chance: 2
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2259:0':
+        chance: 2
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2258:0':
+        chance: 2
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2257:0':
+        chance: 2
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2256:0':
+        chance: 2
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2265:0':
+        chance: 2
+        amount: 1
+        name:
+        enchantments:
+        lores:
+      '2266:0':
+        chance: 2
+        amount: 1
+        name:
+        enchantments:
+        lores:
