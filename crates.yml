@@ -10,7 +10,7 @@ crate-aspects:
     money-price: 0
     token-price: 0
     material: '54:0'
-    chance: 15000
+    chance: 10000
     name: '&6Token&d-&fCrate'
     description: '&aA crate that can give you a random amount of tokens!'
     enchantments:
@@ -21,13 +21,13 @@ crate-aspects:
     command-chances-on-find:
     command-chances-on-open:
       1:
-        - 'token give %PLAYER% 1'
-      5:
-        - 'token give %PLAYER% 5'
-      10:
-        - 'token give %PLAYER% 10'
-      25:
         - 'token give %PLAYER% 25'
+      5:
+        - 'token give %PLAYER% 30'
+      10:
+        - 'token give %PLAYER% 35'
+      25:
+        - 'token give %PLAYER% 50'
     item-chances-on-open:
   COMMON:
     money-price: 0
