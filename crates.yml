@@ -49,13 +49,13 @@ crate-aspects:
       '263:0':
         chance: 2
         amount: 64
-        name:
+        name: ''
         enchantments:
         lores:
       '46:0':
         chance: 2
         amount: 10
-        name:
+        name: ''
         enchantments:
         lores:
           - 'Can be placed inside mines'
@@ -64,73 +64,73 @@ crate-aspects:
       '2257:0':
         chance: 50
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2264:0':
         chance: 50
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2263:0':
         chance: 50
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2262:0':
         chance: 50
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2261:0':
         chance: 50
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2260:0':
         chance: 50
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2259:0':
         chance: 50
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2258:0':
         chance: 50
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2257:0':
         chance: 50
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2256:0':
         chance: 50
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2265:0':
         chance: 50
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2266:0':
         chance: 50
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
   UNCOMMON:
@@ -153,13 +153,13 @@ crate-aspects:
       '263:0':
         chance: 1
         amount: 128
-        name:
+        name: ''
         enchantments:
         lores:
       '46:0':
         chance: 2
         amount: 20
-        name:
+        name: ''
         enchantments:
         lores:
           - 'Can be placed inside mines'
@@ -168,73 +168,73 @@ crate-aspects:
       '2257:0':
         chance: 40
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2264:0':
         chance: 40
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2263:0':
         chance: 40
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2262:0':
         chance: 40
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2261:0':
         chance: 40
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2260:0':
         chance: 40
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2259:0':
         chance: 40
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2258:0':
         chance: 40
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2257:0':
         chance: 40
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2256:0':
         chance: 40
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2265:0':
         chance: 40
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2266:0':
         chance: 40
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
   RARE:
@@ -259,13 +259,13 @@ crate-aspects:
       '263:0':
         chance: 1
         amount: 192
-        name:
+        name: ''
         enchantments:
         lores:
       '46:0':
         chance: 2
         amount: 30
-        name:
+        name: ''
         enchantments:
         lores:
           - 'Can be placed inside mines'
@@ -274,80 +274,80 @@ crate-aspects:
       '397:2':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
           - 'A severed zambie head'
       '2257:0':
         chance: 30
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2264:0':
         chance: 30
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2263:0':
         chance: 30
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2262:0':
         chance: 30
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2261:0':
         chance: 30
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2260:0':
         chance: 30
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2259:0':
         chance: 30
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2258:0':
         chance: 30
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2257:0':
         chance: 30
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2256:0':
         chance: 30
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2265:0':
         chance: 30
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2266:0':
         chance: 30
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
   ULTRARARE:
@@ -370,13 +370,13 @@ crate-aspects:
       '263:0':
         chance: 1
         amount: 256
-        name:
+        name: ''
         enchantments:
         lores:
       '46:0':
         chance: 2
         amount: 40
-        name:
+        name: ''
         enchantments:
         lores:
           - 'Can be placed inside mines'
@@ -385,80 +385,80 @@ crate-aspects:
       '397:0':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
           - 'An old skull'
       '2257:0':
         chance: 20
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2264:0':
         chance: 20
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2263:0':
         chance: 20
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2262:0':
         chance: 20
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2261:0':
         chance: 20
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2260:0':
         chance: 20
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2259:0':
         chance: 20
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2258:0':
         chance: 20
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2257:0':
         chance: 20
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2256:0':
         chance: 20
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2265:0':
         chance: 20
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2266:0':
         chance: 20
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
   LEGENDARY:
@@ -484,13 +484,13 @@ crate-aspects:
       '263:0':
         chance: 1
         amount: 512
-        name:
+        name: ''
         enchantments:
         lores:
       '46:0':
         chance: 2
         amount: 50
-        name:
+        name: ''
         enchantments:
         lores:
           - 'Can be placed inside mines'
@@ -499,80 +499,80 @@ crate-aspects:
       '397:4':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
           - 'Kablooey'
       '2257:0':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2264:0':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2263:0':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2262:0':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2261:0':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2260:0':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2259:0':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2258:0':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2257:0':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2256:0':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2265:0':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2266:0':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
   ULTRALEGENDARY:
@@ -598,13 +598,13 @@ crate-aspects:
       '263:0':
         chance: 1
         amount: 1024
-        name:
+        name: ''
         enchantments:
         lores:
       '46:0':
         chance: 2
         amount: 64
-        name:
+        name: ''
         enchantments:
         lores:
           - 'Can be placed inside mines'
@@ -613,80 +613,80 @@ crate-aspects:
       '397:1':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
           - 'A very highly valued skull'
       '2257:0':
         chance: 5
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2264:0':
         chance: 5
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2263:0':
         chance: 5
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2262:0':
         chance: 5
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2261:0':
         chance: 5
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2260:0':
         chance: 5
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2259:0':
         chance: 5
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2258:0':
         chance: 5
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2257:0':
         chance: 5
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2256:0':
         chance: 5
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2265:0':
         chance: 5
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2266:0':
         chance: 5
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
   PURE:
@@ -714,13 +714,13 @@ crate-aspects:
       '263:0':
         chance: 1
         amount: 2048
-        name:
+        name: ''
         enchantments:
         lores:
       '46:0':
         chance: 1
         amount: 256
-        name:
+        name: ''
         enchantments:
         lores:
           - 'Can be placed inside mines'
@@ -729,79 +729,79 @@ crate-aspects:
       '397:5':
         chance: 10
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
           - 'The rarest item you can find'
       '2257:0':
         chance: 2
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2264:0':
         chance: 2
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2263:0':
         chance: 2
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2262:0':
         chance: 2
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2261:0':
         chance: 2
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2260:0':
         chance: 2
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2259:0':
         chance: 2
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2258:0':
         chance: 2
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2257:0':
         chance: 2
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2256:0':
         chance: 2
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2265:0':
         chance: 2
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
       '2266:0':
         chance: 2
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
