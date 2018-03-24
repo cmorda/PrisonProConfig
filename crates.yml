@@ -58,9 +58,9 @@ crate-aspects:
         name: ''
         enchantments:
         lores:
-          - 'Can be placed inside mines'
-          - 'Becomes more effective as you level up mining'
-          - 'Obtain flint and steel in ward A'
+          - '&7Can be placed inside mines'
+          - '&7Becomes more effective as you level up mining'
+          - '&7Obtain flint and steel in ward A'
       '2257:0':
         chance: 50
         amount: 1
@@ -162,9 +162,9 @@ crate-aspects:
         name: ''
         enchantments:
         lores:
-          - 'Can be placed inside mines'
-          - 'Becomes more effective as you level up mining'
-          - 'Obtain flint and steel in ward A'
+          - '&7Can be placed inside mines'
+          - '&7Becomes more effective as you level up mining'
+          - '&7Obtain flint and steel in ward A'
       '2257:0':
         chance: 40
         amount: 1
@@ -268,9 +268,9 @@ crate-aspects:
         name: ''
         enchantments:
         lores:
-          - 'Can be placed inside mines'
-          - 'Becomes more effective as you level up mining'
-          - 'Obtain flint and steel in ward A'
+          - '&7Can be placed inside mines'
+          - '&7Becomes more effective as you level up mining'
+          - '&7Obtain flint and steel in ward A'
       '397:2':
         chance: 10
         amount: 1
@@ -379,9 +379,9 @@ crate-aspects:
         name: ''
         enchantments:
         lores:
-          - 'Can be placed inside mines'
-          - 'Becomes more effective as you level up mining'
-          - 'Obtain flint and steel in ward A'
+          - '&7Can be placed inside mines'
+          - '&7Becomes more effective as you level up mining'
+          - '&7Obtain flint and steel in ward A'
       '397:0':
         chance: 10
         amount: 1
@@ -493,9 +493,9 @@ crate-aspects:
         name: ''
         enchantments:
         lores:
-          - 'Can be placed inside mines'
-          - 'Becomes more effective as you level up mining'
-          - 'Obtain flint and steel in ward A'
+          - '&7Can be placed inside mines'
+          - '&7Becomes more effective as you level up mining'
+          - '&7Obtain flint and steel in ward A'
       '397:4':
         chance: 10
         amount: 1
@@ -607,9 +607,9 @@ crate-aspects:
         name: ''
         enchantments:
         lores:
-          - 'Can be placed inside mines'
-          - 'Becomes more effective as you level up mining'
-          - 'Obtain flint and steel in ward A'
+          - '&7Can be placed inside mines'
+          - '&7Becomes more effective as you level up mining'
+          - '&7Obtain flint and steel in ward A'
       '397:1':
         chance: 10
         amount: 1
@@ -723,16 +723,16 @@ crate-aspects:
         name: ''
         enchantments:
         lores:
-          - 'Can be placed inside mines'
-          - 'Becomes more effective as you level up mining'
-          - 'Obtain flint and steel in ward A'
+          - '&7Can be placed inside mines'
+          - '&7Becomes more effective as you level up mining'
+          - '&7Obtain flint and steel in ward A'
       '397:5':
         chance: 10
         amount: 1
         name: ''
         enchantments:
         lores:
-          - 'The rarest item you can find'
+          - '&7The rarest item you can find'
       '2257:0':
         chance: 2
         amount: 1
