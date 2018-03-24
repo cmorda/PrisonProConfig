@@ -28,6 +28,7 @@ drop-party-items:
     name: '&bDrop&f-&bParty Fishing Rod'
     enchantments:
       UNBREAKING: 100
+      LURE: 3
     lores:
       - '&7Obtained from a drop party'
   '46:0':
