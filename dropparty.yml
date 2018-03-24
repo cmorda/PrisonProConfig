@@ -12,6 +12,7 @@ drop-party-items:
     name: '&bDrop&f-&bParty Helmet'
     enchantments:
       UNBREAKING: 100
+      OXYGEN: 100
     lores:
       - '&7Obtained from a drop party'
   '313:0':
