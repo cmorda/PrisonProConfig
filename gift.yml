@@ -81,8 +81,8 @@ monthly-gift-content:
       enchantments:
       lores:
     '263:0':
-      chance: 1
-      amount: 64
+      chance: 2
+      amount: 100
       name: ''
       enchantments:
       lores:
