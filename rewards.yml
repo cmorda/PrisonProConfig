@@ -26,6 +26,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 20'
+    items:
   28800:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -33,6 +34,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 40'
+    items:
   43200:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -40,6 +42,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 60'
+    items:
   57600:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -47,6 +50,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 80'
+    items:
   72000:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -54,6 +58,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 100'
+    items:
   86400:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -61,6 +66,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 120'
+    items:
   100800:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -68,6 +74,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 140'
+    items:
   115200:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -75,6 +82,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 160'
+    items:
   129600:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -82,6 +90,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 180'
+    items:
   144000:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -89,6 +98,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 200'
+    items:
   158400:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -96,6 +106,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 220'
+    items:
   172800:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -103,6 +114,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 240'
+    items:
   187200:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -110,6 +122,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 260'
+    items:
   201600:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -117,6 +130,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 280'
+    items:
   216000:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -124,6 +138,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 300'
+    items:
   230400:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -131,6 +146,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 320'
+    items:
   244800:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -138,6 +154,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 340'
+    items:
   259200:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -145,6 +162,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 360'
+    items:
   273600:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -152,6 +170,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 380'
+    items:
   288000:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -159,6 +178,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 400'
+    items:
   302400:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -166,6 +186,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 420'
+    items:
   316800:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -173,6 +194,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 440'
+    items:
   331200:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -180,6 +202,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 460'
+    items:
   345600:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -187,6 +210,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 480'
+    items:
   360000:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -194,6 +218,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 500'
+    items:
   374400:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -201,6 +226,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 520'
+    items:
   388800:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -208,6 +234,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 540'
+    items:
   403200:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -215,6 +242,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 560'
+    items:
   417600:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -222,6 +250,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 580'
+    items:
   432000:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -229,6 +258,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 600'
+    items:
   518400:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -236,6 +266,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   604800:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -243,6 +274,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   691200:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -250,6 +282,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   777600:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -257,6 +290,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   864000:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -264,6 +298,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   950400:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -271,6 +306,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   1036800:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -278,6 +314,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   1123200:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -285,6 +322,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   1209600:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -292,6 +330,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   1296000:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -299,6 +338,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   1382400:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -306,6 +346,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   1468800:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -313,6 +354,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   1555200:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -320,6 +362,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   1641600:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -327,6 +370,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   1728000:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -334,6 +378,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   1814400:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -341,6 +386,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   1900800:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -348,6 +394,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   1987200:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -355,6 +402,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   2073600:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -362,6 +410,7 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
   2160000:
     messages:
       - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -369,3 +418,4 @@ playtime-rewards:
       - '&f===================================================='
     commands:
       - 'token give %PLAYER% 750'
+    items:
