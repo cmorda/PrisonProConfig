@@ -65,9 +65,9 @@ weekly-gift-content:
       name: ''
       enchantments:
       lores:
-        - 'Can be placed inside mines'
-        - 'Becomes more effective as you level up mining'
-        - 'Obtain flint and steel in ward A'
+        - '&7Can be placed inside mines'
+        - '&7Becomes more effective as you level up mining'
+        - '&7Obtain flint and steel in ward A'
   commands:
     10:
       - 'pcrate give %PLAYER% common 1'
@@ -92,9 +92,9 @@ monthly-gift-content:
       name: ''
       enchantments:
       lores:
-        - 'Can be placed inside mines'
-        - 'Becomes more effective as you level up mining'
-        - 'Obtain flint and steel in ward A'
+        - '&7Can be placed inside mines'
+        - '&7Becomes more effective as you level up mining'
+        - '&7Obtain flint and steel in ward A'
     '364:0':
       chance: 2
       amount: 64
