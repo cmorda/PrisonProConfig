@@ -83,12 +83,16 @@ drop-party-commands:
   20:
     - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:12601568,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
   25:
-    - 'crates give %PLAYER% common'
+    - 'pcrate give %PLAYER% common 1'
   50:
-    - 'crates give %PLAYER% uncommon'
+    - 'pcrate give %PLAYER% uncommon 1'
   500:
-    - 'crates give %PLAYER% rare'
+    - 'pcrate give %PLAYER% rare 1'
+  1000:
+    - 'pcrate give %PLAYER% ultrarare 1'
   2500:
-    - 'crates give %PLAYER% ultrarare'
+    - 'pcrate give %PLAYER% legendary 1'
+  5000:
+    - 'pcrate give %PLAYER% ultralegendary 1'
   10000:
-    - 'crates give %PLAYER% legendary'
+    - 'pcrate give %PLAYER% pure 1'
