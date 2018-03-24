@@ -69,6 +69,8 @@ weekly-gift-content:
         - 'Becomes more effective as you level up mining'
         - 'Obtain flint and steel in ward A'
   commands:
+    10:
+      - 'pcrate give %PLAYER% common 1'
 # The content of the weekly gift, with chances for them
 monthly-gift-content:
   items:
@@ -101,4 +103,4 @@ monthly-gift-content:
       lores:
   commands:
     10:
-      - 'pcrate give %PLAYER% common 1'
+      - 'pcrate give %PLAYER% uncommon 1'
