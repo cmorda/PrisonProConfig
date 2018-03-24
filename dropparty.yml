@@ -20,6 +20,7 @@ drop-party-items:
     name: '&bDrop&f-&bParty Boots'
     enchantments:
       UNBREAKING: 100
+      DEPTH_STRIDER: 3
     lores:
       - '&7Obtained from a drop party'
   '346:0':
