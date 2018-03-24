@@ -11,10 +11,10 @@ missions:
       messages:
         - '&f=================&d>&bPrisonProfessional&d<&f================='
         - '&fStarting Mission #1&d: &bBeginner'
-        - '&bGeneral Joe&d: &fWelcome to your first mission Private, you are going to help the army by getting us materials for battle. Since it is your first day here look around and find us &d1 &fCoal Block, &d1 &fIron Block, and &d64 &fStone'
+        - '&bMayor Syntax&d: &fWelcome to your first mission, you are going to help the army by gathering materials for battle. Since it is your first day here look around and find us &d1 &fCoal Block, &d64 &fLogs, and &d64 &fStone'
         - '&f===================================================='
         - '&7Mission Started &8[&bBeginner&8]'
-        - '&fTask&d: &bFind &d1 &fCoal Block, &d1 &fIron Block, and &d64 &fStone'
+        - '&fTask&d: &bFind &d1 &fCoal Block, &d64 &fLogs, and &d64 &fStone'
       commands:
     for-completion:
       items:
@@ -23,8 +23,8 @@ missions:
           name:
           enchantments:
           lores:
-        '42:0':
-          amount: 1
+        '17:0':
+          amount: 64
           name:
           enchantments:
           lores:
@@ -37,22 +37,29 @@ missions:
       messages:
         - '&f=================&d>&bPrisonProfessional&d<&f================='
         - '&fCompleted Mission #1&d: &bBeginner'
-        - '&bGeneral Joe&d: &fThank you for giving us these materials. In return you will also get something.'
+        - '&bMayor Syntax&d: &fThank you for giving us these materials. In return you will also get something.'
         - '&f===================================================='
         - '&7Mission Completed &8[&bBeginner&8]'
         - '&8[&bBeginner Pickaxe&8] &7Added'
       commands:
-        - 't give %PLAYER% 10'
+        - 'eco give %PLAYER% 200'
       items:
-        '278:0':
+        '274:0':
           amount: 1
           name: '&bBeginner Pickaxe'
           enchantments:
-            EFFICIENCY: 50
-            FORTUNE: 5
-            UNBREAKING: 50
+            EFFICIENCY: 1
+            FORTUNE: 1
           lores:
             - '&7Obtained from the Beginner Mission'
+        '46:0':
+          amount: 16
+          name:
+          enchantments:
+          lores:
+            - ''
+            - ''
+            - ''
   2:
     on-start:
       messages:
