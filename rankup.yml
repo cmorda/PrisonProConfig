@@ -12,7 +12,7 @@ rankup-cooldown: 1
 # The messages displayed upon showing all ranks
 rank-messages:
   - '&f=================&d>&bPrisonProfessional&d<&f================='
-  - ' &d> &cWing A
+  - ' &d> &cWing A'
   - ' &d> &bA&d: &aStarting Rank'
   - ' &d> &bB&d: &a$150'
   - ' &d> &bC&d: &a$300'
