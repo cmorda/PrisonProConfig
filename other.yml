@@ -136,7 +136,7 @@ reset-commands:
   - 'clear %PLAYER%'
   - 'pex user %PLAYER% group add A'
   - 'pex user %PLAYER% group remove %OLD_RANK%'
-  - 'sudo %PLAYER% spawn
+  - 'sudo %PLAYER% spawn'
 #########
 # Other #
 #########
