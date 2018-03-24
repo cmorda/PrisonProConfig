@@ -21,6 +21,7 @@ drop-party-items:
     enchantments:
       UNBREAKING: 100
       DEPTH_STRIDER: 3
+      FROST_WALKER: 2
     lores:
       - '&7Obtained from a drop party'
   '346:0':
