@@ -64,7 +64,7 @@ drop-party-items:
     name:
     enchantments:
     lores:
-  '152:0'
+  '152:0':
     chance: 13
     amount: 3
     name:
