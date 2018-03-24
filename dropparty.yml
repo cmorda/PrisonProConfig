@@ -7,7 +7,7 @@ drop-party-time: 60
 # The items and chances for the drop party
 drop-party-items:
   '310:0':
-    chance: 1000
+    chance: 500
     amount: 1
     name: '&bDrop&f-&bParty Helmet'
     enchantments:
@@ -16,7 +16,7 @@ drop-party-items:
     lores:
       - '&7Obtained from a drop party'
   '313:0':
-    chance: 1000
+    chance: 500
     amount: 1
     name: '&bDrop&f-&bParty Boots'
     enchantments:
@@ -26,7 +26,7 @@ drop-party-items:
     lores:
       - '&7Obtained from a drop party'
   '346:0':
-    chance: 500
+    chance: 100
     amount: 1
     name: '&bDrop&f-&bParty Fishing Rod'
     enchantments:
@@ -47,31 +47,31 @@ drop-party-items:
     enchantments:
     lores:
   '173:0':
-    chance: 5
+    chance: 15
     amount: 10
     name:
     enchantments:
     lores:
   '41:0':
-    chance: 8
+    chance: 15
     amount: 5
     name:
     enchantments:
     lores:
   '22:0':
-    chance: 10
+    chance: 15
     amount: 4
     name:
     enchantments:
     lores:
   '152:0':
-    chance: 13
+    chance: 18
     amount: 3
     name:
     enchantments:
     lores:
   '133:0':
-    chance: 20
+    chance: 22
     amount: 2
     name:
     enchantments:
