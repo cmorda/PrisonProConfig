@@ -11,8 +11,6 @@ drop-party-items:
     amount: 1
     name: '&bDrop&f-&bParty Helmet'
     enchantments:
-      UNBREAKING: 100
-      OXYGEN: 100
     lores:
       - '&7Obtained from a drop party'
   '313:0':
@@ -20,9 +18,6 @@ drop-party-items:
     amount: 1
     name: '&bDrop&f-&bParty Boots'
     enchantments:
-      UNBREAKING: 100
-      FROST_WALKER: 2
-      DEPTH_STRIDER: 3
     lores:
       - '&7Obtained from a drop party'
   '346:0':
@@ -30,8 +25,6 @@ drop-party-items:
     amount: 1
     name: '&bDrop&f-&bParty Fishing Rod'
     enchantments:
-      UNBREAKING: 100
-      LURE: 3
     lores:
       - '&7Obtained from a drop party'
   '46:0':
