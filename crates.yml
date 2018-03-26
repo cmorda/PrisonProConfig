@@ -10,7 +10,7 @@ crate-aspects:
     money-price: 0
     token-price: 0
     material: '54:0'
-    chance: 10000
+    chance: 15000
     name: '&6Token&d-&fCrate'
     description: '&aA crate that can give you a random amount of tokens!'
     enchantments:
@@ -47,8 +47,14 @@ crate-aspects:
         - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
     item-chances-on-open:
       '263:0':
+        chance: 1
+        amount: 32
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
         chance: 2
-        amount: 64
+        amount: 32
         name: ''
         enchantments:
         lores:
@@ -61,6 +67,13 @@ crate-aspects:
           - '&7Can be placed inside mines'
           - '&7Becomes more effective as you level up mining'
           - '&7Obtain flint and steel in ward A'
+      '397:2':
+        chance: 25
+        amount: 1
+        name: ''
+        enchantments:
+        lores:
+          - 'A severed zambie head'
       '2257:0':
         chance: 50
         amount: 1
@@ -152,7 +165,13 @@ crate-aspects:
     item-chances-on-open:
       '263:0':
         chance: 1
-        amount: 128
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 2
+        amount: 64
         name: ''
         enchantments:
         lores:
@@ -165,6 +184,13 @@ crate-aspects:
           - '&7Can be placed inside mines'
           - '&7Becomes more effective as you level up mining'
           - '&7Obtain flint and steel in ward A'
+      '397:0':
+        chance: 20
+        amount: 1
+        name: ''
+        enchantments:
+        lores:
+          - 'An old skull'
       '2257:0':
         chance: 40
         amount: 1
@@ -258,7 +284,43 @@ crate-aspects:
     item-chances-on-open:
       '263:0':
         chance: 1
-        amount: 192
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 2
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 10
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 30
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 50
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 100
+        amount: 64
         name: ''
         enchantments:
         lores:
@@ -271,13 +333,13 @@ crate-aspects:
           - '&7Can be placed inside mines'
           - '&7Becomes more effective as you level up mining'
           - '&7Obtain flint and steel in ward A'
-      '397:2':
-        chance: 10
+      '397:4':
+        chance: 15
         amount: 1
         name: ''
         enchantments:
         lores:
-          - 'A severed zambie head'
+          - 'Kablooey'
       '2257:0':
         chance: 30
         amount: 1
@@ -369,7 +431,49 @@ crate-aspects:
     item-chances-on-open:
       '263:0':
         chance: 1
-        amount: 256
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 2
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 10
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 20
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 50
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 100
+        amount: 64
         name: ''
         enchantments:
         lores:
@@ -382,13 +486,13 @@ crate-aspects:
           - '&7Can be placed inside mines'
           - '&7Becomes more effective as you level up mining'
           - '&7Obtain flint and steel in ward A'
-      '397:0':
+      '397:1':
         chance: 10
         amount: 1
         name: ''
         enchantments:
         lores:
-          - 'An old skull'
+          - 'A very highly valued mob skull'
       '2257:0':
         chance: 20
         amount: 1
@@ -472,6 +576,8 @@ crate-aspects:
       ARROW_INFINITE: 1
     lores:
       - '&7Contains Legendary items'
+      - '&7You should probably clear your inventory before opening this'
+      - '&7To clear things you can't drop use a disposal sign'
     broadcast-on-find:
       - '&d%PLAYER% &fhas found a &6LEGENDARY &fCrate'
     command-chances-on-find:
@@ -480,29 +586,104 @@ crate-aspects:
         - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
       10:
         - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+      15:
+        - 'playerheads spawn MaryVi %PLAYER%'
+      15:
+        - 'playerheads spawn mordin89 %PLAYER%'
+      15:
+        - 'playerheads spawn Ali_Mora %PLAYER%'
+      15:
+        - 'playerheads spawn Dustehhh %PLAYER%'
+      15:
+        - 'playerheads spawn OHsnapITSaFISH %PLAYER%'
+      15:
+        - 'playerheads spawn Wata_Beast %PLAYER%'
     item-chances-on-open:
       '263:0':
         chance: 1
-        amount: 512
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 2
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 2
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 20
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 50
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 100
+        amount: 64
         name: ''
         enchantments:
         lores:
       '46:0':
-        chance: 2
-        amount: 50
+        chance: 1
+        amount: 25
         name: ''
         enchantments:
         lores:
           - '&7Can be placed inside mines'
           - '&7Becomes more effective as you level up mining'
           - '&7Obtain flint and steel in ward A'
-      '397:4':
+      '46:0':
+        chance: 2
+        amount: 25
+        name: ''
+        enchantments:
+        lores:
+          - '&7Can be placed inside mines'
+          - '&7Becomes more effective as you level up mining'
+          - '&7Obtain flint and steel in ward A'
+      '397:5':
         chance: 10
         amount: 1
         name: ''
         enchantments:
         lores:
-          - 'Kablooey'
+          - '&7The rarest mob skull you can find'
       '2257:0':
         chance: 10
         amount: 1
@@ -586,6 +767,8 @@ crate-aspects:
       ARROW_INFINITE: 1
     lores:
       - '&7Contains Ultra-Legendary items'
+      - '&7You should probably clear your inventory before opening this'
+      - '&7To clear things you can't drop use a disposal sign'
     broadcast-on-find:
       - '&d%PLAYER% &fhas found an &ULTRA&6LEGENDARY &fCrate'
     command-chances-on-find:
@@ -594,29 +777,103 @@ crate-aspects:
         - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
       5:
         - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+      15:
+        - 'playerheads spawn Katsuki_Black %PLAYER%'
+      15:
+        - 'playerheads spawn o7_Frost %PLAYER%'
+      15:
+        - 'playerheads spawn _Syntax_Error %PLAYER%'
+      15:
+        - 'playerheads spawn MrOmegaBeast %PLAYER%'
+      15:
+        - 'playerheads spawn 12jato34 %PLAYER%'
+      15:
+        - 'playerheads spawn SuperLinkNL %PLAYER%'
     item-chances-on-open:
       '263:0':
         chance: 1
-        amount: 1024
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 2
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 20
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 50
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 100
+        amount: 64
         name: ''
         enchantments:
         lores:
       '46:0':
-        chance: 2
-        amount: 64
+        chance: 1
+        amount: 32
         name: ''
         enchantments:
         lores:
           - '&7Can be placed inside mines'
           - '&7Becomes more effective as you level up mining'
           - '&7Obtain flint and steel in ward A'
-      '397:1':
-        chance: 10
-        amount: 1
+      '46:0':
+        chance: 2
+        amount: 32
         name: ''
         enchantments:
         lores:
-          - 'A very highly valued skull'
+          - '&7Can be placed inside mines'
+          - '&7Becomes more effective as you level up mining'
+          - '&7Obtain flint and steel in ward A'
       '2257:0':
         chance: 5
         amount: 1
@@ -700,6 +957,8 @@ crate-aspects:
       ARROW_INFINITE: 1
     lores:
       - '&7Contains the best PURE items'
+      - '&7You should probably clear your inventory before opening this'
+      - '&7To clear things you can't drop use a disposal sign'
     broadcast-on-find:
       - '&d%PLAYER% &fhas found a &f&lP&b&lu&f&lr&b&le &fCrate'
     command-chances-on-find:
@@ -710,29 +969,153 @@ crate-aspects:
         - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
       1:
         - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+      10:
+        - 'playerheads spawn CavemanlyMan %PLAYER%'
+      10:
+        - 'playerheads spawn isaac_kern %PLAYER%'
+      10:
+        - 'playerheads spawn LadyKaviir %PLAYER%'
+      10:
+        - 'playerheads spawn Wigly_ %PLAYER%'
     item-chances-on-open:
       '263:0':
         chance: 1
-        amount: 2048
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 2
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 2
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 2
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+      '263:0':
+        chance: 10
+        amount: 64
         name: ''
         enchantments:
         lores:
       '46:0':
         chance: 1
-        amount: 256
+        amount: 64
         name: ''
         enchantments:
         lores:
           - '&7Can be placed inside mines'
           - '&7Becomes more effective as you level up mining'
           - '&7Obtain flint and steel in ward A'
-      '397:5':
-        chance: 10
-        amount: 1
+      '46:0':
+        chance: 1
+        amount: 64
         name: ''
         enchantments:
         lores:
-          - '&7The rarest item you can find'
+          - '&7Can be placed inside mines'
+          - '&7Becomes more effective as you level up mining'
+          - '&7Obtain flint and steel in ward A'
+      '46:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+          - '&7Can be placed inside mines'
+          - '&7Becomes more effective as you level up mining'
+          - '&7Obtain flint and steel in ward A'
+      '46:0':
+        chance: 1
+        amount: 64
+        name: ''
+        enchantments:
+        lores:
+          - '&7Can be placed inside mines'
+          - '&7Becomes more effective as you level up mining'
+          - '&7Obtain flint and steel in ward A'
       '2257:0':
         chance: 2
         amount: 1
