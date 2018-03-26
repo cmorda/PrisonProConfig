@@ -73,7 +73,7 @@ crate-aspects:
         name: ''
         enchantments:
         lores:
-          - 'A severed zambie head'
+          - '&7A severed zambie head'
       '2257:0':
         chance: 50
         amount: 1
@@ -190,7 +190,7 @@ crate-aspects:
         name: ''
         enchantments:
         lores:
-          - 'An old skull'
+          - '&7An old skull'
       '2257:0':
         chance: 40
         amount: 1
@@ -339,7 +339,7 @@ crate-aspects:
         name: ''
         enchantments:
         lores:
-          - 'Kablooey'
+          - '&7Kablooey'
       '2257:0':
         chance: 30
         amount: 1
@@ -492,7 +492,7 @@ crate-aspects:
         name: ''
         enchantments:
         lores:
-          - 'A very highly valued mob skull'
+          - '&7A very highly valued mob skull'
       '2257:0':
         chance: 20
         amount: 1
