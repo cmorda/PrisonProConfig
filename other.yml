@@ -401,6 +401,13 @@ rewards-item:
     name:
     enchantments:
     lores:
+  5:
+    material: '397:2'
+    amount: 1
+    name:
+    enchantments:
+    lores:
+      - '&7A zambie skull'
   10:
     material: '346:0'
     amount: 1
@@ -410,6 +417,20 @@ rewards-item:
       LURE: 3
     lores:
       - '&7Obtained as a daily item reward'
+  20:
+    material: '397:0'
+    amount: 1
+    name:
+    enchantments:
+    lores:
+      - '&7An old skull'
+  40:
+    material: '397:4'
+    amount: 1
+    name:
+    enchantments:
+    lores:
+      - '&7Kablooey'
   50:
     material: '310:0'
     amount: 1
@@ -429,3 +450,17 @@ rewards-item:
       FROST_WALKER: 2
     lores:
       - '&7Obtained as a daily item reward'
+  100:
+    material: '397:1'
+    amount: 1
+    name:
+    enchantments:
+    lores:
+      - '&7A very valuable mob skull'
+  1000:
+    material: '397:5'
+    amount: 1
+    name:
+    enchantments:
+    lores:
+      - '&7The rarest mob skull you can get'
