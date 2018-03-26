@@ -9,7 +9,7 @@ missions:
   1:
     on-start:
       messages:
-        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fStarting Mission #1&d: &bBeginner'
         - '&bMayor Syntax&d: &fWelcome to your first mission, you are going to help the army by gathering materials for battle. Since it is your first day here look around and find us &d1 &fCoal Block, &d64 &fLogs, and &d64 &fStone'
         - '&f===================================================='
@@ -35,7 +35,7 @@ missions:
           lores:
     on-completion:
       messages:
-        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fCompleted Mission #1&d: &bBeginner'
         - '&bMayor Syntax&d: &fThank you for giving us these materials. In return you will also get something.'
         - '&f===================================================='
@@ -63,7 +63,7 @@ missions:
   2:
     on-start:
       messages:
-        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fStarting Mission #2&d: &bIntermediate'
         - '&bMayor Syntax&d: &fWelcome back to your second mission. Since you are getting to know everything around here I am going to make this next one a little more difficult. Our army needs to be fed and clothed. I need you to get us: &d128 &fCooked Mutton &d64 &fCooked Rabbit, &d1 set &fof Leather Boots, and &d1 &fGold Chestplate, Leggings, and Helmet.'
         - '&f===================================================='
@@ -109,7 +109,7 @@ missions:
           lores:
     on-completion:
       messages:
-        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fCompleted Mission #2&d: &bIntermediate'
         - '&bMayor Syntax&d: &fThank you for giving us these materials. In return you will also get something.'
         - '&f===================================================='
@@ -129,7 +129,7 @@ missions:
   3:
     on-start:
       messages:
-        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fStarting Mission #2&d: &bAdvanced'
         - '&bMayor Syntax&d: &fWelcome to your third mission Private. Since you are getting to know everything around here I am going to make this next one a little more difficult. Our army could use some circuitry to outsmart our enemies. I need to get us: &d128 &fRedstone &d64, &fRedstone Blocks, and &d10 &fTNT'
         - '&f===================================================='
@@ -160,7 +160,7 @@ missions:
           lores:
     on-completion:
       messages:
-        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fCompleted Mission #2&d: &bPrivate'
         - '&bMayor Syntax&d: &fThank you for giving us these materials. In return you will also get something.'
         - '&f===================================================='
@@ -181,7 +181,7 @@ missions:
   4:
     on-start:
       messages:
-        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fStarting Mission #4&d: &bPreparation'
         - '&bMayor Syntax&d: &fAlright you are the best we got. We are getting ready for an all out World War against the Russians and we need your help. We need you to get us some resources.'
         - '&f===================================================='
@@ -255,7 +255,7 @@ missions:
             - '&7A very lucky pickaxe'
     on-completion:
       messages:
-        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fCompleted Mission #4&d: &bPreparation'
         - '&bMayor Syntax&d: &fThank you for giving us these materials. In return you will also get something. We have a world war in front of us'
         - '&f===================================================='
@@ -291,7 +291,7 @@ missions:
   5:
     on-start:
       messages:
-        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fStarting Mission #5&d: &bThe War'
         - '&bMayor Syntax&d: &fThe war has started and we need resources to win against these guys.'
         - '&f===================================================='
@@ -371,7 +371,7 @@ missions:
             UNBREAKING: 10
     on-completion:
       messages:
-        - '&f=================&d>&bPrisonProfessional&d<&f================='
+        - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fCompleted Mission #5&d: &bThe War'
         - '&bMayor Syntax&d: &fWe have won the war thnks to you. That nuclear bomb really helped us out. Its time for us to help you out now, Commander.'
         - '&f===================================================='
