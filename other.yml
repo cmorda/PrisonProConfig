@@ -97,7 +97,7 @@ new-player-message: '&6%PLAYER% just joined for the first time!'
 # Limits #
 ##########
 # The max spring power
-max-spring-power: 10
+max-spring-power: 1
 # The max number of things that can be thrown at once
 throw-limit: 0
 # The amount of warnings a player can have before punishment
@@ -306,7 +306,7 @@ fortuneblocks-blacklist:
 ##############
 # The item drops that will trigger smartdrop
 smart-drop-items:
-  - '373:0'
+  - '138:0'
 ##############
 # Admin Menu #
 ##############
@@ -355,7 +355,7 @@ member-menu-missions: true
 # There will be the information menu
 member-menu-information: true
 # There will be the spring menu
-member-menu-spring: false
+member-menu-spring: true
 # There will be the staff menu
 member-menu-staff: true
 # There will be the commands menu
