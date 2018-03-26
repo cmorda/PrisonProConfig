@@ -395,33 +395,37 @@ rewards-economy:
     tokens: 0
 # The reward chances for an item reward
 rewards-item:
-  2:
-    material: '278:0'
-    amount: 1
-    name: '&bCommon Reward Pickaxe'
+  1:
+    material: '46:0'
+    amount: 32
+    name:
     enchantments:
-      EFFICIENCY: 100
-      UNBREAKING: 100
-      FORTUNE: 10
     lores:
-      - '&7Obtained from the items reward'
-  5:
-    material: '278:0'
-    amount: 1
-    name: '&cRare Reward Pickaxe'
-    enchantments:
-      EFFICIENCY: 250
-      UNBREAKING: 250
-      FORTUNE: 20
-    lores:
-      - '&7Obtained from the items reward'
   10:
-    material: '278:0'
+    material: '346:0'
     amount: 1
-    name: '&6Legendary Reward Pickaxe'
+    name: '&bDaily Reward Fishing Rod'
     enchantments:
-      EFFICIENCY: 500
-      UNBREAKING: 500
-      FORTUNE: 30
+      UNBREAKING: 100
+      LURE: 3
     lores:
-      - '&7Obtained from the items reward'
+      - '&7Obtained as a daily item reward'
+  50:
+    material: '310:0'
+    amount: 1
+    name: '&bDaily Reward Helmet'
+    enchantments:
+      UNBREAKING: 100
+      OXYGEN: 100
+    lores:
+      - '&7Obtained as a daily item reward'
+  50:
+    material: '313:0'
+    amount: 1
+    name: '&bDaily Reward Boots'
+    enchantments:
+      UNBREAKING: 100
+      DEPTH_STRIDER: 3
+      FROST_WALKER: 2
+    lores:
+      - '&7Obtained as a daily item reward'
