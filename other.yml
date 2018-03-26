@@ -407,7 +407,7 @@ rewards-item:
     name:
     enchantments:
     lores:
-      - '&7A zambie skull'
+      - '&7A severed zambie skull'
   10:
     material: '346:0'
     amount: 1
@@ -456,7 +456,7 @@ rewards-item:
     name:
     enchantments:
     lores:
-      - '&7A very valuable mob skull'
+      - '&7A very highly valued mob skull'
   1000:
     material: '397:5'
     amount: 1
