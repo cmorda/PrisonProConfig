@@ -66,7 +66,7 @@ achievements:
     completion-messages:
       - '&7Achievement Completed &8[&bHundred Thousand Block&8]'
     completion-commands:
-      - 't give %PLAYER% 100'
+      - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Can be used to insta-break at an earlier","rank than a normal haste potion"]}}'
     completion-items:
       '388:0':
         amount: 1728
@@ -77,7 +77,7 @@ achievements:
     completion-messages:
       - '&7Achievement Completed &8[&bMillion Block&8]'
     completion-commands:
-      - 't give %PLAYER% 1000'
+      - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Can be used to insta-break at an earlier","rank than a normal haste potion"]}}'
     completion-items:
       '388:0':
         amount: 1728
