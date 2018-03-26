@@ -83,7 +83,6 @@ join-motd:
   - ' '
   - '&fWelcome &d%PLAYER% &fto the server, hope you have a good time'
   - '&fThere are currently &d%PLAYERSONLINE% &ftotal online players'
-  - '&fThere are in total &d%TOTALPLAYERS% &fdifferent players that have joined'
   - '&fThere are currently &d%STAFFONLINE% &fstaff members online'
   - ' '
   - '&f===================================================='
@@ -137,6 +136,7 @@ reset-commands:
   - 'pex user %PLAYER% group add A'
   - 'pex user %PLAYER% group remove %OLD_RANK%'
   - 'sudo %PLAYER% spawn'
+  - 'missions reset %PLAYER%'
 #########
 # Other #
 #########
@@ -367,23 +367,32 @@ member-menu-commands: true
 rewards-cooldown: 86400
 # The reward chances for a random reward
 rewards-random:
+  1:
+    - 'pcrate give %PLAYER% common 1'
   2:
-    - 'crate give %PLAYER% common'
+    - 'pcrate give %PLAYER% uncommon 1'
   5:
-    - 'crate give %PLAYER% uncommon'
+    - 'pcrate give %PLAYER% rare 1'
   10:
-    - 'crate give %PLAYER% rare'
+    - 'pcrate give %PLAYER% ultrarare 1'
+  100:
+    - 'pcrate give %PLAYER% legendary 1'
+  182:
+    - 'pcrate give %PLAYER% ultralegendary 1'
+  365:
+    - 'pcrate give %PLAYER% pure 1'
+  
 # The reward chances for an economy reward
 rewards-economy:
-  2:
+  1:
     money: 100
-    tokens: 5
+    tokens: 0
   5:
     money: 1000
-    tokens: 10
+    tokens: 0
   10:
-    money: 1000
-    tokens: 25
+    money: 10000
+    tokens: 0
 # The reward chances for an item reward
 rewards-item:
   2:
