@@ -34,7 +34,7 @@ alert-command: true
 # Apply command
 apply-command: true
 # CE Command
-ce-command: true
+ce-command: false
 # Cheese command
 cheese-command: true
 # Clearchat command
@@ -88,7 +88,7 @@ spring-command: true
 # Staff command
 staff-command: true
 # Throw command
-throw-command: true
+throw-command: false
 # Time command
 time-command: true
 # Warn command
@@ -137,7 +137,7 @@ fortuneblocks: true
 # There will be AutoSmelt
 auto-smelt: true
 # There will be SmartDrop
-smart-drop: true
+smart-drop: false
 # There will be bounties
 bounties: false
 # There will be an admin menu
