@@ -768,7 +768,7 @@ crate-aspects:
     lores:
       - '&7Contains Ultra-Legendary items'
       - '&7You should probably clear your inventory before opening this'
-      - '&7To clear things you can't drop use a disposal sign'
+      - "&7To clear things you can't drop use a disposal sign"
     broadcast-on-find:
       - '&d%PLAYER% &fhas found an &ULTRA&6LEGENDARY &fCrate'
     command-chances-on-find:
@@ -958,7 +958,7 @@ crate-aspects:
     lores:
       - '&7Contains the best PURE items'
       - '&7You should probably clear your inventory before opening this'
-      - '&7To clear things you can't drop use a disposal sign'
+      - "&7To clear things you can't drop use a disposal sign"
     broadcast-on-find:
       - '&d%PLAYER% &fhas found a &f&lP&b&lu&f&lr&b&le &fCrate'
     command-chances-on-find:
