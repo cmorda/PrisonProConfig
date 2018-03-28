@@ -55,7 +55,8 @@ rankup-messages:
   - '&fYou have ranked up to &d%NEW-RANK%'
 # The commands dispatched when a player ranks up
 rankup-commands:
-  - 'pex user %PLAYER% promote prison'
+  - 'pex user %PLAYER% group remove %OLD-RANK%'
+  - 'pex user %PLAYER% group add %NEW-RANK%'
 # The ranks along with their prices
 ranks:
   A: 0
