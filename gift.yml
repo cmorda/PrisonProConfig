@@ -77,18 +77,16 @@ weekly-gift-content:
       name: ''
       enchantments:
       lores:
-        - '&7Can be placed inside mines'
-        - '&7Becomes more effective as you level up mining'
-        - '&7Obtain flint and steel in ward A'
+          - '&7Place inside a mine to use'
+          - '&7Becomes more effective as you level up mining'
     '46:0':
       chance: 2
       amount: 15
       name: ''
       enchantments:
       lores:
-        - '&7Can be placed inside mines'
-        - '&7Becomes more effective as you level up mining'
-        - '&7Obtain flint and steel in ward A'
+          - '&7Place inside a mine to use'
+          - '&7Becomes more effective as you level up mining'
   commands:
     10:
       - 'pcrate give %PLAYER% common 1'
@@ -125,18 +123,16 @@ monthly-gift-content:
       name: ''
       enchantments:
       lores:
-        - '&7Can be placed inside mines'
-        - '&7Becomes more effective as you level up mining'
-        - '&7Obtain flint and steel in ward A'
+          - '&7Place inside a mine to use'
+          - '&7Becomes more effective as you level up mining'
     '46:0':
       chance: 2
       amount: 12
       name: ''
       enchantments:
       lores:
-        - '&7Can be placed inside mines'
-        - '&7Becomes more effective as you level up mining'
-        - '&7Obtain flint and steel in ward A'
+          - '&7Place inside a mine to use'
+          - '&7Becomes more effective as you level up mining'
     '364:0':
       chance: 2
       amount: 64
@@ -146,3 +142,5 @@ monthly-gift-content:
   commands:
     10:
       - 'pcrate give %PLAYER% uncommon 1'
+    25:
+      - 'pcrate give %PLAYER% rare 1'
