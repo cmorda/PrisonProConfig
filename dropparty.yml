@@ -78,7 +78,7 @@ drop-party-items:
     lores:
 # The commands and chances for the drop party
 drop-party-commands:
-  20:
+  40:
     - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:12601568,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
   25:
     - 'pcrate give %PLAYER% common 1'
