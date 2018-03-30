@@ -57,9 +57,8 @@ missions:
           name:
           enchantments:
           lores:
-            - '&7Can be placed inside mines'
+            - '&7Place inside a mine to use'
             - '&7Becomes more effective as you level up mining'
-            - '&7Obtain flint and steel in ward A'
   2:
     on-start:
       messages:
@@ -123,51 +122,57 @@ missions:
           name:
           enchantments:
           lores:
-            - '&7Can be placed inside mines'
+            - '&7Place inside a mine to use'
             - '&7Becomes more effective as you level up mining'
-            - '&7Obtain flint and steel in ward A'
   3:
     on-start:
       messages:
         - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fStarting Mission #2&d: &bAdvanced'
-        - '&bMayor Syntax&d: &fWelcome to your third mission Private. Since you are getting to know everything around here I am going to make this next one a little more difficult. Our army could use some circuitry to outsmart our enemies. I need to get us: &d128 &fRedstone &d64, &fRedstone Blocks, and &d10 &fTNT'
+        - '&bMayor Syntax&d: &fWelcome to your third mission. This mission will be the hardest one yet. Our army has been running low on ammunition and supplies. I need you to get us: &d128 &fLeather &d64, &fIron Ingots, and &d1 &fAnvil, and &d32 &fTNT'
         - '&f===================================================='
         - '&7Mission Started &8[&bAdvanced&8]'
-        - '&fTask&d: &bFind &d128 &fRedstone, &d64 &fRedstone Blocks, and &d10 &fTNT'
+        - '&fTask&d: &bFind &d128 &fLeather &d64, &fIron Ingots, and &d1 &fAnvil, and &d32 &fTNT'
       commands:
     for-completion:
       items:
-        '331:0':
+        '334:0':
           amount: 64
           name:
           enchantments:
           lores:
-        '331:0':
+        '334:0':
           amount: 64
           name:
           enchantments:
           lores:
-        '3:0':
+        '265:0':
           amount: 64
           name:
           enchantments:
           lores:
-        '4:0':
-          amount: 10
+        '145:0':
+          amount: 1
           name:
           enchantments:
           lores:
+        '46:0':
+          amount: 32
+          name:
+          enchantments:
+          lores:
+            - '&7Place inside a mine to use'
+            - '&7Becomes more effective as you level up mining'
     on-completion:
       messages:
         - '&f=================&d>&bLionheart Prison&d<&f================='
-        - '&fCompleted Mission #2&d: &bPrivate'
+        - '&fCompleted Mission #2&d: &bAdvanced'
         - '&bMayor Syntax&d: &fThank you for giving us these materials. In return you will also get something.'
         - '&f===================================================='
         - '&7Mission Completed &8[&bPrivate&8]'
-        - '&8[&bPrivate Pickaxe and God Apple&8] &7Added'
+        - '&8[&b$120,000 Pickaxe and God Apple&8] &7Added'
       commands:
-        - 't give %PLAYER% 12'
+        - 'eco give %PLAYER% 120000'
       items:
         '278:0':
           amount: 1
