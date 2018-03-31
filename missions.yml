@@ -374,9 +374,9 @@ missions:
         - '&bMayor Syntax&d: &fWe have won the war thnks to you. Those bombs really helped us out. We are honored to present you with this special-made armor in return for your service.'
         - '&f===================================================='
         - '&7Mission Completed &8[&bThe War&8]'
-        - '&8[&bWar Armor, $200 Million, and a Pure Crate&8] &7Added'
+        - '&8[&bWar Armor, $250 Million, and a Pure Crate&8] &7Added'
       commands:
-        - 'eco give %PLAYER% 200000000'
+        - 'eco give %PLAYER% 250000000'
         - 'pcrate give %PLAYER% pure 1'
       items:
         '313:0':
