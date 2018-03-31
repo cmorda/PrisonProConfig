@@ -170,28 +170,27 @@ missions:
         - '&bMayor Syntax&d: &fThank you for giving us these materials. In return you will also get something.'
         - '&f===================================================='
         - '&7Mission Completed &8[&bPrivate&8]'
-        - '&8[&b$120,000 Pickaxe and God Apple&8] &7Added'
+        - '&8[&b$120,000, 64 TNT, and a rare crate&8] &7Added'
       commands:
         - 'eco give %PLAYER% 120000'
+        - 'pcrate give %PLAYER% rare 1'
       items:
-        '278:0':
-          amount: 1
-          name: '&bPrivate Pickaxe'
+        '46:0':
+          amount: 64
+          name:
           enchantments:
-            EFFICIENCY: 75
-            FORTUNE: 7
-            UNBREAKING: 75
           lores:
-            - '&7Obtained from the Private Mission'
+            - '&7Place inside a mine to use'
+            - '&7Becomes more effective as you level up mining'
   4:
     on-start:
       messages:
         - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fStarting Mission #4&d: &bPreparation'
-        - '&bMayor Syntax&d: &fAlright you are the best we got. We are getting ready for an all out World War against the Russians and we need your help. We need you to get us some resources.'
+        - '&bMayor Syntax&d: &fAlright you are the best we got. We are getting ready for an all out war against the Russians and we need your help. We need you to get us some resources: &d1 &fDiamond Sword, &d64 &fRedstone Blocks, &d128 &fRedstone, &d128 &fTNT, &d1 &fCompass, &d1 &fSet of Iron Armor, &d5 &fShields, and &d64 &fCooked Fish'
         - '&f===================================================='
         - '&7Mission Started &8[&bPreparation&8]'
-        - '&fTask&d: &bFind &d1 &fDiamond Sword, &d1 &fBow, &d128 &fArrows, 64 Redstone Blocks, 128 Redstone, 1 Water Bucket, 64 Obsidian, 1 Lucky Sword, and 1 Lucky Pickaxe'
+        - '&fTask&d: &bFind &d1 &fDiamond Sword, 64 Redstone Blocks, 128 Redstone, 128 TNT, 1 Compass, 1 Set of Iron Armor, 5 Shields, and 64 Cooked Fish'
       commands:
     for-completion:
       items:
@@ -200,99 +199,89 @@ missions:
           name:
           enchantments:
           lores:
-        '261:0':
-          amount: 1
-          name:
-          enchantments:
-          lores:
-        '262:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-        '262:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-        '331:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-        '331:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
         '152:0':
           amount: 64
           name:
           enchantments:
           lores:
-        '326:0':
-          amount: 1
-          name:
-          enchantments:
-          lores:
-        '49:0':
+        '331:0':
           amount: 64
           name:
           enchantments:
           lores:
-        '276:0':
-          amount: 1
-          name: '&eLucky Sword'
+        '331:0':
+          amount: 64
+          name:
           enchantments:
-            SHARPNESS: 5
-            UNBREAKING: 20
-            FIRE_ASPECT: 2
           lores:
-            - '&7A very lucky sword'
-        '278:0':
-          amount: 1
-          name: '&eLucky Pickaxe'
+        '46:0':
+          amount: 64
+          name:
           enchantments:
-            EFFICIENCY: 500
-            FORTUNE: 20
-            UNBREAKING: 1000
           lores:
-            - '&7A very lucky pickaxe'
+            - '&7Place inside a mine to use'
+            - '&7Becomes more effective as you level up mining'
+        '46:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+            - '&7Place inside a mine to use'
+            - '&7Becomes more effective as you level up mining'
+        '345:0':
+          amount: 1
+          name:
+          enchantments:
+          lores:
+        '309:0':
+          amount: 1
+          name:
+          enchantments:
+          lores:
+        '306:0':
+          amount: 1
+          name:
+          enchantments:
+          lores:
+        '307:0':
+          amount: 1
+          name:
+          enchantments:
+          lores:
+        '308:0':
+          amount: 1
+          name:
+          enchantments:
+          lores:
     on-completion:
       messages:
         - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fCompleted Mission #4&d: &bPreparation'
-        - '&bMayor Syntax&d: &fThank you for giving us these materials. In return you will also get something. We have a world war in front of us'
+        - '&bMayor Syntax&d: &fThank you for giving us these materials. In return you will also get something. We have a world war in front of us, so suit up'
         - '&f===================================================='
         - '&7Mission Completed &8[&bPreparation&8]'
-        - '&8[&bPreparation Pickaxe, Preparation Sword, and x64 God Apple&8] &7Added'
+        - '&8[&bPreparation Armor, $6 million, and a Legendary Crate&8] &7Added'
       commands:
-        - 't give %PLAYER% 50'
+        - 'eco give %PLAYER% 6000000'
+        - 'pcrate give %PLAYER% legendary 1'
       items:
-        '278:0':
+        '264:0':
           amount: 1
-          name: '&bPreparation &aPickaxe'
+          name: '&bPreparation &aChestplate'
           enchantments:
-            EFFICIENCY: 1000
-            FORTUNE: 25
-            UNBREAKING: 1000
+            UNBREAKING: 100
+            THORNS: 3
+            PROTECTION_ENVIRONMENTAL: 100
           lores:
             - '&7Obtained from the Preparation Mission'
-        '278:0':
+        '312:0':
           amount: 1
-          name: '&bPreparation &aSword'
+          name: '&bPreparation &aLeggings'
           enchantments:
-            SHARPNESS: 5
-            FIRE_ASPECT: 2
-            LOOT_BONUS_MOBS: 3
-            UNBREAKING: 10
+            UNBREAKING: 100
+            PROTECTION_ENVIRONMENTAL: 100
           lores:
             - '&7Obtained from the Preparation Mission'
-        '322:1':
-          amount: 64
-          name:
-          enchantments:
-          lores:
   5:
     on-start:
       messages:
@@ -301,36 +290,31 @@ missions:
         - '&bMayor Syntax&d: &fThe war has started and we need resources to win against these guys.'
         - '&f===================================================='
         - '&7Mission Started &8[&bThe War&8]'
-        - '&fTask&d: &bFind &d1 &fDiamond Sword, &d1 &fBow, &d128 &fArrows, &d64 &fRedstone Blocks, &d128 &fRedstone, &d1 &fWater Bucket, &d64 &fObsidian, &d1 &fLucky Sword, &d1 &fLucky Pickaxe, and &d1 &fNuclear Bomb'
+        - '&fTask&d: &bFind &d1 &fSet of Diamond Armor, &d128 &fRedstone Blocks, &d256 &fTNT, &d10 &fMushroom Stew, &d64 Emeralds, and &d64 Cooked Salmon(get a rod from crates/drop parties), '
       commands:
     for-completion:
       items:
-        '276:0':
+        '313:0':
           amount: 1
           name:
           enchantments:
           lores:
-        '261:0':
+        '310:0':
           amount: 1
           name:
           enchantments:
           lores:
-        '262:0':
-          amount: 64
+        '312:0':
+          amount: 1
           name:
           enchantments:
           lores:
-        '262:0':
-          amount: 64
+        '311:0':
+          amount: 1
           name:
           enchantments:
           lores:
-        '331:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-        '331:0':
+        '152:0':
           amount: 64
           name:
           enchantments:
@@ -340,77 +324,77 @@ missions:
           name:
           enchantments:
           lores:
-        '326:0':
-          amount: 1
-          name:
-          enchantments:
-          lores:
-        '49:0':
+        '46:0':
           amount: 64
           name:
           enchantments:
           lores:
-        '276:0':
-          amount: 1
-          name: '&eLucky Sword'
-          enchantments:
-            SHARPNESS: 5
-            UNBREAKING: 20
-            FIRE_ASPECT: 2
-          lores:
-            - '&7A very lucky sword'
-        '278:0':
-          amount: 1
-          name: '&eLucky Pickaxe'
-          enchantments:
-            EFFICIENCY: 500
-            FORTUNE: 20
-            UNBREAKING: 1000
-          lores:
-            - '&7A very lucky pickaxe'
+            - '&7Place inside a mine to use'
+            - '&7Becomes more effective as you level up mining'
         '46:0':
-          amount: 1
-          name: '&6Nuclear Bomb'
+          amount: 64
+          name:
           enchantments:
-            ARROW_INFINITE: 10
-            UNBREAKING: 10
+          lores:
+            - '&7Place inside a mine to use'
+            - '&7Becomes more effective as you level up mining'
+        '46:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+            - '&7Place inside a mine to use'
+            - '&7Becomes more effective as you level up mining'
+        '46:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+            - '&7Place inside a mine to use'
+            - '&7Becomes more effective as you level up mining'
+        '282:0':
+          amount: 10
+          name:
+          enchantments:
+          lores:
+        '288:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '350:1':
+          amount: 64
+          name:
+          enchantments:
+          lores:
     on-completion:
       messages:
         - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fCompleted Mission #5&d: &bThe War'
-        - '&bMayor Syntax&d: &fWe have won the war thnks to you. That nuclear bomb really helped us out. Its time for us to help you out now, Commander.'
+        - '&bMayor Syntax&d: &fWe have won the war thnks to you. Those bombs really helped us out. We are honored to present you with this special-made armor in return for your service.'
         - '&f===================================================='
         - '&7Mission Completed &8[&bThe War&8]'
-        - '&8[&bThe War Pickaxe, The War Sword, and x128 God Apple&8] &7Added'
+        - '&8[&bWar Armor, $200 Million, and a Pure Crate&8] &7Added'
       commands:
-        - 't give %PLAYER% 500'
+        - 'eco give %PLAYER% 200000000'
+        - 'pcrate give %PLAYER% pure 1'
       items:
-        '278:0':
+        '313:0':
           amount: 1
-          name: '&bThe War &aPickaxe'
+          name: '&bWar Boots'
           enchantments:
-            EFFICIENCY: 5000
-            FORTUNE: 50
-            UNBREAKING: 5000
-          lores:
-            - '&7Obtained from the The War Mission'
-        '278:0':
-          amount: 1
-          name: '&bThe War &aSword'
-          enchantments:
-            SHARPNESS: 10
-            FIRE_ASPECT: 3
-            LOOT_BONUS_MOBS: 5
             UNBREAKING: 100
+            PROTECTION_ENVIRONMENTAL: 100
+            DEPTH_STRIDER: 2
+            FROST_WALKER: 1
           lores:
             - '&7Obtained from the The War Mission'
-        '322:1':
-          amount: 64
-          name:
+        '278:0':
+          amount: 1
+          name: '&bWar Helmet'
           enchantments:
+            UNBREAKING: 100
+            PROTECTION_ENVIRONMENTAL: 100
+            OXYGEN: 100
           lores:
-        '322:1':
-          amount: 64
-          name:
-          enchantments:
-          lores:
+            - '&7Obtained from the The War Mission'
