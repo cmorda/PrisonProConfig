@@ -71,7 +71,7 @@ shop-items:
     commands:
   4:
     moneyPrice: 0
-    tokenPrice: 20000
+    tokenPrice: 50000
     shop-itemstack:
       material: '443:0'
       amount: 1
@@ -79,7 +79,7 @@ shop-items:
       enchantments:
         UNBREAKING: 1000
       lores:
-        - '&620,000 Tokens'
+        - '&650,000 Tokens'
     item-itemstack:
       material: '443:0'
       amount: 1
