@@ -752,7 +752,7 @@ crate-aspects:
         lores:
   ULTRALEGENDARY:
     money-price: 0
-    token-price: 2500
+    token-price: 5000
     chance: 100000
     material: '54:0'
     name: '&dUltra&6Legendary&d-&fCrate'
@@ -940,7 +940,7 @@ crate-aspects:
         lores:
   PURE:
     money-price: 0
-    token-price: 5000
+    token-price: 100000
     chance: 500000
     material: '54:0'
     name: '&f&lP&b&lu&f&lr&b&le&d-&fCrate'
