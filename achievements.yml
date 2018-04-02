@@ -66,7 +66,7 @@ achievements:
     completion-messages:
       - '&7Achievement Completed &8[&bHundred Thousand Block&8]'
     completion-commands:
-      - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Can be used to insta-break at an earlier","rank than a normal haste potion"]}}'
+      - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Use with an Eff 5 iron axe","or an Eff 6 iron pick","for instant mining"]}}'
     completion-items:
       '388:0':
         amount: 1728
@@ -77,7 +77,7 @@ achievements:
     completion-messages:
       - '&7Achievement Completed &8[&bMillion Block&8]'
     completion-commands:
-      - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Can be used to insta-break at an earlier","rank than a normal haste potion"]}}'
+      - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Use with an Eff 5 iron axe","or an Eff 6 iron pick","for instant mining"]}}'
     completion-items:
       '388:0':
         amount: 1728
@@ -93,11 +93,13 @@ achievements:
       '310:0':
         amount: 1
         name: '&bFirst Mission Helm'
+        enchantments:
         lores:
           - '&7Obtained from the First Mission achievement'
       '313:0':
         amount: 1
         name: '&bFirst Mission Boots'
+        enchantments:
         lores:
           - '&7Obtained from the First Mission achievement'
   LAST_MISSION:
@@ -113,9 +115,6 @@ achievements:
         amount: 1
         name: '&bLast Mission Pickaxe'
         enchantments:
-          EFFICIENCY: 300
-          UNBREAKING: 300
-          FORTUNE: 18
         lores:
           - '&7Obtained from the last mission achievement'
   FIRST_CRATE_FOUND:
@@ -131,9 +130,6 @@ achievements:
         amount: 1
         name: '&bFirst Crate Found Pickaxe'
         enchantments:
-          EFFICIENCY: 50
-          UNBREAKING: 50
-          FORTUNE: 4
         lores:
           - '&7Obtained from the first crate found achievement'
   HUNDRED_CRATE_FOUND:
@@ -149,9 +145,6 @@ achievements:
         amount: 1
         name: '&bHundred Crate Found Pickaxe'
         enchantments:
-          EFFICIENCY: 250
-          UNBREAKING: 250
-          FORTUNE: 20
         lores:
           - '&7Obtained from the hundred crate found achievement'
   THOUSAND_CRATE_FOUND:
@@ -167,9 +160,6 @@ achievements:
         amount: 1
         name: '&bThousand Crate Found Pickaxe'
         enchantments:
-          EFFICIENCY: 750
-          UNBREAKING: 750
-          FORTUNE: 32
         lores:
           - '&7Obtained from the thousand crate found achievement'
   FIRST_CRATE_OPENED:
@@ -185,9 +175,6 @@ achievements:
         amount: 1
         name: '&bFirst Crate Opened Pickaxe'
         enchantments:
-          EFFICIENCY: 75
-          UNBREAKING: 75
-          FORTUNE: 5
         lores:
           - '&7Obtained from the first crate opened achievement'
   HUNDRED_CRATE_OPENED:
@@ -203,9 +190,6 @@ achievements:
         amount: 1
         name: '&bHundred Crate Opened Pickaxe'
         enchantments:
-          EFFICIENCY: 300
-          UNBREAKING: 300
-          FORTUNE: 19
         lores:
           - '&7Obtained from the hundred crate opened achievement'
   FIRST_TOKEN:
@@ -221,17 +205,14 @@ achievements:
         amount: 1
         name: '&bFirst Token Pickaxe'
         enchantments:
-          EFFICIENCY: 100
-          UNBREAKING: 100
-          FORTUNE: 10
         lores:
           - '&7Obtained from the first token achievement'
   HUNDRED_TOKEN:
-    name: '&bHundred Token'
+    name: '&bOne Hundred Tokens'
     completion-requirements:
       tokens-found: 100
     completion-messages:
-      - '&7Achievement Completed &8[&bHundred Token&8]'
+      - '&7Achievement Completed &8[&bOne Hundred Tokens&8]'
     completion-commands:
       - 't give %PLAYER% 100'
     completion-items:
@@ -239,11 +220,53 @@ achievements:
         amount: 1
         name: '&bHundred Token Pickaxe'
         enchantments:
-          EFFICIENCY: 400
-          UNBREAKING: 400
-          FORTUNE: 24
         lores:
           - '&7Obtained from the hundred token achievement'
+  THOUSAND_TOKEN:
+    name: '&bOne Thousand Tokens'
+    completion-requirements:
+      tokens-found: 1000
+    completion-messages:
+      - '&7Achievement Completed &8[&bOne Thousand Tokens&8]'
+    completion-commands:
+      - 't give %PLAYER% 1000'
+    completion-items:
+      '278:0':
+        amount: 1
+        name:
+        enchantments:
+        lores:
+          - '&7Obtained from the thousand token achievement'
+  TEN_THOUSAND_TOKEN:
+    name: '&bTen Thousand Tokens'
+    completion-requirements:
+      tokens-found: 10000
+    completion-messages:
+      - '&7Achievement Completed &8[&bTen Thousand Tokens&8]'
+    completion-commands:
+      - 't give %PLAYER% 10000'
+    completion-items:
+      '278:0':
+        amount: 1
+        name:
+        enchantments:
+        lores:
+          - '&7Obtained from the thousand token achievement'
+  HUNDRED_THOUSAND_TOKEN:
+    name: '&bOne Hundred Thousand Tokens'
+    completetion-requirements:
+      tokens-found: 100000
+    completion-messages:
+      - '&7Achievement Completed &8[&bOne Hundred Thousand Tokens&8]'
+    completion-commands:
+      - 't give %PLAYER% 10000'
+    completion-items:
+      '278:0':
+        amount: 1
+        name:
+        enchantments:
+        lores:
+          - '&7Obtained from the thousand token achievement'
   ALL_ACHIEVEMENTS:
     name: '&bAll Achievements'
     completion-requirements:
@@ -251,14 +274,11 @@ achievements:
     completion-messages:
       - '&7Achievement Completed &8[&bAll Achievements&8]'
     completion-commands:
-      - 't give %PLAYER% 1000'
+      - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Use with an Eff 5 iron axe","or an Eff 6 iron pick","for instant mining"]}}'
     completion-items:
       '278:0':
         amount: 1
         name: '&bAll Achievements Pickaxe'
         enchantments:
-          EFFICIENCY: 1000
-          UNBREAKING: 1000
-          FORTUNE: 50
         lores:
           - '&7Obtained from the all achievements achievement'
