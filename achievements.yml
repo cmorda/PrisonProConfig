@@ -15,6 +15,9 @@ achievements:
     completion-items:
       '1:0':
         amount: 64
+        name:
+        enchantments:
+        lores:
   TEN_BLOCK:
     name: '&bTen Block'
     completion-requirements:
@@ -25,7 +28,15 @@ achievements:
       - 't give %PLAYER% 10'
     completion-items:
       '1:0':
-        amount: 128
+        amount: 64
+        name:
+        enchantments:
+        lores:
+      '1:0':
+        amount: 64
+        name:
+        enchantments:
+        lores:
   HUNDRED_BLOCK:
     name: '&bHundred Block'
     completion-requirements:
@@ -35,8 +46,11 @@ achievements:
     completion-commands:
       - 't give %PLAYER% 10'
     completion-items:
-      '263:0':
-        amount: 64
+      '173:0':
+        amount: 7
+        name:
+        enchantments:
+        lores:
   THOUSAND_BLOCK:
     name: '&bThousand Block'
     completion-requirements:
@@ -46,8 +60,11 @@ achievements:
     completion-commands:
       - 't give %PLAYER% 15'
     completion-items:
-      '263:0':
-        amount: 256
+      '173:0':
+        amount: 32
+        name:
+        enchantments:
+        lores:
   TEN_THOUSAND_BLOCK:
     name: '&bTen Thousand Block'
     completion-requirements:
@@ -57,8 +74,11 @@ achievements:
     completion-commands:
       - 't give %PLAYER% 30'
     completion-items:
-      '351:4':
-        amount: 576
+      '22:0':
+        amount: 64
+        name:
+        enchantments:
+        lores:
   HUNDRED_THOUSAND_BLOCK:
     name: '&bHundred Thousand Block'
     completion-requirements:
@@ -68,8 +88,21 @@ achievements:
     completion-commands:
       - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Use with an Eff 5 iron axe","or an Eff 6 iron pick","for instant mining"]}}'
     completion-items:
-      '388:0':
-        amount: 1728
+      '133:0':
+        amount: 64
+        name:
+        enchantments:
+        lores:
+      '133:0':
+        amount: 64
+        name:
+        enchantments:
+        lores:
+      '133:0':
+        amount: 64
+        name:
+        enchantments:
+        lores:
   MILLION_BLOCK:
     name: '&bMillion Block'
     completion-requirements:
@@ -79,8 +112,21 @@ achievements:
     completion-commands:
       - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Use with an Eff 5 iron axe","or an Eff 6 iron pick","for instant mining"]}}'
     completion-items:
-      '388:0':
-        amount: 1728
+      '133:0':
+        amount: 64
+        name:
+        enchantments:
+        lores:
+      '133:0':
+        amount: 64
+        name:
+        enchantments:
+        lores:
+      '133:0':
+        amount: 64
+        name:
+        enchantments:
+        lores:
   FIRST_MISSION:
     name: '&bFirst Mission'
     completion-requirements:
@@ -90,18 +136,24 @@ achievements:
     completion-commands:
       - 't give %PLAYER% 10'
     completion-items:
-      '310:0':
+      '394:0':
         amount: 1
-        name: '&bFirst Mission Helm'
+        name:
         enchantments:
         lores:
-          - '&7Obtained from the First Mission achievement'
-      '313:0':
+          - '&7I heard you liked potatoes'
+      '375:0':
         amount: 1
-        name: '&bFirst Mission Boots'
+        name:
         enchantments:
         lores:
-          - '&7Obtained from the First Mission achievement'
+          - '&7A small snack'
+      '367:0':
+        amount: 64
+        name:
+        enchantments:
+        lores:
+          - '&7Rotten Flesh goes good with potatoes'
   LAST_MISSION:
     name: '&bLast Mission'
     completion-requirements:
@@ -111,12 +163,12 @@ achievements:
     completion-commands:
       - 't give %PLAYER% 50'
     completion-items:
-      '278:0':
+      '354:0'
         amount: 1
-        name: '&bLast Mission Pickaxe'
+        name:
         enchantments:
         lores:
-          - '&7Obtained from the last mission achievement'
+          - '&7The celebration cake'
   FIRST_CRATE_FOUND:
     name: '&bFirst Crate Found'
     completion-requirements:
