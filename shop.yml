@@ -5,70 +5,84 @@
 # NOTE The maximum number of items  you can have is 28
 shop-items:
   1:
-    moneyPrice: 1000000000
-    tokenPrice: 0
+    moneyPrice: 0
+    tokenPrice: 10000
     shop-itemstack:
-      material: '311:0'
+      material: '310:0'
       amount: 1
-      name: '&bDiamond Chestplate'
+      name: '&bDiamond Helmet'
       enchantments:
+        UNBREAKING: 100
+        OXYGEN: 100
       lores:
-        - '&6$1000000000'
+        - '&610,000 Tokens'
     item-itemstack:
-      material: '311:0'
+      material: '310:0'
       amount: 1
-      name: '&bDiamond Chestplate'
+      name: '&bDiamond Helmet'
       enchantments:
+        UNBREAKING: 100
+        OXYGEN: 100
       lores:
     commands:
   2:
     moneyPrice: 0
-    tokenPrice: 10
+    tokenPrice: 100000
     shop-itemstack:
-      material: '322:0'
+      material: '313:0'
       amount: 1
-      name: '&6Golden Apple'
+      name: '&bDiamond Boots'
       enchantments:
+        UNBREAKING: 100
+        FROST_WALKER: 1
+        DEPTH_STRIDER: 2
       lores:
-        - '&610 Tokens'
+        - '&610,000 Tokens'
     item-itemstack:
-      material: '322:0'
+      material: '313:0'
       amount: 1
-      name:
+      name: '&bDiamond Boots'
       enchantments:
+        UNBREAKING: 100
+        FROST_WALKER: 1
+        DEPTH_STRIDER: 2
       lores:
     commands:
   3:
     moneyPrice: 0
-    tokenPrice: 25
+    tokenPrice: 10000
     shop-itemstack:
-      material: '322:1'
+      material: '346:0'
       amount: 1
-      name: '&6&oGod Apple'
+      name: '&bFishing Rod'
       enchantments:
+        UNBREAKING: 100
+        LURE: 3
       lores:
-        - '&625 Tokens'
+        - '&610,000 Tokens'
     item-itemstack:
-      material: '322:1'
+      material: '346:0'
       amount: 1
-      name:
+      name: '&bFishing Rod'
       enchantments:
+        UNBREAKING: 100
+        LURE: 3
       lores:
     commands:
   4:
     moneyPrice: 0
-    tokenPrice: 50
+    tokenPrice: 100
     shop-itemstack:
-      material: '295:0'
-      amount: 2
-      name: '&aSeeds'
+      material: '46:0'
+      amount: 4
+      name: '&bTNT'
       enchantments:
       lores:
-        - '&650 Tokens'
+        - '&6100 Tokens'
     item-itemstack:
-      material: '295:0'
-      amount: 2
-      name:
+      material: '46:0'
+      amount: 4
+      name: '&bTNT'
       enchantments:
       lores:
     commands:
