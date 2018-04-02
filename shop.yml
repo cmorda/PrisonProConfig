@@ -71,6 +71,25 @@ shop-items:
     commands:
   4:
     moneyPrice: 0
+    tokenPrice: 20000
+    shop-itemstack:
+      material: '443:0'
+      amount: 1
+      name: '&bElytra'
+      enchantments:
+        UNBREAKING: 1000
+      lores:
+        - '&620,000 Tokens'
+    item-itemstack:
+      material: '443:0'
+      amount: 1
+      name: '&bElytra'
+      enchantments:
+        UNBREAKING: 1000
+      lores:
+    commands:
+  5:
+    moneyPrice: 0
     tokenPrice: 100
     shop-itemstack:
       material: '46:0'
@@ -86,7 +105,7 @@ shop-items:
       enchantments:
       lores:
     commands:
-  5:
+  6:
     moneyPrice: 0
     tokenPrice: 125
     shop-itemstack:
@@ -105,7 +124,7 @@ shop-items:
       lores:
     commands:
       - 'pcrate give %PLAYER% common 1'
-  6:
+  7:
     moneyPrice: 0
     tokenPrice: 250
     shop-itemstack:
@@ -124,7 +143,7 @@ shop-items:
       lores:
     commands:
       - 'pcrate give %PLAYER% uncommon 1'
-  7:
+  8:
     moneyPrice: 0
     tokenPrice: 500
     shop-itemstack:
@@ -143,7 +162,7 @@ shop-items:
       lores:
     commands:
       - 'pcrate give %PLAYER% rare 1'
-  8:
+  9:
     moneyPrice: 0
     tokenPrice: 1000
     shop-itemstack:
@@ -162,7 +181,7 @@ shop-items:
       lores:
     commands:
       - 'pcrate give %PLAYER% ultrarare 1'
-  9:
+  10:
     moneyPrice: 0
     tokenPrice: 2500
     shop-itemstack:
@@ -181,7 +200,7 @@ shop-items:
       lores:
     commands:
       - 'pcrate give %PLAYER% legendary 1'
-  10:
+  11:
     moneyPrice: 0
     tokenPrice: 10000
     shop-itemstack:
@@ -200,7 +219,7 @@ shop-items:
       lores:
     commands:
       - 'pcrate give %PLAYER% ultralegendary 1'
-  11:
+  12:
     moneyPrice: 0
     tokenPrice: 100000
     shop-itemstack:
