@@ -158,7 +158,7 @@ achievements:
     completion-commands:
       - 't give %PLAYER% 50'
     completion-items:
-      '354:0'
+      '354:0':
         amount: 1
         name:
         enchantments:
