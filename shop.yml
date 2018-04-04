@@ -113,6 +113,7 @@ shop-items:
       amount: 1
       name: '&6Common Crate'
       enchantments:
+        UNBREAKING: 1
       lores:
         - '&6125 Tokens'
     item-itemstack:
@@ -131,6 +132,7 @@ shop-items:
       amount: 1
       name: '&6UnCommon Crate'
       enchantments:
+        UNBREAKING: 1
       lores:
         - '&6250 Tokens'
     item-itemstack:
@@ -149,6 +151,7 @@ shop-items:
       amount: 1
       name: '&6Rare Crate'
       enchantments:
+        UNBREAKING: 1
       lores:
         - '&6500 Tokens'
     item-itemstack:
@@ -167,6 +170,7 @@ shop-items:
       amount: 1
       name: '&6UltraRare Crate'
       enchantments:
+        UNBREAKING: 1
       lores:
         - '&61,000 Tokens'
     item-itemstack:
@@ -185,6 +189,7 @@ shop-items:
       amount: 1
       name: '&6Legendary Crate'
       enchantments:
+        UNBREAKING: 1
       lores:
         - '&62,500 Tokens'
     item-itemstack:
@@ -203,6 +208,7 @@ shop-items:
       amount: 1
       name: '&6UltraLegendary Crate'
       enchantments:
+        UNBREAKING: 1
       lores:
         - '&610,000 Tokens'
     item-itemstack:
@@ -221,6 +227,7 @@ shop-items:
       amount: 1
       name: '&6Pure Crate'
       enchantments:
+        UNBREAKING: 1
       lores:
         - '&6100,000 Tokens'
     item-itemstack:
