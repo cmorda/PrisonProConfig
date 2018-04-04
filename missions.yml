@@ -271,7 +271,6 @@ missions:
           enchantments:
             UNBREAKING: 100
             THORNS: 3
-            PROTECTION_ENVIRONMENTAL: 100
           lores:
             - '&7Obtained from the Preparation Mission'
         '312:0':
@@ -279,7 +278,6 @@ missions:
           name: '&bPreparation &aLeggings'
           enchantments:
             UNBREAKING: 100
-            PROTECTION_ENVIRONMENTAL: 100
           lores:
             - '&7Obtained from the Preparation Mission'
   5:
@@ -384,7 +382,6 @@ missions:
           name: '&bWar Boots'
           enchantments:
             UNBREAKING: 100
-            PROTECTION_ENVIRONMENTAL: 100
             DEPTH_STRIDER: 2
             FROST_WALKER: 1
           lores:
@@ -394,7 +391,6 @@ missions:
           name: '&bWar Helmet'
           enchantments:
             UNBREAKING: 100
-            PROTECTION_ENVIRONMENTAL: 100
             OXYGEN: 100
           lores:
             - '&7Obtained from the The War Mission'
