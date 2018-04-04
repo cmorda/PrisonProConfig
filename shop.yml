@@ -12,9 +12,9 @@ shop-items:
       amount: 1
       name: '&bDiamond Helmet'
       enchantments:
-        UNBREAKING: 100
-        OXYGEN: 100
       lores:
+        - '&7Unbreaking 100'
+        - '&7Respiration 100'
         - '&610,000 Tokens'
     item-itemstack:
       material: '310:0'
@@ -33,10 +33,10 @@ shop-items:
       amount: 1
       name: '&bDiamond Boots'
       enchantments:
-        UNBREAKING: 100
-        FROST_WALKER: 1
-        DEPTH_STRIDER: 2
       lores:
+        - '&7Unbreaking 100'
+        - '&7Frost Walker 1'
+        - '&7Depth Strider 2'
         - '&610,000 Tokens'
     item-itemstack:
       material: '313:0'
@@ -56,9 +56,9 @@ shop-items:
       amount: 1
       name: '&bFishing Rod'
       enchantments:
-        UNBREAKING: 100
-        LURE: 3
       lores:
+        - '&7Unbreaking 100'
+        - '&7Lure 3'
         - '&610,000 Tokens'
     item-itemstack:
       material: '346:0'
@@ -77,15 +77,15 @@ shop-items:
       amount: 1
       name: '&bElytra'
       enchantments:
-        UNBREAKING: 1000
       lores:
+        - '&7Unbreaking 100'
         - '&650,000 Tokens'
     item-itemstack:
       material: '443:0'
       amount: 1
       name: '&bElytra'
       enchantments:
-        UNBREAKING: 1000
+        UNBREAKING: 100
       lores:
     commands:
   5:
@@ -113,11 +113,10 @@ shop-items:
       amount: 1
       name: '&6Common Crate'
       enchantments:
-        UNBREAKING: 1
       lores:
         - '&6125 Tokens'
     item-itemstack:
-      material: '0:0'
+      material: '367:0'
       amount: 1
       name:
       enchantments:
@@ -132,11 +131,10 @@ shop-items:
       amount: 1
       name: '&6UnCommon Crate'
       enchantments:
-        UNBREAKING: 1
       lores:
         - '&6250 Tokens'
     item-itemstack:
-      material: '0:0'
+      material: '367:0'
       amount: 1
       name:
       enchantments:
@@ -151,11 +149,10 @@ shop-items:
       amount: 1
       name: '&6Rare Crate'
       enchantments:
-        UNBREAKING: 1
       lores:
         - '&6500 Tokens'
     item-itemstack:
-      material: '0:0'
+      material: '367:0'
       amount: 1
       name:
       enchantments:
@@ -170,11 +167,10 @@ shop-items:
       amount: 1
       name: '&6UltraRare Crate'
       enchantments:
-        UNBREAKING: 1
       lores:
         - '&61,000 Tokens'
     item-itemstack:
-      material: '0:0'
+      material: '367:0'
       amount: 1
       name:
       enchantments:
@@ -189,11 +185,10 @@ shop-items:
       amount: 1
       name: '&6Legendary Crate'
       enchantments:
-        UNBREAKING: 1
       lores:
         - '&62,500 Tokens'
     item-itemstack:
-      material: '0:0'
+      material: '367:0'
       amount: 1
       name:
       enchantments:
@@ -208,11 +203,10 @@ shop-items:
       amount: 1
       name: '&6UltraLegendary Crate'
       enchantments:
-        UNBREAKING: 1
       lores:
         - '&610,000 Tokens'
     item-itemstack:
-      material: '0:0'
+      material: '367:0'
       amount: 1
       name:
       enchantments:
@@ -227,11 +221,10 @@ shop-items:
       amount: 1
       name: '&6Pure Crate'
       enchantments:
-        UNBREAKING: 1
       lores:
         - '&6100,000 Tokens'
     item-itemstack:
-      material: '0:0'
+      material: '367:0'
       amount: 1
       name:
       enchantments:
