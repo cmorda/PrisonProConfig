@@ -15,7 +15,7 @@ achievements:
     completion-items:
       '1:0':
         amount: 64
-        name:
+        name: ''
         enchantments:
         lores:
   TEN_BLOCK:
@@ -29,12 +29,12 @@ achievements:
     completion-items:
       '1:0':
         amount: 64
-        name:
+        name: ''
         enchantments:
         lores:
       '1:0':
         amount: 64
-        name:
+        name: ''
         enchantments:
         lores:
   HUNDRED_BLOCK:
@@ -48,7 +48,7 @@ achievements:
     completion-items:
       '173:0':
         amount: 7
-        name:
+        name: ''
         enchantments:
         lores:
   THOUSAND_BLOCK:
@@ -62,7 +62,7 @@ achievements:
     completion-items:
       '173:0':
         amount: 32
-        name:
+        name: ''
         enchantments:
         lores:
   TEN_THOUSAND_BLOCK:
@@ -76,7 +76,7 @@ achievements:
     completion-items:
       '22:0':
         amount: 64
-        name:
+        name: ''
         enchantments:
         lores:
   HUNDRED_THOUSAND_BLOCK:
@@ -90,12 +90,12 @@ achievements:
     completion-items:
       '133:0':
         amount: 64
-        name:
+        name: ''
         enchantments:
         lores:
       '133:0':
         amount: 64
-        name:
+        name: ''
         enchantments:
         lores:
   MILLION_BLOCK:
@@ -109,17 +109,17 @@ achievements:
     completion-items:
       '133:0':
         amount: 64
-        name:
+        name: ''
         enchantments:
         lores:
       '133:0':
         amount: 64
-        name:
+        name: ''
         enchantments:
         lores:
       '133:0':
         amount: 64
-        name:
+        name: ''
         enchantments:
         lores:
   FIRST_MISSION:
@@ -133,19 +133,19 @@ achievements:
     completion-items:
       '394:0':
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
           - '&7I heard you liked potatoes'
       '375:0':
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
           - '&7A small snack'
       '367:0':
         amount: 64
-        name:
+        name: ''
         enchantments:
         lores:
           - '&7Rotten Flesh goes good with potatoes'
@@ -160,7 +160,7 @@ achievements:
     completion-items:
       '354:0':
         amount: 1
-        name:
+        name: ''
         enchantments:
         lores:
           - '&7The celebration cake'
