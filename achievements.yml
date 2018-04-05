@@ -361,6 +361,6 @@ achievements:
         amount: 1
         name: '&bAll Achievements Elytra'
         enchantments:
-          UNBREAKING: 1000
+          UNBREAKING: 100
         lores:
           - '&7Obtained from the all achievements achievement'
