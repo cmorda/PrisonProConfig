@@ -15,9 +15,6 @@ achievements:
     completion-items:
       '1:0':
         amount: 64
-        name: ''
-        enchantments:
-        lores:
   TEN_BLOCK:
     name: '&bTen Blocks'
     completion-requirements:
@@ -29,14 +26,8 @@ achievements:
     completion-items:
       '1:0':
         amount: 64
-        name: ''
-        enchantments:
-        lores:
       '1:0':
         amount: 64
-        name: ''
-        enchantments:
-        lores:
   HUNDRED_BLOCK:
     name: '&bOne Hundred Blocks'
     completion-requirements:
@@ -48,9 +39,6 @@ achievements:
     completion-items:
       '173:0':
         amount: 7
-        name: ''
-        enchantments:
-        lores:
   THOUSAND_BLOCK:
     name: '&bOne Thousand Block'
     completion-requirements:
@@ -62,9 +50,6 @@ achievements:
     completion-items:
       '173:0':
         amount: 32
-        name: ''
-        enchantments:
-        lores:
   TEN_THOUSAND_BLOCK:
     name: '&bTen Thousand Blocks'
     completion-requirements:
@@ -76,9 +61,6 @@ achievements:
     completion-items:
       '22:0':
         amount: 64
-        name: ''
-        enchantments:
-        lores:
   HUNDRED_THOUSAND_BLOCK:
     name: '&bOne Hundred Thousand Blocks'
     completion-requirements:
@@ -90,14 +72,8 @@ achievements:
     completion-items:
       '133:0':
         amount: 64
-        name: ''
-        enchantments:
-        lores:
       '133:0':
         amount: 64
-        name: ''
-        enchantments:
-        lores:
   MILLION_BLOCK:
     name: '&bOne Million Blocks'
     completion-requirements:
@@ -109,19 +85,10 @@ achievements:
     completion-items:
       '133:0':
         amount: 64
-        name: ''
-        enchantments:
-        lores:
       '133:0':
         amount: 64
-        name: ''
-        enchantments:
-        lores:
       '133:0':
         amount: 64
-        name: ''
-        enchantments:
-        lores:
   FIRST_MISSION:
     name: '&bFirst Mission'
     completion-requirements:
@@ -212,29 +179,6 @@ achievements:
         lores:
           - '&7Place inside a mine to use'
           - '&7Becomes more effective as you level up mining'
-  TEN_THOUSAND_CRATE_FOUND:
-    name: '&bTen Thousand Crates Found'
-    completion-requirements:
-      crates-found: 10000
-    completion-messages:
-      - '&7Achievement Completed &8[&bTen Thousand Crates Found&8]'
-    completion-commands:
-      - 't give %PLAYER% 10000'
-    completion-items:
-      '46:0':
-        amount: 64
-        name: ''
-        enchantments:
-        lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
-      '46:0':
-        amount: 64
-        name: ''
-        enchantments:
-        lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
   FIRST_CRATE_OPENED:
     name: '&bFirst Crate Opened'
     completion-requirements:
@@ -299,58 +243,10 @@ achievements:
         lores:
           - '&7Place inside a mine to use'
           - '&7Becomes more effective as you level up mining'
-  THOUSAND_TOKEN:
-    name: '&bOne Thousand Tokens'
-    completion-requirements:
-      tokens-found: 1000
-    completion-messages:
-      - '&7Achievement Completed &8[&bOne Thousand Tokens&8]'
-    completion-commands:
-      - 't give %PLAYER% 1000'
-    completion-items:
-      '46:0':
-        amount: 10
-        name: ''
-        enchantments:
-        lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
-  TEN_THOUSAND_TOKEN:
-    name: '&bTen Thousand Tokens'
-    completion-requirements:
-      tokens-found: 10000
-    completion-messages:
-      - '&7Achievement Completed &8[&bTen Thousand Tokens&8]'
-    completion-commands:
-      - 't give %PLAYER% 10000'
-    completion-items:
-      '46:0':
-        amount: 32
-        name: ''
-        enchantments:
-        lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
-  HUNDRED_THOUSAND_TOKEN:
-    name: '&bOne Hundred Thousand Tokens'
-    completetion-requirements:
-      tokens-found: 100000
-    completion-messages:
-      - '&7Achievement Completed &8[&bOne Hundred Thousand Tokens&8]'
-    completion-commands:
-      - 't give %PLAYER% 10000'
-    completion-items:
-      '46:0':
-        amount: 64
-        name: ''
-        enchantments:
-        lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
   ALL_ACHIEVEMENTS:
     name: '&bAll Achievements'
     completion-requirements:
-      achievements: 20
+      achievements: 16
     completion-messages:
       - '&7Achievement Completed &8[&bAll Achievements&8]'
     completion-commands:
