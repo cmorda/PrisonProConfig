@@ -269,7 +269,7 @@ achievements:
   ALL_ACHIEVEMENTS:
     name: '&bAll Achievements'
     completion-requirements:
-      achievements: 16
+      achievements: 17
     completion-messages:
       - '&7Achievement Completed &8[&bAll Achievements&8]'
     completion-commands:
