@@ -300,7 +300,7 @@ achievements:
           - '&7Becomes more effective as you level up mining'
   HUNDRED_THOUSAND_TOKEN:
     name: '&bOne Hundred Thousand Tokens'
-    completetion-requirements:
+    completion-requirements:
       tokens-found: 100000
     completion-messages:
       - '&7Achievement Completed &8[&bOne Hundred Thousand Tokens&8]'
