@@ -266,6 +266,22 @@ achievements:
         lores:
           - '&7Place inside a mine to use'
           - '&7Becomes more effective as you level up mining'
+  THOUSAND_TOKEN:
+    name: '&bOne Thousand Tokens'
+    completion-requirements:
+      tokens-found: 1000
+    completion-messages:
+      - '&7Achievement Completed &8[&bOne Thousand Tokens&8]'
+    completion-commands:
+      - 't give %PLAYER% 1000'
+    completion-items:
+      '46:0':
+        amount: 10
+        name: ''
+        enchantments:
+        lores:
+          - '&7Place inside a mine to use'
+          - '&7Becomes more effective as you level up mining'
   ALL_ACHIEVEMENTS:
     name: '&bAll Achievements'
     completion-requirements:
