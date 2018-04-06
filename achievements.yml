@@ -288,7 +288,7 @@ achievements:
       tokens-found: 10000
     completion-messages:
       - '&7Achievement Completed &8[&bTen Thousand Tokens&8]'
-        completion-commands:
+    completion-commands:
       - 't give %PLAYER% 10000'
     completion-items:
       '46:0':
