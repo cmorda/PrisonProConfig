@@ -129,6 +129,7 @@ new-player-join-commands:
   - 'pex user %PLAYER% group add A'
   - 'token set %PLAYER% 0'
   - 'eco set %PLAYER% 0'
+  - 'msg %PLAYER% Before you begin, read the signs at spawn. They will explain everything to you'
 # What should be the commands dispatched when resetting
 reset-commands:
   - 'eco reset %PLAYER%'
