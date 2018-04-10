@@ -10,7 +10,7 @@ enchantment-signs: true
 # There will be a BlockExperience enchantment
 block-experience-enchantment: true
 # There will be BlockExperience without the need of the enchantment
-block-experience-whole: true
+block-experience-whole: false
 # The name of the lore enchantment, do not put the level here or a space, just the base name
 block-experience-name: '&7ExperienceMultiplier'
 # The EXP multiplier for each level of BlockExperience
