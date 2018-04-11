@@ -10,7 +10,7 @@ enchantment-signs: true
 # There will be a BlockExperience enchantment
 block-experience-enchantment: true
 # There will be BlockExperience without the need of the enchantment
-block-experience-whole: false
+block-experience-whole: true
 # The name of the lore enchantment, do not put the level here or a space, just the base name
 block-experience-name: '&7ExperienceMultiplier'
 # The EXP multiplier for each level of BlockExperience
@@ -22,24 +22,24 @@ block-experience-multipliers:
   level-5: 5.0
 # The base amount of EXP earned for each block
 block-experience-blocks:
-  '1:0': 1
-  '16:0': 1
-  '14:0': 1
-  '15:0': 2
-  '73:0': 2
-  '21:0': 2
-  '56:0': 3
-  '129:0': 3
-  '153:0': 2
-  '17:0': 1
-  '17:2': 1
-  '162:1': 2
-  '17:3': 2
-  '162:0': 2
-  '17:1': 2
-  '99:0': 3
-  '100:0': 3
-  '86:0': 2
+  '1:0': .1
+  '16:0': .1
+  '14:0': .1
+  '15:0': .2
+  '73:0': .2
+  '21:0': .2
+  '56:0': .3
+  '129:0': .3
+  '153:0': .2
+  '17:0': .1
+  '17:2': .1
+  '162:1': .2
+  '17:3': .2
+  '162:0': .2
+  '17:1': .2
+  '99:0': .3
+  '100:0': .3
+  '86:0': .2
 # The base amount of EXP earned for other blocks not listed above
 block-experience-blocks-other: 1
 # The blocks that will not earn any EXP
