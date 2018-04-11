@@ -41,7 +41,7 @@ block-experience-blocks:
   '100:0': .3
   '86:0': .2
 # The base amount of EXP earned for other blocks not listed above
-block-experience-blocks-other: 1
+block-experience-blocks-other: .1
 # The blocks that will not earn any EXP
 block-experience-blacklist:
   - '7:0'
