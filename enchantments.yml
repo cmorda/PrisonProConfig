@@ -86,7 +86,7 @@ fortune-blocks-name: '&7MegaFortune'
 # Infinity #
 ############
 # There will be an Infinity enchantment
-infinity-enchantment: true
+infinity-enchantment: false
 # The name of the lore enchantment, do not put the level here or a space, just the base name
 infinity-name: '&7InfiniteDurability'
 ###########
