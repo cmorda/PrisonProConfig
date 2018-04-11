@@ -286,7 +286,7 @@ token-find-commands:
 # There will be AutoInventory in creative mode
 creative-autoinventory: false
 # Durability on an item will reduce when mining
-reduce-durability: false
+reduce-durability: true
 # The sound dispatched when a player has a full inventory when mining
 full-inventory-sound: BLOCK_ANVIL_PLACE
 # The message dispatched when a player has a full inventory when mining
