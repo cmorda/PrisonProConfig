@@ -109,6 +109,7 @@ prestige-commands:
   - 'clearinventory %PLAYER%'
   - 'eco reset %PLAYER%'
   - 'sudo %PLAYER% warp AlphaWard'
+  - 'exp set %PLAYER% 0'
 # The prestiges with their prices
 prestiges:
   Prestige-I: 0
