@@ -138,6 +138,7 @@ reset-commands:
   - 'pex user %PLAYER% group remove %OLD_RANK%'
   - 'sudo %PLAYER% spawn'
   - 'missions reset %PLAYER%'
+  - 'exp set %PLAYER% 0'
 #########
 # Other #
 #########
