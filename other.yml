@@ -308,7 +308,6 @@ fortuneblocks-blacklist:
 ##############
 # The item drops that will trigger smartdrop
 smart-drop-items:
-  - '373:0'
   - '46:0'
 ##############
 # Admin Menu #
