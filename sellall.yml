@@ -210,7 +210,7 @@ sellall:
       money: 42
       tokens: 0
     '351:4':
-      money: 70
+      money: 22
       toekns: 0
     '17:2':
       money: 30
@@ -247,7 +247,7 @@ sellall:
       money: 60
       tokens: 0
     '351:4':
-      money: 80
+      money: 30
       toekns: 0
     '17:2':
       money: 37
@@ -284,7 +284,7 @@ sellall:
       money: 89
       tokens: 0
     '351:4':
-      money: 105
+      money: 43
       toekns: 0
     '17:2':
       money: 50
@@ -321,7 +321,7 @@ sellall:
       money: 108
       tokens: 0
     '351:4':
-      money: 130
+      money: 62
       toekns: 0
     '17:1':
       money: 101
@@ -355,7 +355,7 @@ sellall:
       money: 145
       tokens: 0
     '351:4':
-      money: 175
+      money: 98
       toekns: 0
     '15:0':
       money: 205
@@ -398,7 +398,7 @@ sellall:
       money: 188
       tokens: 0
     '351:4':
-      money: 200
+      money: 140
       toekns: 0
     '15:0':
       money: 235
@@ -441,7 +441,7 @@ sellall:
       money: 210
       tokens: 0
     '351:4':
-      money: 245
+      money: 150
       toekns: 0
     '15:0':
       money: 280
@@ -469,7 +469,7 @@ sellall:
       money: 100
       tokens: 0
     '351:4':
-      money: 295
+      money: 200
       toekns: 0
     '15:0':
       money: 360
@@ -494,7 +494,7 @@ sellall:
       money: 100
       tokens: 0
     '351:4':
-      money: 350
+      money: 270
       toekns: 0
     '15:0':
       money: 425
@@ -525,7 +525,7 @@ sellall:
       money: 100
       tokens: 0
     '351:4':
-      money: 405
+      money: 330
       toekns: 0
     '15:0':
       money: 488
@@ -556,7 +556,7 @@ sellall:
       money: 100
       tokens: 0
     '351:4':
-      money: 515
+      money: 425
       toekns: 0
     '15:0':
       money: 675
