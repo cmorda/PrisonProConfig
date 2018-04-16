@@ -618,7 +618,7 @@ sellall:
       money: 3150
       tokens: 0
     '331:0':
-      money: 3500
+      money: 2800
       tokens: 0
     '264:0':
       money: 6500
@@ -649,7 +649,7 @@ sellall:
       money: 4744
       tokens: 0
     '331:0':
-      money: 6432
+      money: 4300
       tokens: 0
     '264:0':
       money: 8000
@@ -674,19 +674,19 @@ sellall:
       money: 1000
       tokens: 0
     '15:0':
-      money: 6000
+      money: 8000
       tokens: 0
     '265:0':
-      money: 6500
+      money: 8500
       tokens: 0
     '331:0':
-      money: 10000
+      money: 7800
       tokens: 0
     '264:0':
       money: 13500
       tokens: 0
     '17:3':
-      money: 6000
+      money: 8000
       tokens: 0
     '162:1':
       money: 10000
@@ -705,10 +705,10 @@ sellall:
       money: 1000
       tokens: 0
     '331:0':
-      money: 17000
+      money: 19000
       tokens: 0
     '264:0':
-      money: 21000
+      money: 23000
       tokens: 0
     '162:1':
       money: 17000
@@ -758,7 +758,7 @@ sellall:
       money: 51000
       tokens: 0
     '264:0':
-      money: 56000
+      money: 58000
       tokens: 0
     '388:0':
       money: 70000
