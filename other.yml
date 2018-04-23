@@ -366,7 +366,7 @@ member-menu-commands: true
 # Rewards #
 ###########
 # The cooldown before using another reward in seconds
-rewards-cooldown: 86400
+rewards-cooldown: 28800
 # The reward chances for a random reward
 rewards-random:
   1:
@@ -387,30 +387,29 @@ rewards-random:
 # The reward chances for an economy reward
 rewards-economy:
   1:
-    money: 100
-    tokens: 0
-  5:
     money: 1000
     tokens: 0
-  10:
+  5:
     money: 10000
+    tokens: 0
+  10:
+    money: 50000
     tokens: 0
 # The reward chances for an item reward
 rewards-item:
   1:
     material: '46:0'
-    amount: 32
+    amount: 64
+    name:
+    enchantments:
+    lores:
+  2:
+    material: '46:0'
+    amount: 64
     name:
     enchantments:
     lores:
   5:
-    material: '397:2'
-    amount: 1
-    name:
-    enchantments:
-    lores:
-      - '&7A severed zambie skull'
-  10:
     material: '346:0'
     amount: 1
     name: '&bDaily Reward Fishing Rod'
@@ -419,6 +418,13 @@ rewards-item:
       LURE: 3
     lores:
       - '&7Obtained as a daily item reward'
+  10:
+    material: '397:2'
+    amount: 1
+    name:
+    enchantments:
+    lores:
+      - '&7A severed zambie skull'
   20:
     material: '397:0'
     amount: 1
@@ -426,14 +432,7 @@ rewards-item:
     enchantments:
     lores:
       - '&7An old skull'
-  40:
-    material: '397:4'
-    amount: 1
-    name:
-    enchantments:
-    lores:
-      - '&7Kablooey'
-  50:
+  20:
     material: '310:0'
     amount: 1
     name: '&bDaily Reward Helmet'
@@ -442,7 +441,7 @@ rewards-item:
       OXYGEN: 100
     lores:
       - '&7Obtained as a daily item reward'
-  50:
+  20:
     material: '313:0'
     amount: 1
     name: '&bDaily Reward Boots'
@@ -452,6 +451,13 @@ rewards-item:
       FROST_WALKER: 2
     lores:
       - '&7Obtained as a daily item reward'
+  40:
+    material: '397:4'
+    amount: 1
+    name:
+    enchantments:
+    lores:
+      - '&7Kablooey'
   100:
     material: '397:1'
     amount: 1
@@ -459,7 +465,7 @@ rewards-item:
     enchantments:
     lores:
       - '&7A very highly valued mob skull'
-  1000:
+  500:
     material: '397:5'
     amount: 1
     name:
