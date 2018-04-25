@@ -190,73 +190,73 @@ crate-aspects:
         lores:
           - '&7An old skull'
       '2257:0':
-        chance: 40
+        chance: 75
         amount: 1
         name: ''
         enchantments:
         lores:
       '2264:0':
-        chance: 40
+        chance: 75
         amount: 1
         name: ''
         enchantments:
         lores:
       '2263:0':
-        chance: 40
+        chance: 75
         amount: 1
         name: ''
         enchantments:
         lores:
       '2262:0':
-        chance: 40
+        chance: 75
         amount: 1
         name: ''
         enchantments:
         lores:
       '2261:0':
-        chance: 40
+        chance: 75
         amount: 1
         name: ''
         enchantments:
         lores:
       '2260:0':
-        chance: 40
+        chance: 75
         amount: 1
         name: ''
         enchantments:
         lores:
       '2259:0':
-        chance: 40
+        chance: 75
         amount: 1
         name: ''
         enchantments:
         lores:
       '2258:0':
-        chance: 40
+        chance: 75
         amount: 1
         name: ''
         enchantments:
         lores:
       '2257:0':
-        chance: 40
+        chance: 75
         amount: 1
         name: ''
         enchantments:
         lores:
       '2256:0':
-        chance: 40
+        chance: 75
         amount: 1
         name: ''
         enchantments:
         lores:
       '2265:0':
-        chance: 40
+        chance: 75
         amount: 1
         name: ''
         enchantments:
         lores:
       '2266:0':
-        chance: 40
+        chance: 75
         amount: 1
         name: ''
         enchantments:
@@ -338,73 +338,73 @@ crate-aspects:
         lores:
           - '&7Kablooey'
       '2257:0':
-        chance: 30
+        chance: 50
         amount: 1
         name: ''
         enchantments:
         lores:
       '2264:0':
-        chance: 30
+        chance: 50
         amount: 1
         name: ''
         enchantments:
         lores:
       '2263:0':
-        chance: 30
+        chance: 50
         amount: 1
         name: ''
         enchantments:
         lores:
       '2262:0':
-        chance: 30
+        chance: 50
         amount: 1
         name: ''
         enchantments:
         lores:
       '2261:0':
-        chance: 30
+        chance: 50
         amount: 1
         name: ''
         enchantments:
         lores:
       '2260:0':
-        chance: 30
+        chance: 50
         amount: 1
         name: ''
         enchantments:
         lores:
       '2259:0':
-        chance: 30
+        chance: 50
         amount: 1
         name: ''
         enchantments:
         lores:
       '2258:0':
-        chance: 30
+        chance: 50
         amount: 1
         name: ''
         enchantments:
         lores:
       '2257:0':
-        chance: 30
+        chance: 50
         amount: 1
         name: ''
         enchantments:
         lores:
       '2256:0':
-        chance: 30
+        chance: 50
         amount: 1
         name: ''
         enchantments:
         lores:
       '2265:0':
-        chance: 30
+        chance: 50
         amount: 1
         name: ''
         enchantments:
         lores:
       '2266:0':
-        chance: 30
+        chance: 50
         amount: 1
         name: ''
         enchantments:
@@ -496,67 +496,67 @@ crate-aspects:
         enchantments:
         lores:
       '2264:0':
-        chance: 20
+        chance: 25
         amount: 1
         name: ''
         enchantments:
         lores:
       '2263:0':
-        chance: 20
+        chance: 25
         amount: 1
         name: ''
         enchantments:
         lores:
       '2262:0':
-        chance: 20
+        chance: 25
         amount: 1
         name: ''
         enchantments:
         lores:
       '2261:0':
-        chance: 20
+        chance: 25
         amount: 1
         name: ''
         enchantments:
         lores:
       '2260:0':
-        chance: 20
+        chance: 25
         amount: 1
         name: ''
         enchantments:
         lores:
       '2259:0':
-        chance: 20
+        chance: 25
         amount: 1
         name: ''
         enchantments:
         lores:
       '2258:0':
-        chance: 20
+        chance: 25
         amount: 1
         name: ''
         enchantments:
         lores:
       '2257:0':
-        chance: 20
+        chance: 25
         amount: 1
         name: ''
         enchantments:
         lores:
       '2256:0':
-        chance: 20
+        chance: 25
         amount: 1
         name: ''
         enchantments:
         lores:
       '2265:0':
-        chance: 20
+        chance: 25
         amount: 1
         name: ''
         enchantments:
         lores:
       '2266:0':
-        chance: 20
+        chance: 25
         amount: 1
         name: ''
         enchantments:
