@@ -127,6 +127,7 @@ join-commands:
 # The commands dispatched when a new player joins
 new-player-join-commands:
   - 'pex user %PLAYER% group add A'
+  - 'pex user &PLAYER% groud add Prestige-0'
   - 'token set %PLAYER% 0'
   - 'eco set %PLAYER% 0'
   - 'msg %PLAYER% Before you begin, read the signs at spawn. They will explain everything to you'
