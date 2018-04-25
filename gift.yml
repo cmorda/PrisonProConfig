@@ -3,7 +3,7 @@
 ######################
 # This configuration file will let you configure the gifts
 # There will be the daily gift
-daily-gift: false
+daily-gift: true
 # There will be the weekly gift
 weekly-gift: true
 # There will be the monthly gift
@@ -11,48 +11,74 @@ monthly-gift: true
 # The content of the daily gift, with chances for them
 daily-gift-content:
   items:
-    '278:0':
-      chance: 5
-      amount: 1
-      name: '&aDaily Gift Pickaxe'
+    '263:0':
+      chance: 1
+      amount: 16
+      name: ''
       enchantments:
-        EFFICIENCY: 100
-        UNBREAKING: 100
-        FORTUNE: 10
       lores:
-        - '&7Obtained from the daily gift'
-    '276:0':
-      chance: 5
-      amount: 1
-      name: '&aDaily Gift Sword'
-      enchantments:
-        SHARPNESS: 3
-        UNBREAKING: 5
-        FIRE_ASPECT: 1
-      lores:
-        - '&7Obtained from the daily gift'
-    '322:1':
+    '263:0':
       chance: 2
+      amount: 16
+      name: ''
+      enchantments:
+      lores:
+    '263:0':
+      chance: 5
+      amount: 32
+      name: ''
+      enchantments:
+      lores:
+    '322:1'
+      chance: 25
       amount: 1
       name: ''
       enchantments:
       lores:
-  commands:
-    2:
-      - 't give %PLAYER% 5'
-    5:
-      - 't give %PLAYER% 10'
-    10:
-      - 't give %PLAYER% 25'
-# The content of the weekly gift, with chances for them
-weekly-gift-content:
-  items:
-    '322:1':
-      chance: 2
+    '46:0':
+      chance: 1
       amount: 3
       name: ''
       enchantments:
       lores:
+          - '&7Place inside a mine to use'
+          - '&7Becomes more effective as you level up mining'
+    '46:0':
+      chance: 2
+      amount: 15
+      name: ''
+      enchantments:
+      lores:
+          - '&7Place inside a mine to use'
+          - '&7Becomes more effective as you level up mining'
+    '46:0':
+      chance: 5
+      amount: 20
+      name: ''
+      enchantments:
+      lores:
+          - '&7Place inside a mine to use'
+          - '&7Becomes more effective as you level up mining'
+  commands:
+    1:
+      - 't give %PLAYER% 10'
+    5:
+      - 'pcrate give %PLAYER% common 1'
+    15:
+      - 'pcrate give %PLAYER% uncommon 1'
+    25:
+      - 'pcrate give %PLAYER% rare 1'
+    35:
+      - 'pcrate give %PLAYER% ultrarare 1'
+    50:
+      - 'pcrate give %PLAYER% legendary 1'
+    100:
+      - 'pcrate give %PLAYER% ultralegendary 1'
+    1000:
+      - 'pcrate give %PLAYER% pure 1'
+# The content of the weekly gift, with chances for them
+weekly-gift-content:
+  items:
     '263:0':
       chance: 1
       amount: 32
@@ -68,6 +94,12 @@ weekly-gift-content:
     '263:0':
       chance: 5
       amount: 64
+      name: ''
+      enchantments:
+      lores:
+    '322:1'
+      chance: 10
+      amount: 2
       name: ''
       enchantments:
       lores:
@@ -87,18 +119,34 @@ weekly-gift-content:
       lores:
           - '&7Place inside a mine to use'
           - '&7Becomes more effective as you level up mining'
-  commands:
-    10:
-      - 'pcrate give %PLAYER% common 1'
-# The content of the weekly gift, with chances for them
-monthly-gift-content:
-  items:
-    '322:1':
-      chance: 2
-      amount: 10
+    '46:0':
+      chance: 5
+      amount: 32
       name: ''
       enchantments:
       lores:
+          - '&7Place inside a mine to use'
+          - '&7Becomes more effective as you level up mining'
+  commands:
+    1:
+      - 't give %PLAYER% 50'
+    5:
+      - 'pcrate give %PLAYER% common 1'
+    10:
+      - 'pcrate give %PLAYER% uncommon 1'
+    15:
+      - 'pcrate give %PLAYER% rare 1'
+    20:
+      - 'pcrate give %PLAYER% ultrarare 1'
+    30:
+      - 'pcrate give %PLAYER% legendary 1'
+    50:
+      - 'pcrate give %PLAYER% ultralegendary 1'
+    500:
+      - 'pcrate give %PLAYER% pure 1'
+# The content of the weekly gift, with chances for them
+monthly-gift-content:
+  items:
     '263:0':
       chance: 1
       amount: 64
@@ -114,6 +162,12 @@ monthly-gift-content:
     '263:0':
       chance: 5
       amount: 64
+      name: ''
+      enchantments:
+      lores:
+    '322:1'
+      chance: 1
+      amount: 3
       name: ''
       enchantments:
       lores:
@@ -140,7 +194,15 @@ monthly-gift-content:
       enchantments:
       lores:
   commands:
-    10:
+    1:
       - 'pcrate give %PLAYER% uncommon 1'
-    25:
+    10:
       - 'pcrate give %PLAYER% rare 1'
+    15:
+      - 'pcrate give %PLAYER% ultrarare 1'
+    20:
+      - 'pcrate give %PLAYER% legendary 1'
+    25:
+      - 'pcrate give %PLAYER% ultralegendary 1'
+    100:
+      - 'pcrate give %PLAYER% pure 1'
