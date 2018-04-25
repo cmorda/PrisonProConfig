@@ -195,6 +195,8 @@ monthly-gift-content:
       lores:
   commands:
     1:
+      - 't give %PLAYER% 1000'
+    2:
       - 'pcrate give %PLAYER% uncommon 1'
     10:
       - 'pcrate give %PLAYER% rare 1'
