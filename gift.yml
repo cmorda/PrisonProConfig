@@ -29,7 +29,7 @@ daily-gift-content:
       name: ''
       enchantments:
       lores:
-    '322:1'
+    '322:1':
       chance: 25
       amount: 1
       name: ''
@@ -97,7 +97,7 @@ weekly-gift-content:
       name: ''
       enchantments:
       lores:
-    '322:1'
+    '322:1':
       chance: 10
       amount: 2
       name: ''
@@ -165,7 +165,7 @@ monthly-gift-content:
       name: ''
       enchantments:
       lores:
-    '322:1'
+    '322:1':
       chance: 1
       amount: 3
       name: ''
