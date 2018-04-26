@@ -112,7 +112,6 @@ prestige-commands:
   - 'exp set %PLAYER% 0'
 # The prestiges with their prices
 prestiges:
-  Prestige-0: 0
   Prestige-I: 0
   Prestige-II: 0
   Prestige-III: 0
