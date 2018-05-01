@@ -78,7 +78,7 @@ report-command: true
 # Reset command
 reset-command: true
 # Sellall command
-sellall-command: true
+sellall-command: false
 # Send command
 send-command: true
 # Sethealth command
