@@ -137,6 +137,8 @@ reset-commands:
   - 'clear %PLAYER%'
   - 'pex user %PLAYER% group add A'
   - 'pex user %PLAYER% group remove %CURRENT-RANK%'
+  - 'pex user %PLAYER% group remove %OLD-PRESTIGE%'
+  - 'pex user %PLAYER% group remove %CURRENT-PRESTIGE%'
   - 'sudo %PLAYER% spawn'
   - 'missions reset %PLAYER%'
   - 'exp set %PLAYER% 0'
