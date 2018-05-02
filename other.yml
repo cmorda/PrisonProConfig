@@ -130,13 +130,13 @@ new-player-join-commands:
   - 'pex user &PLAYER% groud add No-Prestige'
   - 'token set %PLAYER% 0'
   - 'eco set %PLAYER% 0'
-  - 'msg %PLAYER% Before you begin, read the signs at spawn. They will explain everything to you'
+  - 'msg %PLAYER% &6Before you begin, go to &f/warp tutorial&6. They will explain everything to you'
 # What should be the commands dispatched when resetting
 reset-commands:
   - 'eco reset %PLAYER%'
   - 'clear %PLAYER%'
   - 'pex user %PLAYER% group add A'
-  - 'pex user %PLAYER% group remove %OLD_RANK%'
+  - 'pex user %PLAYER% group remove %CURRENT-RANK%'
   - 'sudo %PLAYER% spawn'
   - 'missions reset %PLAYER%'
   - 'exp set %PLAYER% 0'
@@ -144,7 +144,7 @@ reset-commands:
 # Other #
 #########
 # The starting balance for tokens
-tokens-starting-balance: 0
+tokens-starting-balance: 100
 ########
 # Hand #
 ########
@@ -158,18 +158,18 @@ hand:
       tokens: 20
       money: 500000
     enchantment:
-      tokens: 10000000000000
-      money: 10000000000000
+      tokens: 700000000
+      money: 700000000
   remove:
     lore:
-      tokens: 10
-      money: 250000
+      tokens: 1
+      money: 250
     enchantment:
-      tokens: 100000000000000
-      money: 100000000000000
+      tokens: 0
+      money: 0
   setName:
-    tokens: 50
-    money: 1000000
+    tokens: 1000
+    money: 1000000000
 ####################
 # Anti Advertising #
 ####################
