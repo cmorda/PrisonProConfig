@@ -8,7 +8,7 @@
 # The sound played upon ranking up
 rankup-sound: ENTITY_GENERIC_EXPLODE
 # The cooldown for using the rankup command in seconds
-rankup-cooldown: 1
+rankup-cooldown: 0
 # The messages displayed upon showing all ranks
 rank-messages:
   - '&f=================&d>&bPrisonProfessional&d<&f================='
