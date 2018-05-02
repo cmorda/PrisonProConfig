@@ -59,7 +59,6 @@ rankup-commands:
   - 'pex user %PLAYER% group add %NEW-RANK%'
 # The ranks along with their prices
 ranks:
-  A: 0
   B: 150
   C: 300
   D: 700
