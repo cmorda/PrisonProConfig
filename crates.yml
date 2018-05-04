@@ -425,6 +425,8 @@ crate-aspects:
     command-chances-on-open:
       20:
         - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+      20:
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
     item-chances-on-open:
       '263:0':
         chance: 1
@@ -579,7 +581,9 @@ crate-aspects:
     command-chances-on-find:
     command-chances-on-open:
       10:
-        - 'minecraft:give %PLAYER% minecraft:potion 2 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+      10:
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
       15:
         - 'playerheads spawn MaryVi %PLAYER%'
       15:
@@ -766,7 +770,9 @@ crate-aspects:
     command-chances-on-find:
     command-chances-on-open:
       5:
-        - 'minecraft:give %PLAYER% minecraft:potion 2 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+      5:
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
       15:
         - 'playerheads spawn Katsuki_Black %PLAYER%'
       15:
@@ -952,7 +958,11 @@ crate-aspects:
     command-chances-on-find:
     command-chances-on-open:
       1:
-        - 'minecraft:give %PLAYER% minecraft:potion 3 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+      1:
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+      1:
+        - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
       10:
         - 'playerheads spawn CavemanlyMan %PLAYER%'
       10:
