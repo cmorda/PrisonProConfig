@@ -35,7 +35,7 @@ drop-party-items:
     lores:
       - '&7Obtained from a drop party'
   '46:0':
-    chance: 5
+    chance: 25
     amount: 10
     name:
     enchantments:
@@ -80,19 +80,19 @@ drop-party-items:
     lores:
 # The commands and chances for the drop party
 drop-party-commands:
-  40:
-    - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:12601568,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
   25:
     - 'pcrate give %PLAYER% common 1'
   30:
     - 'token give %PLAYER% 10'
   50:
+    - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:12601568,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+  55:
     - 'pcrate give %PLAYER% uncommon 1'
-  500:
+  100:
     - 'pcrate give %PLAYER% rare 1'
-  1000:
+  500:
     - 'pcrate give %PLAYER% ultrarare 1'
-  2500:
+  1500:
     - 'pcrate give %PLAYER% legendary 1'
   5000:
     - 'pcrate give %PLAYER% ultralegendary 1'
