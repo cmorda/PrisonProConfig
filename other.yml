@@ -278,9 +278,9 @@ soul-item-stack:
 # Token Block Findings #
 ########################
 # The chance of a stash of tokens being found in a block
-token-find-chance: 1000
+token-find-chance: 200
 # The max amount of tokens that can be found in a stash
-token-stash-max: 10
+token-stash-max: 2
 # The commands dispatched when finding tokens, is optional
 token-find-commands:
 ###################################
