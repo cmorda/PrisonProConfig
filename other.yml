@@ -283,7 +283,6 @@ token-find-chance: 100
 token-stash-max: 1
 # The commands dispatched when finding tokens, is optional
 token-find-commands:
-  - 't give %PLAYER% 1'
 ###################################
 # Auto Inventory + Fortune Blocks #
 ###################################
