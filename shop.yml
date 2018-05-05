@@ -90,10 +90,10 @@ shop-items:
     commands:
   5:
     moneyPrice: 0
-    tokenPrice: 100
+    tokenPrice: 50
     shop-itemstack:
       material: '46:0'
-      amount: 4
+      amount: 16
       name: '&bTNT'
       enchantments:
       lores:
