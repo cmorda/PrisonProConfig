@@ -124,10 +124,6 @@ join-commands:
   - ''
 # The commands dispatched when a new player joins
 new-player-join-commands:
-  - 'pex user %PLAYER% group add A'
-  - 'pex user %PLAYER% groud add No-Prestige'
-  - 'token reset %PLAYER%'
-  - 'eco set %PLAYER% 0'
   - 'msg %PLAYER% Welcome to Lionheart Prison, have a great time!'
 # What should be the commands dispatched when resetting
 reset-commands:
