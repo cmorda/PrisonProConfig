@@ -47,14 +47,8 @@ crate-aspects:
         - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
     item-chances-on-open:
       '263:0':
-        chance: 2
-        amount: 32
-        name: ''
-        enchantments:
-        lores:
-      '263:0':
         chance: 1
-        amount: 32
+        amount: 64
         name: ''
         enchantments:
         lores:
