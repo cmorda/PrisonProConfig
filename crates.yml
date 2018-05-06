@@ -961,13 +961,13 @@ crate-aspects:
         - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
         - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
         - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:13983475,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
-      10:
+      2:
         - 'playerheads spawn CavemanlyMan %PLAYER%'
-      10:
+      2:
         - 'playerheads spawn isaac_kern %PLAYER%'
-      10:
+      2:
         - 'playerheads spawn LadyKaviir %PLAYER%'
-      10:
+      2:
         - 'playerheads spawn Wigly_ %PLAYER%'
     item-chances-on-open:
       '263:0':
