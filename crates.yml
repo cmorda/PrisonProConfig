@@ -1064,31 +1064,7 @@ crate-aspects:
         lores:
       '46:0':
         chance: 1
-        amount: 64
-        name: ''
-        enchantments:
-        lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
-      '46:0':
-        chance: 1
-        amount: 64
-        name: ''
-        enchantments:
-        lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
-      '46:0':
-        chance: 1
-        amount: 64
-        name: ''
-        enchantments:
-        lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
-      '46:0':
-        chance: 1
-        amount: 64
+        amount: 256
         name: ''
         enchantments:
         lores:
