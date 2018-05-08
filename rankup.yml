@@ -110,6 +110,7 @@ prestige-commands:
   - 'eco reset %PLAYER%'
   - 'sudo %PLAYER% warp AlphaWard'
   - 'exp set %PLAYER% 0'
+  - 'missions reset %PLAYER%'
 # The prestiges with their prices
 prestiges:
   Prestige-I: 0
