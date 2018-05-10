@@ -23,6 +23,7 @@ drop-party-items:
       FROST_WALKER: 2
     lores:
       - '&7Obtained from a drop party'
+      - '&7Better than the shop or mission boots!'
   '346:0':
     chance: 100
     amount: 1
