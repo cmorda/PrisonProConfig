@@ -273,7 +273,7 @@ missions:
         - '&bMayor Syntax&d: &fThe war has started and we need resources to win against these guys.'
         - '&f===================================================='
         - '&7Mission Started &8[&bThe War&8]'
-        - '&fTask&d: &bFind &d1 &fSet of Diamond Armor, &d128 &fRedstone Blocks, &d256 &fTNT, &d10 &fMushroom Stew, &d64 Emeralds, and &d64 Cooked Salmon(get a rod from crates/drop parties), '
+        - '&fTask&d: &bFind &d1 &fSet of Diamond Armor, &d128 &fRedstone Blocks, &d256 &fTNT, &d10 &fMushroom Stew, &d64 Emeralds, and &d64 Cooked Salmon (get a rod from crates, drop parties, or /pshop) '
       commands:
     for-completion:
       items:
