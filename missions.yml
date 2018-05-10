@@ -205,24 +205,12 @@ missions:
           enchantments:
           lores:
         '331:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-        '331:0':
-          amount: 64
+          amount: 128
           name:
           enchantments:
           lores:
         '46:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-            - '&7Place inside a mine to use'
-            - '&7Becomes more effective as you level up mining'
-        '46:0':
-          amount: 64
+          amount: 128
           name:
           enchantments:
           lores:
@@ -260,16 +248,16 @@ missions:
         - '&bMayor Syntax&d: &fThank you for giving us these materials. In return you will also get something. We have a world war in front of us, so suit up'
         - '&f===================================================='
         - '&7Mission Completed &8[&bPreparation&8]'
-        - '&8[&bPreparation Armor, $6 million, and a Legendary Crate&8] &7Added'
+        - '&7Recieved: &8[&bPreparation Armor, $6 million, 192 TNT, and a Legendary Crate&8]'
       commands:
         - 'eco give %PLAYER% 6000000'
         - 'pcrate give %PLAYER% legendary 1'
       items:
-        '264:0':
+        '311:0':
           amount: 1
           name: '&bPreparation &aChestplate'
           enchantments:
-            UNBREAKING: 100
+            PROTECTION_ENVIRONMENTAL: 100
             THORNS: 3
           lores:
             - '&7Obtained from the Preparation Mission'
@@ -277,9 +265,16 @@ missions:
           amount: 1
           name: '&bPreparation &aLeggings'
           enchantments:
-            UNBREAKING: 100
+            PROTECTION_ENVIRONMENTAL: 100
           lores:
             - '&7Obtained from the Preparation Mission'
+        '46:0':
+          amount: 192
+          name:
+          enchantments:
+          lores:
+            - '&7Place inside a mine to use'
+            - '&7Becomes more effective as you level up mining'
   5:
     on-start:
       messages:
@@ -313,38 +308,12 @@ missions:
           enchantments:
           lores:
         '152:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-        '152:0':
-          amount: 64
+          amount: 128
           name:
           enchantments:
           lores:
         '46:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-            - '&7Place inside a mine to use'
-            - '&7Becomes more effective as you level up mining'
-        '46:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-            - '&7Place inside a mine to use'
-            - '&7Becomes more effective as you level up mining'
-        '46:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-            - '&7Place inside a mine to use'
-            - '&7Becomes more effective as you level up mining'
-        '46:0':
-          amount: 64
+          amount: 256
           name:
           enchantments:
           lores:
@@ -372,16 +341,15 @@ missions:
         - '&bMayor Syntax&d: &fWe have won the war thnks to you. Those bombs really helped us out. We are honored to present you with this special-made armor in return for your service.'
         - '&f===================================================='
         - '&7Mission Completed &8[&bThe War&8]'
-        - '&8[&bWar Armor, $250 Million, and a Pure Crate&8] &7Added'
+        - '&8[&bWar Armor, $250 Million, and an Ultra Legendary Crate&8] &7Added'
       commands:
         - 'eco give %PLAYER% 250000000'
-        - 'pcrate give %PLAYER% pure 1'
+        - 'pcrate give %PLAYER% ultralegendary 1'
       items:
         '313:0':
           amount: 1
           name: '&bWar Boots'
           enchantments:
-            UNBREAKING: 100
             DEPTH_STRIDER: 2
             FROST_WALKER: 1
           lores:
@@ -390,7 +358,6 @@ missions:
           amount: 1
           name: '&bWar Helmet'
           enchantments:
-            UNBREAKING: 100
             OXYGEN: 100
           lores:
             - '&7Obtained from the The War Mission'
