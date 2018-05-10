@@ -11,7 +11,6 @@ drop-party-items:
     amount: 1
     name: '&bDrop&f-&bParty Helmet'
     enchantments:
-      UNBREAKING: 100
       OXYGEN: 100
     lores:
       - '&7Obtained from a drop party'
@@ -20,7 +19,6 @@ drop-party-items:
     amount: 1
     name: '&bDrop&f-&bParty Boots'
     enchantments:
-      UNBREAKING: 100
       DEPTH_STRIDER: 3
       FROST_WALKER: 2
     lores:
