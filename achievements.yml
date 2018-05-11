@@ -68,7 +68,7 @@ achievements:
     completion-messages:
       - '&7Achievement Completed &8[&bOne Hundred Thousand Blocks&8]'
     completion-commands:
-      - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Use with an Eff 5 iron axe","or an Eff 6 iron pick","for instant mining"]}}'
+      - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 iron pick","for instant mining"]}}'
     completion-items:
       '133:0':
         amount: 64
@@ -81,7 +81,7 @@ achievements:
     completion-messages:
       - '&7Achievement Completed &8[&bOne Million Blocks&8]'
     completion-commands:
-      - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Use with an Eff 5 iron axe","or an Eff 6 iron pick","for instant mining"]}}'
+      - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 iron pick","for instant mining"]}}'
     completion-items:
       '133:0':
         amount: 64
@@ -321,8 +321,8 @@ achievements:
     completion-messages:
       - '&7Achievement Completed &8[&bAll Achievements&8]'
     completion-commands:
-      - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Use with an Eff 5 iron axe","or an Eff 6 iron pick","for instant mining"]}}'
-      - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Use with an Eff 5 iron axe","or an Eff 6 iron pick","for instant mining"]}}'
+      - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 iron pick","for instant mining"]}}'
+      - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:5,Duration:12000}],CustomPotionColor:16051518,display:{Name:"Ultimate Potion Of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 iron pick","for instant mining"]}}'
     completion-items:
       '443:0':
         amount: 1
