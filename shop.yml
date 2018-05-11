@@ -27,46 +27,6 @@ shop-items:
     moneyPrice: 0
     tokenPrice: 5000
     shop-itemstack:
-      material: '312:0'
-      amount: 1
-      name: '&bDiamond Chestplate'
-      enchantments:
-      lores:
-        - '&7Protection 100'
-        - '&7Thorns 3'
-        - '&65,000 Tokens'
-    item-itemstack:
-      material: '312:0'
-      amount: 1
-      name: '&bDiamond Chestplate'
-      enchantments:
-        PROTECTION_ENVIRONMENTAL: 100
-        THORNS: 3
-      lores:
-    commands:
-  3:
-    moneyPrice: 0
-    tokenPrice: 5000
-    shop-itemstack:
-      material: '311:0'
-      amount: 1
-      name: '&bDiamond Leggings'
-      enchantments:
-      lores:
-        - '&7Protection 100'
-        - '&65,000 Tokens'
-    item-itemstack:
-      material: '311:0'
-      amount: 1
-      name: '&bDiamond Leggings'
-      enchantments:
-        PROTECTION_ENVIRONMENTAL: 100
-      lores:
-    commands:
-  4:
-    moneyPrice: 0
-    tokenPrice: 5000
-    shop-itemstack:
       material: '313:0'
       amount: 1
       name: '&bDiamond Boots'
@@ -84,7 +44,7 @@ shop-items:
         DEPTH_STRIDER: 2
       lores:
     commands:
-  5:
+  3:
     moneyPrice: 0
     tokenPrice: 10000
     shop-itemstack:
@@ -105,7 +65,7 @@ shop-items:
         LURE: 3
       lores:
     commands:
-  6:
+  4:
     moneyPrice: 0
     tokenPrice: 50000
     shop-itemstack:
@@ -124,7 +84,7 @@ shop-items:
         UNBREAKING: 100
       lores:
     commands:
-  7:
+  5:
     moneyPrice: 0
     tokenPrice: 50
     shop-itemstack:
@@ -141,7 +101,7 @@ shop-items:
       enchantments:
       lores:
     commands:
-  8:
+  6:
     moneyPrice: 0
     tokenPrice: 125
     shop-itemstack:
@@ -160,7 +120,7 @@ shop-items:
       lores:
     commands:
       - 'pcrate give %PLAYER% common 1'
-  9:
+  7:
     moneyPrice: 0
     tokenPrice: 250
     shop-itemstack:
@@ -179,7 +139,7 @@ shop-items:
       lores:
     commands:
       - 'pcrate give %PLAYER% uncommon 1'
-  10:
+  8:
     moneyPrice: 0
     tokenPrice: 500
     shop-itemstack:
@@ -198,7 +158,7 @@ shop-items:
       lores:
     commands:
       - 'pcrate give %PLAYER% rare 1'
-  11:
+  9:
     moneyPrice: 0
     tokenPrice: 1000
     shop-itemstack:
@@ -217,7 +177,7 @@ shop-items:
       lores:
     commands:
       - 'pcrate give %PLAYER% ultrarare 1'
-  12:
+  10:
     moneyPrice: 0
     tokenPrice: 2500
     shop-itemstack:
@@ -236,7 +196,7 @@ shop-items:
       lores:
     commands:
       - 'pcrate give %PLAYER% legendary 1'
-  13:
+  11:
     moneyPrice: 0
     tokenPrice: 10000
     shop-itemstack:
@@ -255,7 +215,7 @@ shop-items:
       lores:
     commands:
       - 'pcrate give %PLAYER% ultralegendary 1'
-  14:
+  12:
     moneyPrice: 0
     tokenPrice: 100000
     shop-itemstack:
