@@ -140,7 +140,7 @@ reset-commands:
 # Other #
 #########
 # The starting balance for tokens
-tokens-starting-balance: 100
+tokens-starting-balance: 25
 ########
 # Hand #
 ########
@@ -162,7 +162,7 @@ hand:
       money: 250
     enchantment:
       tokens: 0
-      money: 0
+      money: 1
   setName:
     tokens: 1000
     money: 1000000000
@@ -300,7 +300,8 @@ autoinventory-blacklist:
   - '138:0'
 # The blacklist for FortuneBlocks
 fortuneblocks-blacklist:
-  - '138:0'
+  - '15:0'
+  - '14:0'
 ##############
 # Smart Drop #
 ##############
@@ -385,14 +386,14 @@ rewards-random:
 # The reward chances for an economy reward
 rewards-economy:
   1:
-    money: 1000
-    tokens: 0
+    money: 100
+    tokens: 25
   5:
-    money: 10000
-    tokens: 0
+    money: 1000
+    tokens: 100
   10:
-    money: 50000
-    tokens: 0
+    money: 5000
+    tokens: 1000
 # The reward chances for an item reward
 rewards-item:
   1:
@@ -435,7 +436,6 @@ rewards-item:
     amount: 1
     name: '&bDaily Reward Helmet'
     enchantments:
-      UNBREAKING: 100
       OXYGEN: 100
     lores:
       - '&7Obtained as a daily item reward'
@@ -444,7 +444,6 @@ rewards-item:
     amount: 1
     name: '&bDaily Reward Boots'
     enchantments:
-      UNBREAKING: 100
       DEPTH_STRIDER: 3
       FROST_WALKER: 2
     lores:
