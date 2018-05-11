@@ -40,6 +40,7 @@ shop-items:
       amount: 1
       name: '&bDiamond Chestplate'
       enchantments:
+        PROTECTION_ENVIRONMENTAL: 100
         THORNS: 3
       lores:
     commands:
@@ -59,6 +60,7 @@ shop-items:
       amount: 1
       name: '&bDiamond Leggings'
       enchantments:
+        PROTECTION_ENVIRONMENTAL: 100
       lores:
     commands:
   4:
