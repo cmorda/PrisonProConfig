@@ -12,20 +12,8 @@ monthly-gift: true
 daily-gift-content:
   items:
     '263:0':
-      chance: 1
+      chance: 3
       amount: 16
-      name: ''
-      enchantments:
-      lores:
-    '263:0':
-      chance: 2
-      amount: 16
-      name: ''
-      enchantments:
-      lores:
-    '263:0':
-      chance: 5
-      amount: 32
       name: ''
       enchantments:
       lores:
@@ -36,24 +24,8 @@ daily-gift-content:
       enchantments:
       lores:
     '46:0':
-      chance: 1
-      amount: 3
-      name: ''
-      enchantments:
-      lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
-    '46:0':
       chance: 2
       amount: 15
-      name: ''
-      enchantments:
-      lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
-    '46:0':
-      chance: 5
-      amount: 20
       name: ''
       enchantments:
       lores:
@@ -80,20 +52,8 @@ daily-gift-content:
 weekly-gift-content:
   items:
     '263:0':
-      chance: 1
-      amount: 32
-      name: ''
-      enchantments:
-      lores:
-    '263:0':
       chance: 2
       amount: 32
-      name: ''
-      enchantments:
-      lores:
-    '263:0':
-      chance: 5
-      amount: 64
       name: ''
       enchantments:
       lores:
@@ -104,23 +64,7 @@ weekly-gift-content:
       enchantments:
       lores:
     '46:0':
-      chance: 1
-      amount: 5
-      name: ''
-      enchantments:
-      lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
-    '46:0':
       chance: 2
-      amount: 15
-      name: ''
-      enchantments:
-      lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
-    '46:0':
-      chance: 5
       amount: 32
       name: ''
       enchantments:
@@ -149,19 +93,7 @@ monthly-gift-content:
   items:
     '263:0':
       chance: 1
-      amount: 64
-      name: ''
-      enchantments:
-      lores:
-    '263:0':
-      chance: 2
-      amount: 64
-      name: ''
-      enchantments:
-      lores:
-    '263:0':
-      chance: 5
-      amount: 64
+      amount: 92
       name: ''
       enchantments:
       lores:
@@ -173,15 +105,7 @@ monthly-gift-content:
       lores:
     '46:0':
       chance: 1
-      amount: 20
-      name: ''
-      enchantments:
-      lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
-    '46:0':
-      chance: 2
-      amount: 12
+      amount: 40
       name: ''
       enchantments:
       lores:
