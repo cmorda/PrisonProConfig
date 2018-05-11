@@ -247,7 +247,6 @@ missions:
           amount: 1
           name: '&bPreparation &aChestplate'
           enchantments:
-            PROTECTION_ENVIRONMENTAL: 100
             THORNS: 3
           lores:
             - '&7Obtained from the Preparation Mission'
@@ -255,7 +254,6 @@ missions:
           amount: 1
           name: '&bPreparation &aLeggings'
           enchantments:
-            PROTECTION_ENVIRONMENTAL: 100
           lores:
             - '&7Obtained from the Preparation Mission'
         '46:0':
