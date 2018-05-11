@@ -84,7 +84,7 @@ drop-party-commands:
   30:
     - 'token give %PLAYER% 10'
   50:
-    - 'minecraft:give %PLAYER% minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:3,Duration:1200}],CustomPotionColor:12601568,display:{Name:"Potion Of Haste",Lore:["Use with an Eff 6 iron axe","or an Eff 7 diamond pick","for instant mining"]}}'
+    - 'minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
   55:
     - 'pcrate give %PLAYER% uncommon 1'
   100:
