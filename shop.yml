@@ -160,7 +160,7 @@ shop-items:
       lores:
     commands:
       - 'pcrate give %PLAYER% common 1'
- 9:
+  9:
     moneyPrice: 0
     tokenPrice: 250
     shop-itemstack:
