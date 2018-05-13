@@ -34,7 +34,7 @@ alert-command: true
 # Apply command
 apply-command: true
 # CE Command
-ce-command: false
+ce-command: true
 # Cheese command
 cheese-command: true
 # Clearchat command
