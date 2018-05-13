@@ -23,7 +23,7 @@ pp-leave-message: true
 # There will be a sound upon joining
 pp-join-sound: true
 # There will be rewards for PlayTime
-playtime-rewards: false
+playtime-rewards: true
 # There will be things that happen when a new player joins
 new-player-joining: true
 ############
