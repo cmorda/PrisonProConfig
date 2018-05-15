@@ -124,7 +124,7 @@ join-commands:
   - ''
 # The commands dispatched when a new player joins
 new-player-join-commands:
-  - 'msg %PLAYER% Welcome to Lionheart Prison, have a great time!'
+  - ''
 # What should be the commands dispatched when resetting
 reset-commands:
   - 'eco reset %PLAYER%'
