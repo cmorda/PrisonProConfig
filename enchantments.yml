@@ -122,9 +122,9 @@ luck-enchantment: true
 luck-name: '&7Chests'
 # The chance multiplier for each level of Luck
 luck-chance-level:
-  1: 1.0
-  2: 1.6
-  3: 2.8
+  1: 1.5
+  2: 2.0
+  3: 3.0
 ############################
 # Custom Enchantments Menu #
 ############################
