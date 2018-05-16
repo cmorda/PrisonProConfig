@@ -242,7 +242,7 @@ anti-spam-commands:
 ###################
 # The phrases that shall be considered blocked
 blocked-phrases:
-  - 'lag'
+  - 'son of a'
 # The messages dispatched upon phrases being blocked
 blocked-phrases-messages:
 # The commands dispatched upon phrases being blocked
