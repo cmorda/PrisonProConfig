@@ -46,7 +46,7 @@ crate-aspects:
       1:
         - 'give %PLAYER% coal 64'
       2:
-        - 'minecraft:give %PLAYER% tnt 10 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
+        - 'minecraft:give %PLAYER% tnt 5 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
       50:
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
     item-chances-on-open:
@@ -143,23 +143,16 @@ crate-aspects:
     broadcast-on-find:
     command-chances-on-find:
     command-chances-on-open:
+      1:
+        - 'give %PLAYER% coal 128'
+      2:
+        - 'give %PLAYER% coal 32'
+        - 'minecraft:give %PLAYER% tnt 10 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
+      5:
+        - 'give %PLAYER% coal 30'
       40:
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
     item-chances-on-open:
-      '263:0':
-        chance: 1
-        amount: 128
-        name: ''
-        enchantments:
-        lores:
-      '46:0':
-        chance: 2
-        amount: 20
-        name: ''
-        enchantments:
-        lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
       '397:0':
         chance: 20
         amount: 1
@@ -253,24 +246,19 @@ crate-aspects:
     broadcast-on-find:
     command-chances-on-find:
     command-chances-on-open:
+      1:
+        - 'give %PLAYER% coal 256'
+      2:
+        - 'give %PLAYER% coal 64'
+        - 'minecraft:give %PLAYER% tnt 15 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
+      5:
+        - 'give %PLAYER% coal 60'
+      10:
+        - 'give %PLAYER% coal 32'
       30:
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
     item-chances-on-open:
-      '263:0':
-        chance: 1
-        amount: 256
-        name: ''
-        enchantments:
-        lores:
-      '46:0':
-        chance: 2
-        amount: 30
-        name: ''
-        enchantments:
-        lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
       '397:4':
         chance: 15
         amount: 1
@@ -364,24 +352,19 @@ crate-aspects:
     broadcast-on-find:
     command-chances-on-find:
     command-chances-on-open:
+      1:
+        - 'give %PLAYER% coal 512'
+      2:
+        - 'give %PLAYER% coal 96'
+        - 'minecraft:give %PLAYER% tnt 20 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
+      5:
+        - 'give %PLAYER% coal 64'
+      10:
+        - 'give %PLAYER% coal 63'
       20:
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
     item-chances-on-open:
-      '263:0':
-        chance: 1
-        amount: 512
-        name: ''
-        enchantments:
-        lores:
-      '46:0':
-        chance: 2
-        amount: 40
-        name: ''
-        enchantments:
-        lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
       '397:1':
         chance: 10
         amount: 1
@@ -478,6 +461,15 @@ crate-aspects:
       - '&d%PLAYER% &fhas found a &6LEGENDARY &fCrate'
     command-chances-on-find:
     command-chances-on-open:
+      1:
+        - 'give %PLAYER% coal 1024'
+      2:
+        - 'give %PLAYER% coal 128'
+        - 'minecraft:give %PLAYER% tnt 25 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
+      5:
+        - 'give %PLAYER% coal 64'
+      8:
+        - 'give %PLAYER% coal 63'
       9:
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
@@ -494,20 +486,6 @@ crate-aspects:
       15:
         - 'playerheads spawn mordin89 %PLAYER%'
     item-chances-on-open:
-      '263:0':
-        chance: 1
-        amount: 1024
-        name: ''
-        enchantments:
-        lores:
-      '46:0':
-        chance: 2
-        amount: 50
-        name: ''
-        enchantments:
-        lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
       '397:5':
         chance: 10
         amount: 1
@@ -604,9 +582,17 @@ crate-aspects:
       - '&d%PLAYER% &fhas found an &ULTRA&6LEGENDARY &fCrate'
     command-chances-on-find:
     command-chances-on-open:
+      1:
+        - 'give %PLAYER% coal 1408'
+      2:
+        - 'give %PLAYER% coal 128'
+        - 'minecraft:give %PLAYER% tnt 48 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
       5:
+        - 'give %PLAYER% coal 64'
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
+      6:
+        - 'give %PLAYER% coal 32'
       10:
         - 'playerheads spawn JatsTheMatts %PLAYER%'
       11:
@@ -620,20 +606,6 @@ crate-aspects:
       15:
         - 'playerheads spawn o7_Frost %PLAYER%'
     item-chances-on-open:
-      '263:0':
-        chance: 1
-        amount: 1408
-        name: ''
-        enchantments:
-        lores:
-      '46:0':
-        chance: 1
-        amount: 96
-        name: ''
-        enchantments:
-        lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
       '2257:0':
         chance: 5
         amount: 1
@@ -727,6 +699,10 @@ crate-aspects:
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
+        - 'give %PLAYER% coal 1472'
+        - 'minecraft:give %PLAYER% tnt 128 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
+      2:
+        - 'give %PLAYER% coal 128'
       10:
         - 'playerheads spawn Wigly_ %PLAYER%'
       11:
@@ -736,20 +712,6 @@ crate-aspects:
       13:
         - 'playerheads spawn CavemanlyMan %PLAYER%'
     item-chances-on-open:
-      '263:0':
-        chance: 1
-        amount: 1472
-        name: ''
-        enchantments:
-        lores:
-      '46:0':
-        chance: 1
-        amount: 256
-        name: ''
-        enchantments:
-        lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
       '2257:0':
         chance: 2
         amount: 1
