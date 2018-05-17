@@ -44,20 +44,12 @@ crate-aspects:
     command-chances-on-find:
     command-chances-on-open:
       1:
-        - 'give %PLAYER% coal 64
+        - 'give %PLAYER% coal 64'
       2:
         - 'minecraft:give %PLAYER% tnt 10 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
       50:
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
     item-chances-on-open:
-      '46:0':
-        chance: 2
-        amount: 10
-        name: ''
-        enchantments:
-        lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
       '397:2':
         chance: 25
         amount: 1
