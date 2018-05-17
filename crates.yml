@@ -618,7 +618,7 @@ crate-aspects:
         - 'minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
         - 'minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
       10:
-        - 'playerheads spawn 12jato34 %PLAYER%'
+        - 'playerheads spawn JatsTheMatts %PLAYER%'
       11:
         - 'playerheads spawn SuperLinkNL %PLAYER%'
       12:
