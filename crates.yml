@@ -43,15 +43,13 @@ crate-aspects:
     broadcast-on-find:
     command-chances-on-find:
     command-chances-on-open:
+      1:
+        - 'give %PLAYER% coal 64
+      2:
+        - 'minecraft:give %PLAYER% tnt 10 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
       50:
-        - 'minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
+        - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
     item-chances-on-open:
-      '263:0':
-        chance: 1
-        amount: 64
-        name: ''
-        enchantments:
-        lores:
       '46:0':
         chance: 2
         amount: 10
@@ -154,7 +152,7 @@ crate-aspects:
     command-chances-on-find:
     command-chances-on-open:
       40:
-        - 'minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
+        - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
     item-chances-on-open:
       '263:0':
         chance: 1
@@ -264,8 +262,8 @@ crate-aspects:
     command-chances-on-find:
     command-chances-on-open:
       30:
-        - 'minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
-        - 'minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
+        - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
+        - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
     item-chances-on-open:
       '263:0':
         chance: 1
@@ -375,8 +373,8 @@ crate-aspects:
     command-chances-on-find:
     command-chances-on-open:
       20:
-        - 'minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
-        - 'minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
+        - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
+        - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
     item-chances-on-open:
       '263:0':
         chance: 1
@@ -489,8 +487,8 @@ crate-aspects:
     command-chances-on-find:
     command-chances-on-open:
       9:
-        - 'minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
-        - 'minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
+        - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
+        - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
       10:
         - 'playerheads spawn OHsnapITSaFISH %PLAYER%'
       11:
@@ -615,8 +613,8 @@ crate-aspects:
     command-chances-on-find:
     command-chances-on-open:
       5:
-        - 'minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
-        - 'minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
+        - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
+        - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
       10:
         - 'playerheads spawn JatsTheMatts %PLAYER%'
       11:
@@ -734,9 +732,9 @@ crate-aspects:
     command-chances-on-find:
     command-chances-on-open:
       1:
-        - 'minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
-        - 'minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
-        - 'minecraft:potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
+        - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
+        - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
+        - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
       10:
         - 'playerheads spawn Wigly_ %PLAYER%'
       11:
