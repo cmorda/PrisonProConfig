@@ -57,26 +57,26 @@ missions:
           name:
           enchantments:
           lores:
-            - '&7Place inside a mine to use'
-            - '&7Becomes more effective as you level up mining'
+            - 'Place inside a mine to use'
+            - 'Becomes more effective as you level up mining'
   2:
     on-start:
       messages:
         - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fStarting Mission #2&d: &bIntermediate'
-        - '&bMayor Syntax&d: &fWelcome back to your second mission. Since you are getting to know everything around here I am going to make this next one a little more difficult. Our army needs to be fed and clothed. I need you to get us: &d128 &fCooked Mutton &d64 &fCooked Rabbit, &d1 set &fof Leather Boots, and &d1 &fGold Chestplate, Leggings, and Helmet.'
+        - '&bMayor Syntax&d: &fWelcome back to your second mission. Since you are getting to know everything around here I am going to make this next one a little more difficult. Our army needs to be fed and clothed. I need you to get us: &d128 &fWool &d64 &fCooked Rabbit, &d1 set &fof Leather Boots, and &d1 &fGold Chestplate, Leggings, and Helmet.'
         - '&f===================================================='
         - '&7Mission Started &8[&bIntermediate&8]'
-        - '&fTask&d: &bFind &d128 &fCooked Mutton &d64 &fCooked Rabbit, &d1 set &fof Leather Boots, and &d1 &fGold Chestplate, Leggings, and Helmet'
+        - '&fTask&d: &bFind &d128 &fWool &d64 &fCooked Rabbit, &d1 set &fof Leather Boots, and &d1 &fGold Chestplate, Leggings, and Helmet'
       commands:
     for-completion:
       items:
-        '424:0':
+        '35:0':
           amount: 64
           name:
           enchantments:
           lores:
-        '424:0':
+        '35:0':
           amount: 64
           name:
           enchantments:
@@ -122,8 +122,8 @@ missions:
           name:
           enchantments:
           lores:
-            - '&7Place inside a mine to use'
-            - '&7Becomes more effective as you level up mining'
+            - 'Place inside a mine to use'
+            - 'Becomes more effective as you level up mining'
   3:
     on-start:
       messages:
@@ -137,7 +137,12 @@ missions:
     for-completion:
       items:
         '334:0':
-          amount: 128
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '334:0':
+          amount: 64
           name:
           enchantments:
           lores:
@@ -175,8 +180,8 @@ missions:
           name:
           enchantments:
           lores:
-            - '&7Place inside a mine to use'
-            - '&7Becomes more effective as you level up mining'
+            - 'Place inside a mine to use'
+            - 'Becomes more effective as you level up mining'
   4:
     on-start:
       messages:
@@ -200,17 +205,29 @@ missions:
           enchantments:
           lores:
         '331:0':
-          amount: 128
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '331:0':
+          amount: 64
           name:
           enchantments:
           lores:
         '46:0':
-          amount: 128
+          amount: 64
           name:
           enchantments:
           lores:
-            - '&7Place inside a mine to use'
-            - '&7Becomes more effective as you level up mining'
+            - 'Place inside a mine to use'
+            - 'Becomes more effective as you level up mining'
+        '46:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+            - 'Place inside a mine to use'
+            - 'Becomes more effective as you level up mining'
         '345:0':
           amount: 1
           name:
@@ -268,8 +285,8 @@ missions:
           name:
           enchantments:
           lores:
-            - '&7Place inside a mine to use'
-            - '&7Becomes more effective as you level up mining'
+            - 'Place inside a mine to use'
+            - 'Becomes more effective as you level up mining'
   5:
     on-start:
       messages:
@@ -303,17 +320,43 @@ missions:
           enchantments:
           lores:
         '152:0':
-          amount: 128
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '152:0':
+          amount: 64
           name:
           enchantments:
           lores:
         '46:0':
-          amount: 256
+          amount: 64
           name:
           enchantments:
           lores:
-            - '&7Place inside a mine to use'
-            - '&7Becomes more effective as you level up mining'
+            - 'Place inside a mine to use'
+            - 'Becomes more effective as you level up mining'
+        '46:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+            - 'Place inside a mine to use'
+            - 'Becomes more effective as you level up mining'
+        '46:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+            - 'Place inside a mine to use'
+            - 'Becomes more effective as you level up mining'
+        '46:0':
+          amount: 64
+          name:
+          enchantments:
+          lores:
+            - 'Place inside a mine to use'
+            - 'Becomes more effective as you level up mining'
         '282:0':
           amount: 10
           name:
