@@ -72,7 +72,12 @@ missions:
     for-completion:
       items:
         '424:0':
-          amount: 128
+          amount: 64
+          name:
+          enchantments:
+          lores:
+        '424:0':
+          amount: 64
           name:
           enchantments:
           lores:
