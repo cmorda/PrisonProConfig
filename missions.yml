@@ -43,6 +43,7 @@ missions:
         - '&8[&bBeginner Pickaxe, $200, and 32 TNT&8] &7Added'
       commands:
         - 'eco give %PLAYER% 200'
+        - 'minecraft:give %PLAYER% tnt 16 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
       items:
         '274:0':
           amount: 1
@@ -52,13 +53,6 @@ missions:
             FORTUNE: 1
           lores:
             - '&7Obtained from the Beginner Mission'
-        '46:0':
-          amount: 16
-          name:
-          enchantments:
-          lores:
-            - 'Place inside a mine to use'
-            - 'Becomes more effective as you level up mining'
   2:
     on-start:
       messages:
@@ -111,14 +105,8 @@ missions:
         - '&8[&b$30,000, and 32 TNT&8] &7Added'
       commands:
         - 'eco give %PLAYER% 30000'
+        - 'minecraft:give %PLAYER% tnt 32 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
       items:
-        '46:0':
-          amount: 32
-          name:
-          enchantments:
-          lores:
-            - 'Place inside a mine to use'
-            - 'Becomes more effective as you level up mining'
   3:
     on-start:
       messages:
@@ -169,14 +157,8 @@ missions:
       commands:
         - 'eco give %PLAYER% 120000'
         - 'pcrate give %PLAYER% rare 1'
+        - 'minecraft:give %PLAYER% tnt 64 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
       items:
-        '46:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-            - 'Place inside a mine to use'
-            - 'Becomes more effective as you level up mining'
   4:
     on-start:
       messages:
@@ -247,6 +229,7 @@ missions:
       commands:
         - 'eco give %PLAYER% 6000000'
         - 'pcrate give %PLAYER% legendary 1'
+        - 'minecraft:give %PLAYER% tnt 192 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
       items:
         '311:0':
           amount: 1
@@ -263,13 +246,6 @@ missions:
             PROTECTION: 100
           lores:
             - '&7Obtained from the Preparation Mission'
-        '46:0':
-          amount: 192
-          name:
-          enchantments:
-          lores:
-            - 'Place inside a mine to use'
-            - 'Becomes more effective as you level up mining'
   5:
     on-start:
       messages:
