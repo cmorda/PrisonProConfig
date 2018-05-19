@@ -64,19 +64,14 @@ missions:
       messages:
         - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fStarting Mission #2&d: &bIntermediate'
-        - '&bMayor Syntax&d: &fWelcome back to your second mission. Since you are getting to know everything around here I am going to make this next one a little more difficult. Our army needs to be fed and clothed. I need you to get us: &d128 &fWool &d64 &fCooked Rabbit, &d1 set &fof Leather Boots, and &d1 &fGold Chestplate, Leggings, and Helmet.'
+        - '&bMayor Syntax&d: &fWelcome back to your second mission. Since you are getting to know everything around here I am going to make this next one a little more difficult. Our army needs to be fed and clothed. I need you to get us: &d64 &fCooked Mutton &d64 &fCooked Rabbit, &d1 set &fof Leather Boots, and &d1 &fGold Chestplate, Leggings, and Helmet.'
         - '&f===================================================='
         - '&7Mission Started &8[&bIntermediate&8]'
-        - '&fTask&d: &bFind &d128 &fWool &d64 &fCooked Rabbit, &d1 set &fof Leather Boots, and &d1 &fGold Chestplate, Leggings, and Helmet'
+        - '&fTask&d: &bFind &d64 &fCooked Mutton &d64 &fCooked Rabbit, &d1 set &fof Leather Boots, and &d1 &fGold Chestplate, Leggings, and Helmet'
       commands:
     for-completion:
       items:
-        '35:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-        '35:0':
+        '424:0':
           amount: 64
           name:
           enchantments:
@@ -129,10 +124,10 @@ missions:
       messages:
         - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fStarting Mission #2&d: &bAdvanced'
-        - '&bMayor Syntax&d: &fWelcome to your third mission. This mission will be the hardest one yet. Our army has been running low on ammunition and supplies. I need you to get us: &d128 &fLeather &d64, &fIron Ingots, and &d1 &fAnvil, and &d32 &fTNT'
+        - '&bMayor Syntax&d: &fWelcome to your third mission. This mission will be the hardest one yet. Our army has been running low on ammunition and supplies. I need you to get us: &d64 &fLeather, &d64 &fCooked Beef, &d64 &fIron Ingots, and &d1 &fAnvil, and &d32 &fTNT'
         - '&f===================================================='
         - '&7Mission Started &8[&bAdvanced&8]'
-        - '&fTask&d: &bFind &d128 &fLeather &d64, &fIron Ingots, and &d1 &fAnvil, and &d32 &fTNT'
+        - '&fTask&d: &bFind &d64 &fLeather, &d64 &fCooked Beef, &d64, &fIron Ingots, and &d1 &fAnvil, and &d32 &fTNT'
       commands:
     for-completion:
       items:
@@ -141,7 +136,7 @@ missions:
           name:
           enchantments:
           lores:
-        '334:0':
+        '364:0':
           amount: 64
           name:
           enchantments:
@@ -187,10 +182,10 @@ missions:
       messages:
         - '&f=================&d>&bLionheart Prison&d<&f================='
         - '&fStarting Mission #4&d: &bPreparation'
-        - '&bMayor Syntax&d: &fAlright you are the best we got. We are getting ready for an all out war against the Russians and we need your help. We need you to get us some resources: &d1 &fDiamond Sword, &d64 &fRedstone Blocks, &d128 &fRedstone, &d128 &fTNT, &d1 &fCompass, &d1 &fSet of Iron Armor, &d5 &fShields, and &d64 &fCooked Fish'
+        - '&bMayor Syntax&d: &fAlright you are the best we got. We are getting ready for an all out war against the Russians and we need your help. We need you to get us some resources: &d1 &fDiamond Sword, &d64 &fRedstone Blocks, &d64 &fRedstone, &d64 &fTNT, &d1 &fCompass, &d1 &fSet of Iron Armor, &d5 &fShields, and &d64 &fCooked Fish'
         - '&f===================================================='
         - '&7Mission Started &8[&bPreparation&8]'
-        - '&fTask&d: &bFind &d1 &fDiamond Sword, 64 Redstone Blocks, 128 Redstone, 128 TNT, 1 Compass, 1 Set of Iron Armor, 5 Shields, and 64 Cooked Fish'
+        - '&fTask&d: &bFind &d1 &fDiamond Sword, 64 Redstone Blocks, 64 Redstone, 64 TNT, 1 Compass, 1 Set of Iron Armor, 5 Shields, and 64 Cooked Fish'
       commands:
     for-completion:
       items:
@@ -209,18 +204,6 @@ missions:
           name:
           enchantments:
           lores:
-        '331:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-        '46:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-            - 'Place inside a mine to use'
-            - 'Becomes more effective as you level up mining'
         '46:0':
           amount: 64
           name:
@@ -295,7 +278,7 @@ missions:
         - '&bMayor Syntax&d: &fThe war has started and we need resources to win against these guys.'
         - '&f===================================================='
         - '&7Mission Started &8[&bThe War&8]'
-        - '&fTask&d: &bFind &d1 &fSet of Diamond Armor, &d128 &fRedstone Blocks, &d256 &fTNT, &d10 &fMushroom Stew, &d64 Emeralds, and &d64 Cooked Salmon (get a rod from crates, drop parties, or /pshop) '
+        - '&fTask&d: &bFind &d1 &fSet of Diamond Armor, &d64 &fRedstone Blocks, &d64 &fTNT, &d10 &fMushroom Stew, &d64 Emeralds, and &d64 Cooked Salmon (get a rod from crates, drop parties, or /pshop) '
       commands:
     for-completion:
       items:
@@ -324,32 +307,6 @@ missions:
           name:
           enchantments:
           lores:
-        '152:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-        '46:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-            - 'Place inside a mine to use'
-            - 'Becomes more effective as you level up mining'
-        '46:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-            - 'Place inside a mine to use'
-            - 'Becomes more effective as you level up mining'
-        '46:0':
-          amount: 64
-          name:
-          enchantments:
-          lores:
-            - 'Place inside a mine to use'
-            - 'Becomes more effective as you level up mining'
         '46:0':
           amount: 64
           name:
