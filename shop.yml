@@ -140,6 +140,8 @@ shop-items:
       name: '&bTNT'
       enchantments:
       lores:
+        - 'Place inside a mine to use'
+        - 'Becomes more effective as you level up mining'
     commands:
   8:
     moneyPrice: 0
