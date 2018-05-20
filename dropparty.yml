@@ -39,8 +39,8 @@ drop-party-items:
     name:
     enchantments:
     lores:
-      - '&7Place inside a mine to use'
-      - '&7Becomes more effective as you level up mining'
+      - 'Place inside a mine to use'
+      - 'Becomes more effective as you level up mining'
   '1:0':
     chance: 5
     amount: 16
