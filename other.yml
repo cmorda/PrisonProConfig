@@ -402,12 +402,16 @@ rewards-item:
     name:
     enchantments:
     lores:
+      - 'Place inside a mine to use'
+      - 'Becomes more effective as you level up mining'
   2:
     material: '46:0'
     amount: 64
     name:
     enchantments:
     lores:
+      - 'Place inside a mine to use'
+      - 'Becomes more effective as you level up mining'
   5:
     material: '346:0'
     amount: 1
