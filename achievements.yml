@@ -137,8 +137,8 @@ achievements:
         name: ''
         enchantments:
         lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
+          - 'Place inside a mine to use'
+          - 'Becomes more effective as you level up mining'
   HUNDRED_CRATE_FOUND:
     name: '&bOne Hundred Crates Found'
     completion-requirements:
@@ -153,8 +153,8 @@ achievements:
         name: ''
         enchantments:
         lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
+          - 'Place inside a mine to use'
+          - 'Becomes more effective as you level up mining'
   THOUSAND_CRATE_FOUND:
     name: '&bOne Thousand Crates Found'
     completion-requirements:
@@ -169,8 +169,8 @@ achievements:
         name: ''
         enchantments:
         lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
+          - 'Place inside a mine to use'
+          - 'Becomes more effective as you level up mining'
   TEN_THOUSAND_CRATE_FOUND:
     name: '&bTen Thousand Crates Found'
     completion-requirements:
@@ -185,8 +185,8 @@ achievements:
         name: ''
         enchantments:
         lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
+          - 'Place inside a mine to use'
+          - 'Becomes more effective as you level up mining'
   FIRST_CRATE_OPENED:
     name: '&bFirst Crate Opened'
     completion-requirements:
@@ -201,8 +201,8 @@ achievements:
         name: ''
         enchantments:
         lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
+          - 'Place inside a mine to use'
+          - 'Becomes more effective as you level up mining'
   HUNDRED_CRATE_OPENED:
     name: '&bOne Hundred Crates Opened'
     completion-requirements:
@@ -217,8 +217,8 @@ achievements:
         name: ''
         enchantments:
         lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
+          - 'Place inside a mine to use'
+          - 'Becomes more effective as you level up mining'
   FIRST_TOKEN:
     name: '&bFirst Token'
     completion-requirements:
@@ -233,8 +233,8 @@ achievements:
         name: ''
         enchantments:
         lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
+          - 'Place inside a mine to use'
+          - 'Becomes more effective as you level up mining'
   HUNDRED_TOKEN:
     name: '&bOne Hundred Tokens'
     completion-requirements:
@@ -249,8 +249,8 @@ achievements:
         name: ''
         enchantments:
         lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
+          - 'Place inside a mine to use'
+          - 'Becomes more effective as you level up mining'
   THOUSAND_TOKEN:
     name: '&bOne Thousand Tokens'
     completion-requirements:
@@ -265,8 +265,8 @@ achievements:
         name: ''
         enchantments:
         lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
+          - 'Place inside a mine to use'
+          - 'Becomes more effective as you level up mining'
   TEN_THOUSAND_TOKEN:
     name: '&bTen Thousand Tokens'
     completion-requirements:
@@ -281,8 +281,8 @@ achievements:
         name: ''
         enchantments:
         lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
+          - 'Place inside a mine to use'
+          - 'Becomes more effective as you level up mining'
   HUNDRED_THOUSAND_TOKEN:
     name: '&bOne Hundred Thousand Tokens'
     completion-requirements:
@@ -297,8 +297,8 @@ achievements:
         name: ''
         enchantments:
         lores:
-          - '&7Place inside a mine to use'
-          - '&7Becomes more effective as you level up mining'
+          - 'Place inside a mine to use'
+          - 'Becomes more effective as you level up mining'
   ALL_ACHIEVEMENTS:
     name: '&bAll Achievements'
     completion-requirements:
