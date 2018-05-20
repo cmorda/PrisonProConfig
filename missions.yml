@@ -144,8 +144,8 @@ missions:
           name:
           enchantments:
           lores:
-            - '&7Place inside a mine to use'
-            - '&7Becomes more effective as you level up mining'
+            - 'Place inside a mine to use'
+            - 'Becomes more effective as you level up mining'
     on-completion:
       messages:
         - '&f=================&d>&bLionheart Prison&d<&f================='
@@ -229,7 +229,9 @@ missions:
       commands:
         - 'eco give %PLAYER% 6000000'
         - 'pcrate give %PLAYER% legendary 1'
-        - 'minecraft:give %PLAYER% tnt 192 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
+        - 'minecraft:give %PLAYER% tnt 64 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
+        - 'minecraft:give %PLAYER% tnt 64 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
+        - 'minecraft:give %PLAYER% tnt 64 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
       items:
         '311:0':
           amount: 1
