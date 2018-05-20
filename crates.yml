@@ -700,7 +700,8 @@ crate-aspects:
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
         - 'give %PLAYER% coal 1472'
-        - 'minecraft:give %PLAYER% tnt 128 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
+        - 'minecraft:give %PLAYER% tnt 64 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
+        - 'minecraft:give %PLAYER% tnt 64 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
       2:
         - 'give %PLAYER% coal 128'
       10:
