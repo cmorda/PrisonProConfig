@@ -46,7 +46,7 @@ rank-messages:
   - '&f===================================================='
 # The messages sent when a player does not have the required balance to rankup
 rankup-no-money-message:
-  - '&4You need &a$%MONEY% &4to rank up to &6%NEXT-RANK%'
+  - '&4You need &a$%MONEY% &4more to rank up to &6%NEXT-RANK%'
 # The broadcasts that are sent when a player ranks up
 rankup-broadcast:
   - '&d%PLAYER% &fhas ranked up to &d%NEW-RANK%'
