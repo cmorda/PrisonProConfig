@@ -462,7 +462,7 @@ crate-aspects:
     command-chances-on-find:
     command-chances-on-open:
       1:
-        - 'give %PLAYER% coal 1024'
+        - 'give %PLAYER% coal 896'
       2:
         - 'give %PLAYER% coal 128'
         - 'minecraft:give %PLAYER% tnt 25 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
@@ -583,7 +583,7 @@ crate-aspects:
     command-chances-on-find:
     command-chances-on-open:
       1:
-        - 'give %PLAYER% coal 1408'
+        - 'give %PLAYER% coal 1152'
       2:
         - 'give %PLAYER% coal 128'
         - 'minecraft:give %PLAYER% tnt 48 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
@@ -699,7 +699,7 @@ crate-aspects:
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
         - 'minecraft:give %PLAYER% potion 1 0 {CustomPotionEffects:[{Id:3,Amplifier:4,Duration:1200}],CustomPotionColor:12140250,display:{Name:"Potion of Haste",Lore:["Use an Eff 5 iron axe","or an Eff 6 diamond pick","for instant mining"]}}'
-        - 'give %PLAYER% coal 1472'
+        - 'give %PLAYER% coal 1280'
         - 'minecraft:give %PLAYER% tnt 64 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
         - 'minecraft:give %PLAYER% tnt 64 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
       2:
