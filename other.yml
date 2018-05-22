@@ -65,7 +65,7 @@ apply-messages:
 # The success sound
 success-sound: ENTITY_FIREWORK_TWINKLE
 # The error sound
-error-sound: ENTITY_CAT_HISS
+error-sound: ENTITY_ENDERMEN_HURT
 # The mining sound
 mining-sound: BLOCK_STONE_BREAK
 # The joining sound
