@@ -10,7 +10,7 @@ crate-aspects:
     money-price: 0
     token-price: 0
     material: '54:0'
-    chance: 15000
+    chance: 30000
     name: '&6Token&d-&fCrate'
     description: '&aA crate that can give you a random amount of tokens!'
     enchantments:
@@ -32,7 +32,7 @@ crate-aspects:
   COMMON:
     money-price: 0
     token-price: 125
-    chance: 2000
+    chance: 4000
     material: '54:0'
     name: '&bCommon&d-&fCrate'
     description: '&aA crate that can give you common rewards!'
@@ -132,7 +132,7 @@ crate-aspects:
   UNCOMMON:
     money-price: 0
     token-price: 250
-    chance: 4000
+    chance: 8000
     material: '54:0'
     name: '&dUn&bCommon&d-&fCrate'
     description: '&aA crate that can give you some ok stuff!'
@@ -235,7 +235,7 @@ crate-aspects:
   RARE:
     money-price: 0
     token-price: 500
-    chance: 8000
+    chance: 16000
     material: '54:0'
     name: '&cRare&d-&fCrate'
     description: '&aA crate that can give you pretty decent stuff!'
@@ -341,7 +341,7 @@ crate-aspects:
   ULTRARARE:
     money-price: 0
     token-price: 750
-    chance: 20000
+    chance: 40000
     material: '54:0'
     name: '&dUltra&cRare&d-&fCrate'
     description: '&aA crate that can give you pretty good stuffs!'
@@ -447,7 +447,7 @@ crate-aspects:
   LEGENDARY:
     money-price: 0
     token-price: 1000
-    chance: 50000
+    chance: 100000
     material: '54:0'
     name: '&6Legendary&d-&fCrate'
     description: '&aA crate that can give you a lot of good stuff!'
@@ -568,7 +568,7 @@ crate-aspects:
   ULTRALEGENDARY:
     money-price: 0
     token-price: 5000
-    chance: 100000
+    chance: 200000
     material: '54:0'
     name: '&dUltra&6Legendary&d-&fCrate'
     description: '&aA crate that can give you a crazy amount of the stuffs!'
@@ -681,7 +681,7 @@ crate-aspects:
   PURE:
     money-price: 0
     token-price: 100000
-    chance: 500000
+    chance: 1000000
     material: '54:0'
     name: '&f&lP&b&lu&f&lr&b&le&d-&fCrate'
     description: '&aA crate that can give you pure rewards!'
