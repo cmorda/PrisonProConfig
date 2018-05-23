@@ -107,6 +107,11 @@ missions:
         - 'eco give %PLAYER% 30000'
         - 'minecraft:give %PLAYER% tnt 32 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
       items:
+        '322:1':
+          amount: 1
+          name:
+          enchantments:
+          lores:
   3:
     on-start:
       messages:
@@ -159,6 +164,11 @@ missions:
         - 'pcrate give %PLAYER% rare 1'
         - 'minecraft:give %PLAYER% tnt 64 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
       items:
+        '322:1':
+          amount: 1
+          name:
+          enchantments:
+          lores:
   4:
     on-start:
       messages:
