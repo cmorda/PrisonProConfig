@@ -102,7 +102,7 @@ missions:
         - '&bMayor Syntax&d: &fThank you for giving us these materials. In return you will also get something.'
         - '&f===================================================='
         - '&7Mission Completed &8[&bIntermediate&8]'
-        - '&8[&b$30,000, and 32 TNT&8] &7Added'
+        - '&8[&b$30,000, 1 enchanted golden apple and 32 TNT&8] &7Added'
       commands:
         - 'eco give %PLAYER% 30000'
         - 'minecraft:give %PLAYER% tnt 32 0 {display:{Lore:["Place inside a mine to use","Becomes more effective as you level up mining"]}}'
@@ -158,7 +158,7 @@ missions:
         - '&bMayor Syntax&d: &fThank you for giving us these materials. In return you will also get something.'
         - '&f===================================================='
         - '&7Mission Completed &8[&bPrivate&8]'
-        - '&8[&b$120,000, 64 TNT, and a rare crate&8] &7Added'
+        - '&8[&b$120,000, 1 enchanted golden apple, 64 TNT, and a rare crate&8] &7Added'
       commands:
         - 'eco give %PLAYER% 120000'
         - 'pcrate give %PLAYER% rare 1'
