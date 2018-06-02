@@ -57,7 +57,7 @@ achievements:
     completion-commands:
       - 't give %PLAYER% 30'
     completion-items:
-      '22:0':
+      '152:0':
         amount: 64
   HUNDRED_THOUSAND_BLOCK:
     name: '&bOne Hundred Thousand Blocks'
