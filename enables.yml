@@ -127,7 +127,7 @@ crate-findings: true
 # There will be the opening of crates
 crate-openings: true
 # There will be smart mining
-smart-mine: true
+smart-mine: false
 # There will be AutoInventory and FortuneBlocks
 autoinventory-fortuneblocks: true
 # There will be AutoInventory
